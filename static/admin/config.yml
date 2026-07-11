@@ -2,8 +2,8 @@ backend:
   name: github
   repo: lars-j-frank/thesenseofnonsense
   branch: main
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
+  base_url: https://thesenseofnonsense.com
+  auth_endpoint: /api/auth
 
 publish_mode: editorial_workflow
 media_folder: "static/images"
@@ -11,29 +11,23 @@ public_folder: "/images"
 
 collections:
   - name: "series"
-    label: "Series Articles"
+    label: "The TIER Files"
     label_singular: "Article"
-    folder: "content/series"
+    folder: "content/series/the-tier-files"
     create: true
     path: "{{slug}}/index"
-    identifier_field: title
     format: "yaml-frontmatter"
-    slug: "{{slug}}"
-    summary: "{{title}} — {{date}}"
-    preview_path: "series/{{dirname}}/{{slug}}"
+    slug: "part-{{fields.part}}-{{slug}}"
+    summary: "Part {{fields.part}}: {{title}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "hidden", default: "Lars J. Frank" }
-      - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ" }
+      - { label: "Part Number", name: "part", widget: "number" }
+      - { label: "Series", name: "series", widget: "string", default: "The TIER Files" }
+      - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZZ" }
       - { label: "Draft", name: "draft", widget: "boolean", default: true }
-      - { label: "Slug", name: "slug", widget: "string" }
-      - { label: "Series", name: "series", widget: "string" }
-      - { label: "Part", name: "part", widget: "number", required: false }
       - { label: "Featured", name: "featured", widget: "boolean", default: false, required: false }
-      - { label: "Tags", name: "tags", widget: "list", field: { label: "Tag", name: "tag", widget: "string" }, required: false }
-      - { label: "Topics", name: "topics", widget: "list", field: { label: "Topic", name: "topic", widget: "string" }, required: false }
-      - { label: "Images (social card)", name: "images", widget: "list", field: { label: "Image", name: "image", widget: "image" }, required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
 
@@ -42,40 +36,12 @@ collections:
     folder: "content/essays"
     create: true
     path: "{{slug}}/index"
-    identifier_field: title
     format: "yaml-frontmatter"
-    slug: "{{slug}}"
-    summary: "{{title}} — {{date}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "hidden", default: "Lars J. Frank" }
-      - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Draft", name: "draft", widget: "boolean", default: true }
-      - { label: "Slug", name: "slug", widget: "string" }
-      - { label: "Tags", name: "tags", widget: "list", field: { label: "Tag", name: "tag", widget: "string" }, required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
-
-  - name: "pages"
-    label: "Pages"
-    label_singular: "Page"
-    folder: "content"
-    create: false
-    identifier_field: title
-    format: "yaml-frontmatter"
-    files:
-      - label: "About Page"
-        name: "about"
-        file: "content/about.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Draft", name: "draft", widget: "boolean", default: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Archive Page"
-        name: "archive"
-        file: "content/archive.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Draft", name: "draft", widget: "boolean", default: false }
-          - { label: "Body", name: "body", widget: "markdown" }
