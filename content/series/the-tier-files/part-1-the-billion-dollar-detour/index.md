@@ -63,7 +63,7 @@ The fund is the cash end of that machine. It is a regulated fund administered by
 
 Money flows in from compliance payments across four sectors: mining and oil and gas, utilities, manufacturing, and transportation.
 
-Money flows out three ways: a small administration expense, grants for innovation and technology, and a line called **Transfers to the General Revenue Fund**. The largest grant recipient is Emissions Reduction Alberta (ERA) the arm's-length agency that runs many of the funding competitions.
+Money flows out three ways: a small administration expense, grants for innovation and technology, and a line called **Transfers to the General Revenue Fund**. The largest grant recipient is Emissions Reduction Alberta (ERA) the arm's-length agency that runs many of the funding competitions (more on that later).
 
 That last line is the one nobody puts in a news release.
 
