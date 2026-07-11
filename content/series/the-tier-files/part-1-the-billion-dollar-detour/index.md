@@ -39,7 +39,7 @@ Let's say she pays the fund, because projects are hard, permits are lengthy, etc
 
 Where does that money go?
 
-If you asked her, she would probably say what most people in Alberta industry would say: it funds emissions reduction. That is the fund's name - Emissions Reduction Alberta (ERA), its stated purpose, and the story told in government announcements that draw on it. Grants for carbon capture pilots, methane detection, industrial efficiency, the clean technology showcase that runs across the province's news releases.
+If you asked her, she would probably say what most people in Alberta industry would say: it funds emissions reduction. That is the fund's name its stated purpose, and the story told in government announcements that draw on it. Grants for carbon capture pilots, methane detection, industrial efficiency, the clean technology showcase that runs across the province's news releases.
 
 If you've been on ERA's announcement newsletter for any period of time it sounds like everything is working very well, but I wanted to check so I pulled the TIER fund's audited financial statements, published each year inside the annual report of the Ministry of Environment and Protected Areas, and followed the money.
 
@@ -65,7 +65,7 @@ Money flows in from compliance payments across four sectors: mining and oil and 
 
 Money flows out three ways: a small administration expense, grants for innovation and technology, and a line called **Transfers to the General Revenue Fund**. The largest grant recipient is Emissions Reduction Alberta (ERA) the arm's-length agency that runs many of the funding competitions (more on that later).
 
-That last line is the one nobody puts in a news release.
+That last line is the one that doesn't seem to be put in a news release.
 
 ### Four years of audited statements
 
@@ -80,13 +80,11 @@ Here is the fund's own accounting for fiscal years ended March 31, in thousands 
 
 {{< figure src="tier-fund-flow.png" alt="Stacked bar chart of TIER Fund outflows by fiscal year, FY2022 to FY2025, showing transfers to the General Revenue Fund exceeding innovation and technology grants in every year. Four-year totals: 590 million dollars in grants, 1,089 million dollars to general revenue." caption="In every year, the transfer to general revenue exceeded the emissions reduction grants." >}}
 
-Read the middle two rows against each other.
-
-In every single year, the transfer to general revenue exceeded the grants for emissions reduction.
+Read the middle two rows against each other and you see that in every single year, the transfer to general revenue exceeded the grants for emissions reduction.
 
 Across the four years, the fund moved $1,088.8 million into general revenue and $590.0 million into the grants that are the fund's public identity.
 
-For every dollar that went to emissions reduction technology, about $1.85 went to the government's general accounts.
+For every dollar that went to emissions reduction technology (well, at least to Emissions Reduction Alberta), about $1.85 went to the government's general accounts.
 
 The peak year was FY2024. Compliance revenue hit $936 million, the highest in the fund's history.
 
@@ -102,7 +100,7 @@ While all this money moved through, the fund's accumulated surplus grew from $33
 
 ### What general revenue really means
 
-Here is the honest answer: from the public record, you cannot know.
+The honest answer for what general revenue means, from the public record, is that you cannot know.
 
 The government's position, stated in budget documents over the years, is that TIER dollars support climate-related programming across ministries, delivered through general revenue. Some of that is plausible. The province has funded carbon capture incentives, methane programs, and technology initiatives out of other budget lines.
 
@@ -116,13 +114,13 @@ The claim that the money still serves the fund's purpose is not verifiable from 
 
 For a system whose legitimacy rests on the promise that industry's carbon costs are recycled into emissions reduction, that is a remarkable gap.
 
-A standard concession belongs here because it is true: none of this is illegal.
+A standard concession belongs here because it is true: none of this is illegal. It's also barely been noticed and certainly not addressed.
 
 The legislation gives the government discretion over the fund. The transfers are approved, disclosed in the statements, and audited.
 
-This series is not about hidden money.
+This series isnt going to be about hidden money, of course the government's fiscal opaqueness is interesting but not my skill set to talk about (complain about, sure).
 
-It is about what the disclosed numbers say once someone actually reads them.
+This series is about what the disclosed numbers say once you actually reads them and try to make them make sense.
 
 ### The year the machine seized
 
@@ -130,27 +128,25 @@ Look again at that FY2025 revenue figure: $223 million, down 76 per cent from th
 
 {{< figure src="tier-revenue.png" alt="Bar chart of TIER Fund annual revenue: 709 million dollars in FY2022, 772 million in FY2023, 936 million in FY2024, then a 76 per cent collapse to 223 million in FY2025." caption="Compliance revenue collapsed in FY2025 as facilities switched to discounted credits." >}}
 
-The fund's own notes explain why.
+The fund's own notes explain the why of it.
 
-Facilities can meet their obligations with credits instead of cash, and by 2024 the credit market was drowning in supply.
+Facilities can meet their obligations with credits instead of cash, and by 2024 the credit market was drowning in supply and it, of course, is supposed to be a rational market.
 
-Credits were trading at a steep discount to the $95 fund price, so facilities rationally bought cheap credits instead of paying the fund.
+Credits were trading at a steep discount to the $95 fund price, so as any good compliance manager would do, the facilities rationally bought cheap credits instead of paying the fund.
 
 The statements model the uncertainty with an honesty that borders on alarming: depending on how many credits facilities used, annual revenue could land anywhere between $306 million and $2.35 billion.
 
-The province froze the fund price at $95 by ministerial order in May 2025, and the statements say the financial effect on future years cannot reasonably be estimated.
+So the province froze the fund price at $95 by ministerial order in May 2025, and the statements say the financial effect on future years cannot reasonably be estimated (better than saying it lands oh somewhere in a range of $2 billion).
 
 In other words, the revenue engine of Alberta's flagship climate program is now hostage to a glutted credit market, and the people who run it have told the auditors they cannot predict what it will produce.
 
-Hold that thought.
-
-It becomes important later in this series, when the focus turns to the regulator responsible for that credit market and to what Alberta actually spends running it.
+Let's hold onto that thought as it becomes important later in this series, when the focus turns to the regulator responsible for that credit market and to what Alberta actually spends running it.
 
 ### Why this is Part 1
 
-The detour to general revenue is the frame for everything that follows because it establishes the central pattern of the TIER system: the gap between the story and the ledger.
+The detour to general revenue is the frame for everything that follows because it establishes the central pattern of the TIER system: it is the gap between the story and the ledger.
 
-The story is a virtuous circle. Industry pays, technology gets funded, emissions fall.
+The story is, or was, a virtuous circle. Industry pays, technology gets funded, and emissions fall.
 
 The ledger shows a fund that retained more than a billion dollars, transferred more than a billion more to general purposes, and granted out only a fraction of what it collected in its strongest four-year run.
 
@@ -160,15 +156,9 @@ Most of that went to a single arm's-length agency with its own bank accounts, it
 
 What that agency does with the money, how much of it sits in guaranteed investment certificates, how much funded work gets cancelled after the announcement, and where the environmental credit for those projects ultimately lands, each of those is a story.
 
-Each one is coming.
+The documents for this are all public.
 
-The documents are all public.
-
-Nobody is hiding them.
-
-As far as I can tell, almost nobody reads them.
-
-I read them.
+Nobody is hiding them (transparency!), and as far as I can tell, almost nobody reads them.
 
 Next: the eight-million-dollar regulator.
 
