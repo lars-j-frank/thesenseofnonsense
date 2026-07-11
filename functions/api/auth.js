@@ -9,7 +9,6 @@ export async function onRequest(context) {
         });
     }
 
-    // Return the token in the format expected by Decap CMS
     return new Response(JSON.stringify({
         access_token: token.trim(),
         token_type: 'bearer'
