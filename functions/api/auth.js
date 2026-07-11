@@ -2,23 +2,29 @@ export async function onRequest(context) {
     const { env } = context;
     const token = env.GITHUB_TOKEN;
 
-    // Return a page that posts the token back to Decap CMS
+    if (!token || token === 'undefined') {
+        return new Response('Missing GITHUB_TOKEN env var', { status: 500 });
+    }
+
     const html = `<!DOCTYPE html>
 <html>
 <body>
+<p>Authenticating...</p>
 <script>
-  // Small delay to ensure the opener is ready
-  setTimeout(() => {
-    const payload = 'authorization:github:success:' + JSON.stringify({
-      token: '${token}',
-      provider: 'github',
-      backendName: 'github'
-    });
+  // Decap CMS opens this in a popup and waits for postMessage
+  // The format must be exactly: authorization:<provider>:<status>:<data JSON>
+  const sendToken = () => {
+    const data = JSON.stringify({ token: '${token}', provider: 'github' });
+    const payload = 'authorization:github:success:' + data;
     window.opener.postMessage(payload, '*');
-    window.close();
-  }, 500);
+  };
+
+  // Try multiple times in case Decap CMS listener isn't ready
+  setTimeout(sendToken, 800);
+  setTimeout(sendToken, 1500);
+  setTimeout(sendToken, 2500);
+  setTimeout(() => window.close(), 3000);
 </script>
-<p>Authenticating... this window will close automatically.</p>
 </body>
 </html>`;
 
