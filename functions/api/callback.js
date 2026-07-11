@@ -1,27 +1,22 @@
 export async function onRequest(context) {
-    const { env } = context;
-    const token = env.GITHUB_TOKEN;
+    const { env, request } = context;
+    const url = new URL(request.url);
+    
+    // Get token from query params (from auth redirect) or env var (fallback)
+    let token = url.searchParams.get('access_token') || env.GITHUB_TOKEN;
+    const provider = url.searchParams.get('provider') || 'github';
+    const scope = url.searchParams.get('scope') || 'repo,user';
 
-    const html = `<!DOCTYPE html>
-<html>
-<body>
-<script>
-  var match = window.location.search.match(/access_token=([^&]+)/);
-  var token = match ? match[1] : '${token}';
-  var user = {
-    token: token,
-    provider: 'github',
-    backendName: 'github',
-    name: 'lars-j-frank',
-    login: 'lars-j-frank'
-  };
-  localStorage.setItem('decap-cms-user', JSON.stringify(user));
-  window.location.href = '/admin/';
-</script>
-</body>
-</html>`;
+    if (!token || token === 'undefined') {
+        return new Response('Missing token', { status: 500 });
+    }
 
-    return new Response(html, {
-        headers: { 'Content-Type': 'text/html;charset=UTF-8' }
-    });
+    // Redirect to admin with token in hash — Decap CMS parses this
+    const adminHash = '/admin/#/' + 
+        '?access_token=' + encodeURIComponent(token) +
+        '&token_type=bearer' +
+        '&provider=' + encodeURIComponent(provider) +
+        '&scope=' + encodeURIComponent(scope);
+
+    return Response.redirect(url.origin + adminHash, 302);
 }
