@@ -1,54 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
     <title>Content Manager</title>
   </head>
   <body>
-    <!-- Include the script that builds the page and powers Decap CMS -->
-    <script src="https://unpkg.com/decap-cms@^3/dist/decap-cms.js"></script>
-    <script>
-      // Wait for Decap CMS to load, then check for token in URL
-      window.addEventListener('load', function() {
-        // Check if we have an access token in the URL hash or query params
-        const urlParams = new URLSearchParams(window.location.search);
-        const hashParams = new URLSearchParams(window.location.hash.substring(1));
-        
-        let token = urlParams.get('access_token') || 
-                   hashParams.get('access_token');
-                   
-        // Also check for the format used by some OAuth flows
-        if (!token) {
-          // Try to extract from hash like #access_token=...
-          const hashMatch = window.location.hash.match(/access_token=([^&]*)/);
-          if (hashMatch) {
-            token = hashMatch[1];
-          }
-        }
-        
-        if (token) {
-          // Store the token in localStorage as Decap CMS expects
-          const userData = {
-            token: token,
-            provider: 'github',
-            // Add minimal required fields to satisfy Decap CMS
-            // These might not be strictly necessary for token validation
-            // but help avoid errors
-          };
-          
-          // Try both possible storage keys for compatibility
-          localStorage.setItem('decap-cms-user', JSON.stringify(userData));
-          localStorage.setItem('netlify-cms-user', JSON.stringify(userData));
-          
-          // Clean up the URL to remove the token parameter
-          // (optional but cleaner)
-          const cleanUrl = window.location.origin + 
-                          window.location.pathname + 
-                          (hashParams.toString() ? '#' + hashParams.toString() : '');
-          window.history.replaceState({}, '', cleanUrl);
-        }
-      });
-    </script>
+    <script src="https://unpkg.com/decap-cms@^3.3.3/dist/decap-cms.js"></script>
   </body>
 </html>

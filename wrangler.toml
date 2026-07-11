@@ -1,0 +1,5 @@
+# Used by Wrangler CLI for this Pages project.
+# Git-connected builds still use the dashboard: build `hugo`, output `public`.
+name = "thesenseofnonsense"
+compatibility_date = "2026-07-01"
+pages_build_output_dir = "public"

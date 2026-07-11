@@ -1,93 +1,117 @@
-export async function onRequest(context) {
-    const { env, request } = context;
-    const url = new URL(request.url);
-    
-    // Get token from either query param (from auth redirect) or environment variable
-    let token = url.searchParams.get('access_token') || env.GITHUB_TOKEN;
-    const provider = url.searchParams.get('provider') || 'github';
-    
-    // Clean the token
-    if (token) {
-        token = token.trim();
-    }
-    
-    if (!token || token === 'undefined' || token === '') {
-        return new Response('Missing or invalid access token', { 
-            status: 400,
-            headers: { 'Content-Type': 'text/plain' }
-        });
-    }
-
-    // Send the token back to the opener window (the Decap CMS admin interface)
-    const html = `<!DOCTYPE html>
-<html>
+/**
+ * Decap CMS GitHub OAuth - callback
+ * Exchanges ?code= for a token, then completes Decap's postMessage handshake:
+ *   1) popup -> opener: "authorizing:github"
+ *   2) opener replies with its origin
+ *   3) popup -> opener: "authorization:github:success:{ token, provider }"
+ */
+function renderBody(status, content) {
+  const payload = JSON.stringify(content);
+  return `<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Authentication Successful</title>
-    <style>
-        body { font-family: sans-serif; text-align: center; padding: 2rem; }
-    </style>
+  <meta charset="utf-8">
+  <title>Decap CMS Authentication</title>
+  <style>
+    body { font-family: system-ui, sans-serif; text-align: center; padding: 2rem; color: #222; }
+  </style>
 </head>
 <body>
-    <p>Authentication successful!</p>
-    <p>This window will close automatically.</p>
-    
-    <script>
-        // Function to send authentication data to the opener window
-        function sendAuthData() {
-            if (!window.opener || window.opener.closed) {
-                // If opener is not available, try again after a short delay
-                setTimeout(sendAuthData, 100);
-                return;
-            }
-            
-            try {
-                // Prepare the authentication message for Decap CMS
-                const authData = {
-                    access_token: token,
-                    token_type: 'bearer',
-                    provider: provider,
-                    scope: 'repo,user'
-                };
-                
-                // Format exactly as Decap CMS expects
-                const message = 'authorization:github:success:' + JSON.stringify(authData);
-                window.opener.postMessage(message, '*');
-                
-                // Close the window after sending the message
-                setTimeout(() => {
-                    window.close();
-                }, 500);
-            } catch (e) {
-                console.error('Error sending auth data:', e);
-                document.body.innerHTML = '<p>Error: ' + e.message + '</p>';
-            }
-        }
-        
-        // Start the process when the page loads
-        if (window.opener && !window.opener.closed) {
-            sendAuthData();
-        } else {
-            // Poll for opener availability
-            const checkOpener = setInterval(() => {
-                if (window.opener && !window.opener.closed) {
-                    clearInterval(checkOpener);
-                    sendAuthData();
-                }
-            }, 100);
-            
-            // Give up after 5 seconds
-            setTimeout(() => {
-                clearInterval(checkOpener);
-                document.body.innerHTML = '<p>Could not connect to opener window. Please try again.</p>';
-            }, 5000);
-        }
-    </script>
+  <p>${status === "success" ? "Authentication complete. You can close this window." : "Authentication failed."}</p>
+  <script>
+    (function () {
+      function receiveMessage(message) {
+        window.opener.postMessage(
+          "authorization:github:${status}:${payload}",
+          message.origin
+        );
+        window.removeEventListener("message", receiveMessage, false);
+      }
+      window.addEventListener("message", receiveMessage, false);
+      window.opener.postMessage("authorizing:github", "*");
+    })();
+  </script>
 </body>
 </html>`;
+}
 
-    return new Response(html, {
-        headers: { 'Content-Type': 'text/html;charset=UTF-8' },
-        status: 200
+export async function onRequest({ request, env }) {
+  const clientId = String(env.GITHUB_CLIENT_ID || "").trim();
+  const clientSecret = String(env.GITHUB_CLIENT_SECRET || "").trim();
+
+  if (!clientId || !clientSecret) {
+    return new Response(
+      renderBody("error", {
+        error: "missing_oauth_secrets",
+        error_description:
+          "Set GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET on Cloudflare Pages.",
+      }),
+      { status: 500, headers: { "Content-Type": "text/html; charset=utf-8" } },
+    );
+  }
+
+  const url = new URL(request.url);
+  const code = url.searchParams.get("code");
+  const oauthError = url.searchParams.get("error");
+
+  if (oauthError) {
+    return new Response(
+      renderBody("error", {
+        error: oauthError,
+        error_description: url.searchParams.get("error_description") || "",
+      }),
+      { status: 400, headers: { "Content-Type": "text/html; charset=utf-8" } },
+    );
+  }
+
+  if (!code) {
+    return new Response(
+      renderBody("error", {
+        error: "missing_code",
+        error_description: "GitHub did not return an authorization code.",
+      }),
+      { status: 400, headers: { "Content-Type": "text/html; charset=utf-8" } },
+    );
+  }
+
+  try {
+    const tokenRes = await fetch("https://github.com/login/oauth/access_token", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+        "User-Agent": "thesenseofnonsense-decap-oauth",
+      },
+      body: JSON.stringify({
+        client_id: clientId,
+        client_secret: clientSecret,
+        code,
+        redirect_uri: `${url.origin}/api/callback`,
+      }),
     });
+
+    const result = await tokenRes.json();
+    if (result.error || !result.access_token) {
+      return new Response(renderBody("error", result), {
+        status: 401,
+        headers: { "Content-Type": "text/html; charset=utf-8" },
+      });
+    }
+
+    return new Response(
+      renderBody("success", {
+        token: result.access_token,
+        provider: "github",
+      }),
+      { status: 200, headers: { "Content-Type": "text/html; charset=utf-8" } },
+    );
+  } catch (err) {
+    return new Response(
+      renderBody("error", {
+        error: "token_exchange_failed",
+        error_description: String(err && err.message ? err.message : err),
+      }),
+      { status: 500, headers: { "Content-Type": "text/html; charset=utf-8" } },
+    );
+  }
 }
