@@ -1,12 +1,10 @@
 /**
  * Decap CMS GitHub OAuth - callback
- * Exchanges ?code= for a token, then completes Decap's postMessage handshake:
- *   1) popup -> opener: "authorizing:github"
- *   2) opener replies with its origin
- *   3) popup -> opener: "authorization:github:success:{ token, provider }"
+ * Exchanges ?code= for a token, then completes Decap's postMessage handshake.
  */
 function renderBody(status, content) {
-  const payload = JSON.stringify(content);
+  const authDataJs = JSON.stringify(content);
+  const ok = status === "success";
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,18 +15,32 @@ function renderBody(status, content) {
   </style>
 </head>
 <body>
-  <p>${status === "success" ? "Authentication complete. You can close this window." : "Authentication failed."}</p>
+  <p id="status">${ok ? "Completing authentication…" : "Authentication failed."}</p>
   <script>
     (function () {
+      var status = ${JSON.stringify(status)};
+      var authData = ${authDataJs};
+      var statusEl = document.getElementById("status");
+
       function receiveMessage(message) {
+        if (!window.opener) return;
         window.opener.postMessage(
-          "authorization:github:${status}:${payload}",
+          "authorization:github:" + status + ":" + JSON.stringify(authData),
           message.origin
         );
         window.removeEventListener("message", receiveMessage, false);
+        if (status === "success") {
+          statusEl.textContent = "Authentication complete. You can close this window.";
+          setTimeout(function () { try { window.close(); } catch (e) {} }, 500);
+        }
       }
+
       window.addEventListener("message", receiveMessage, false);
-      window.opener.postMessage("authorizing:github", "*");
+      if (window.opener) {
+        window.opener.postMessage("authorizing:github", "*");
+      } else {
+        statusEl.textContent = "Open this page from the Decap CMS login popup.";
+      }
     })();
   </script>
 </body>
