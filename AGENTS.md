@@ -132,38 +132,33 @@ Push access via `lars-j-frank` GitHub account. PAT stored as `LARS_GITHUB_TOKEN`
 
 ## Content Authoring Guide
 
-### Create a new essay
+**Primary editor:** Decap CMS at https://thesenseofnonsense.com/admin/ (see `DECAP_SETUP.md`). Use it for articles, essays, About, and series landing copy — including mobile. Autosave + Publish go through GitHub; Cloudflare rebuilds from `main`.
+
+### CLI fallback (theme/code or offline)
 
 ```bash
-hugo new content essays/your-essay-title.md
+hugo new content essays/your-essay-title/index.md
+hugo new content series/the-tier-files/part-2-title/index.md
+hugo server -D
 ```
 
-Edit the file. Set `draft: false` when ready.
+Series parts must set `series: "The TIER Files"` (exact landing title) and `part: N`. Prefer page bundles (`slug/index.md` + images in the same folder).
 
-### Add a new series part
+### Publish workflow (Decap)
 
-```bash
-hugo new content series/the-tier-files/part-2-title.md
-```
-
-Edit front matter to include `series: "The TIER Files"`, `part: 2`, and a `url: "/series/the-tier-files/part-2-title/"` to nest it under the series path.
-
-### Publish workflow
-
-1. Write in Markdown
-2. Preview with `hugo server -D`
-3. Set `draft: false` (or leave draft until ready)
-4. Commit and push to `main`
-5. Cloudflare builds and deploys automatically
+1. Edit in `/admin/`
+2. Drafts autosave via editorial workflow
+3. Set Draft off when ready for Hugo to build the page
+4. Publish → merge to `main` → Cloudflare deploy
 
 ## Editing Environment
 
-The Hugo project lives at `~/thesenseofnonsense/` on the WSL machine. Hugo binary is installed at `/usr/local/bin/hugo`. The site can also be edited from Windows via the /mnt/c/ filesystem.
+Windows path: `C:\Users\jcran\Documents\thesenseofnonsense`. Push as `lars-j-frank` (not `codecrancode`) to preserve the anonymous GitHub identity.
 
 ## Future Work
 
-- [ ] Paste full draft of Part 1: The Billion-Dollar Detour
-- [ ] Write additional TIER Files parts
-- [ ] Write standalone essays
+- [ ] Write additional TIER Files parts (via Decap)
+- [ ] Write standalone essays (via Decap)
 - [ ] Add more topics as content grows
+- [ ] Upgrade Decap auth from PAT bridge to GitHub OAuth App
 - [ ] Consider RSS feed enhancements if needed

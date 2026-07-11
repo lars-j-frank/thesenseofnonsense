@@ -6,7 +6,7 @@ date: 2026-07-10T09:00:00-06:00
 draft: false
 slug: "part-1-the-billion-dollar-detour"
 series: "The TIER Files"
-tags: ["Alberta", "TIER", "carbon pricing", "climate policy", "public accounts"]
+topics: ["Alberta", "TIER", "carbon pricing", "climate policy", "public accounts"]
 categories: ["The TIER Files"]
 images: ["tier-fund-flow.png"]
 featured: true
@@ -178,3 +178,4 @@ Next: the eight-million-dollar regulator.
 3. TIER Fund audited financial statements, *Environment and Protected Areas Annual Report 2022-2023*, p. 56 (FY2023 and FY2022 figures). [open.alberta.ca](https://open.alberta.ca/publications/2817-304x)
 4. Technology Innovation and Emissions Reduction Regulation overview, [alberta.ca](https://www.alberta.ca/technology-innovation-and-emissions-reduction-regulation) (system mechanics, compliance options, thresholds).
 5. Ministerial Order 13/2025, May 5, 2025 (fund price maintained at $95 per tonne), as disclosed in Note 8 of the FY2025 TIER Fund statements.
+
