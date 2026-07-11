@@ -1,42 +1,48 @@
-# Decap CMS Setup Complete
+# Decap CMS setup (Cloudflare Pages + GitHub)
 
-Your Decap CMS is now configured and ready to use.
+CMS UI: https://thesenseofnonsense.com/admin/
 
-## Access the CMS
-Go to: **https://thesenseofnonsense.com/admin/**
+- Cloudflare Pages project: `thesenseofnonsense`
+- GitHub repo: `lars-j-frank/thesenseofnonsense`
 
-## Login Process
-1. Click the "Login with GitHub" button
-2. You should be automatically logged in (uses your existing GitHub token)
-3. You'll see the Decap CMS dashboard with your collections
+## Current auth mode
 
-## What You Can Edit
-- **The TIER Files collection**: Contains your series articles
-  - Part 1: The Billion-Dollar Detour (currently published)
-  - You can create new articles in this series
-- **Essays collection**: For standalone essays
+`/api/auth` supports two modes:
 
-## Features
-- **Autosave**: Your work is saved as you type
-- **Publish/Unpublish**: Toggle the draft status to control when content goes live
-- **Media Library**: Upload images (like your charts) to use in articles
-- **Markdown Support**: Switch to markdown view if you prefer raw editing
+1. **OAuth App (preferred):** set `GITHUB_CLIENT_ID` + `GITHUB_CLIENT_SECRET` on Pages
+2. **PAT bridge (temporary):** set `GITHUB_TOKEN` on Pages; Decap login uses the correct `postMessage` handshake
 
-## How It Works
-The CMS uses a custom authentication endpoint (`/api/auth`) that returns your GitHub token in the expected JSON format. This avoids the need for OAuth apps or Netlify integration.
+Production currently uses the PAT bridge so login works without a browser OAuth App session. Upgrade to an OAuth App when you can (keeps the token out of HTML).
 
-## Troubleshooting
-If you see a login loop or authentication error:
-1. Check that you're logged into GitHub in your browser
-2. Try clearing your browser cache for the site
-3. Ensure you have internet connectivity (the CMS needs to validate the token with GitHub's API)
+## Upgrade to a GitHub OAuth App
 
-## Current Status
-- Site builds successfully (15 pages)
-- Decap CMS files are in place:
-  - `/static/admin/index.html`
-  - `/static/admin/config.yml`
-  - `/functions/api/auth.js`
-- Environment variable `GITHUB_TOKEN` is set in Cloudflare Pages
+1. Sign in as **lars-j-frank** (or any account; Decap users still authorize as themselves).
+2. https://github.com/settings/developers → **OAuth Apps** → **New OAuth App**
+3. Fields:
+   - Application name: `The Sense of Nonsense CMS`
+   - Homepage URL: `https://thesenseofnonsense.com`
+   - Authorization callback URL: `https://thesenseofnonsense.com/api/callback`
+4. Create the app, generate a client secret, then set Pages secrets:
 
-You can now edit your articles from any device with a browser - no setup required!
+```powershell
+npx wrangler pages secret put GITHUB_CLIENT_ID --project-name thesenseofnonsense
+npx wrangler pages secret put GITHUB_CLIENT_SECRET --project-name thesenseofnonsense
+```
+
+After OAuth secrets are present, `/api/auth` redirects to GitHub authorize instead of the PAT bridge. You can remove `GITHUB_TOKEN` once OAuth is verified.
+
+## Login
+
+1. Open https://thesenseofnonsense.com/admin/
+2. Click **Login with GitHub**
+3. For OAuth mode, approve as `lars-j-frank`
+4. Edit TIER Files / Essays. `editorial_workflow` publishes via pull requests.
+
+## Files
+
+| Path | Role |
+|------|------|
+| `static/admin/index.html` | Decap shell |
+| `static/admin/config.yml` | Backend + collections |
+| `functions/api/auth.js` | OAuth start or PAT handshake |
+| `functions/api/callback.js` | OAuth code exchange + handshake |
