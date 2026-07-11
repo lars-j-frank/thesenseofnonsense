@@ -1,42 +1,49 @@
 ---
-title: "The Billion-Dollar Detour"
-description: "Alberta's heavy emitters paid $2.6 billion into a climate fund over four years. Most of it never funded climate anything."
-author: "Lars J. Frank"
+title: The Billion-Dollar Detour
+slug: part-1-the-billion-dollar-detour
+summary: Part 1 of The TIER Files. Four years of audited statements show
+  Alberta's industrial carbon fund sent $1.85 to general revenue for every
+  dollar it granted to emissions reduction.
 date: 2026-07-10T09:00:00-06:00
 draft: false
-slug: "part-1-the-billion-dollar-detour"
-series: "The TIER Files"
-topics: ["Alberta", "TIER", "carbon pricing", "climate policy", "public accounts"]
-categories: ["The TIER Files"]
-images: ["tier-fund-flow.png"]
-featured: true
+series: The TIER Files
 part: 1
-summary: "Part 1 of The TIER Files. Four years of audited statements show Alberta's industrial carbon fund sent $1.85 to general revenue for every dollar it granted to emissions reduction."
+featured: true
+author: Lars J. Frank
+topics:
+  - Alberta
+  - TIER
+  - carbon pricing
+  - climate policy
+  - public accounts
+images:
+  - tier-fund-flow.png
+categories:
+  - The TIER Files
+description: Alberta's heavy emitters paid $2.6 billion into a climate fund over
+  four years. Most of it never funded climate anything.
 ---
-
 *Part 1 of **The TIER Files**, a series that follows Alberta's industrial carbon money from the smokestack to wherever it actually ends up.*
 
 *Everything here comes from audited financial statements and public budget documents. Sources, with page numbers, are at the bottom.*
 
----
+- - -
 
-Somewhere in Alberta right now, a facility manager is signing off on a compliance payment.
+Somewhere in Alberta right now, a facility manager is signing off on a compliance payment and hurtling it into her companies delegation of authority.
 
 Her plant emits more than 100,000 tonnes of carbon dioxide equivalent a year, which makes it a regulated facility under the Technology Innovation and Emissions Reduction Regulation, the system everyone in the province just calls TIER.
 
-The plant came in over its emissions benchmark this year. She has a few ways to settle the difference. She can buy credits from facilities that beat their benchmarks. She can buy offsets. Or she can pay into the TIER Fund at the government's set price, currently $95 a tonne.
+The plant came in over its emissions benchmark this year, so she has a few ways to settle the difference. She can buy credits from facilities that beat their benchmarks. She can buy offsets. Or she can pay into the TIER Fund at the government's set price, currently $95 a tonne.
 
-Say she pays the fund.
+Let's say she pays the fund, because projects are hard, permits are lengthy, etc.
 
 Where does that money go?
 
-If you asked her, she would probably say what most people in Alberta industry would say: it funds emissions reduction. That is the fund's name, its stated purpose, and the story told in government announcements that draw on it. Grants for carbon capture pilots, methane detection, industrial efficiency, the clean technology showcase that runs across the province's news releases.
+If you asked her, she would probably say what most people in Alberta industry would say: it funds emissions reduction. That is the fund's name - Emissions Reduction Alberta (ERA), its stated purpose, and the story told in government announcements that draw on it. Grants for carbon capture pilots, methane detection, industrial efficiency, the clean technology showcase that runs across the province's news releases.
 
-I wanted to check.
+If you've been on ERA's announcement newsletter for any period of time it sounds like everything is working very well, but I wanted to check so I pulled the TIER fund's audited financial statements, published each year inside the annual report of the Ministry of Environment and Protected Areas, and followed the money.
 
-So I pulled the TIER Fund's audited financial statements, published each year inside the annual report of the Ministry of Environment and Protected Areas, and followed the money for four years.
-
-The fund collected $2.64 billion between April 2021 and March 2025.
+The fund collected $2.64 billion between April 2021 and March 2025. A good amount we all agree.
 
 Of that, $590 million went out as innovation and technology grants.
 
@@ -44,11 +51,11 @@ $1.09 billion went to the General Revenue Fund.
 
 That matters because Alberta's flagship industrial climate program derives much of its public legitimacy from a simple promise: industry pays, technology gets funded, emissions fall.
 
-The numbers tell a messier story.
+But the numbers tell a messier story.
 
 ### How the fund is supposed to work
 
-A quick primer, because the plumbing matters.
+A quick primer on the plumbing:
 
 TIER is Alberta's industrial carbon pricing system. It covers facilities emitting 100,000 tonnes or more per year, plus smaller facilities that opt in. Each facility gets a benchmark. Beat it and you earn credits you can sell. Miss it and you owe, payable in credits, offsets, or cash to the TIER Fund.
 
@@ -56,7 +63,7 @@ The fund is the cash end of that machine. It is a regulated fund administered by
 
 Money flows in from compliance payments across four sectors: mining and oil and gas, utilities, manufacturing, and transportation.
 
-Money flows out three ways: a small administration expense, grants for innovation and technology, and a line called **Transfers to the General Revenue Fund**. The largest grant recipient is Emissions Reduction Alberta, the arm's-length agency that runs many of the funding competitions.
+Money flows out three ways: a small administration expense, grants for innovation and technology, and a line called **Transfers to the General Revenue Fund**. The largest grant recipient is Emissions Reduction Alberta (ERA) the arm's-length agency that runs many of the funding competitions.
 
 That last line is the one nobody puts in a news release.
 
@@ -64,12 +71,12 @@ That last line is the one nobody puts in a news release.
 
 Here is the fund's own accounting for fiscal years ended March 31, in thousands of dollars. Every figure below is transcribed from the audited statements.
 
-|  | FY2022 | FY2023 | FY2024 | FY2025 |
-|---|---:|---:|---:|---:|
-| Revenue | 709,448 | 772,102 | 936,166 | 223,345 |
-| Innovation and technology grants | 205,137 | 181,105 | 94,330 | 109,426 |
-| Transfers to General Revenue Fund | 311,949 | 335,451 | 416,666 | 24,699 |
-| Accumulated surplus, year end | 336,805 | 591,821 | 1,016,606 | 1,105,432 |
+|                                   | FY2022  | FY2023  | FY2024    | FY2025    |
+| --------------------------------- | ------- | ------- | --------- | --------- |
+| Revenue                           | 709,448 | 772,102 | 936,166   | 223,345   |
+| Innovation and technology grants  | 205,137 | 181,105 | 94,330    | 109,426   |
+| Transfers to General Revenue Fund | 311,949 | 335,451 | 416,666   | 24,699    |
+| Accumulated surplus, year end     | 336,805 | 591,821 | 1,016,606 | 1,105,432 |
 
 {{< figure src="tier-fund-flow.png" alt="Stacked bar chart of TIER Fund outflows by fiscal year, FY2022 to FY2025, showing transfers to the General Revenue Fund exceeding innovation and technology grants in every year. Four-year totals: 590 million dollars in grants, 1,089 million dollars to general revenue." caption="In every year, the transfer to general revenue exceeded the emissions reduction grants." >}}
 
@@ -165,7 +172,7 @@ I read them.
 
 Next: the eight-million-dollar regulator.
 
----
+- - -
 
 *If I have misread a line item, the documents are linked below; show me and I will correct it.*
 
@@ -178,4 +185,3 @@ Next: the eight-million-dollar regulator.
 3. TIER Fund audited financial statements, *Environment and Protected Areas Annual Report 2022-2023*, p. 56 (FY2023 and FY2022 figures). [open.alberta.ca](https://open.alberta.ca/publications/2817-304x)
 4. Technology Innovation and Emissions Reduction Regulation overview, [alberta.ca](https://www.alberta.ca/technology-innovation-and-emissions-reduction-regulation) (system mechanics, compliance options, thresholds).
 5. Ministerial Order 13/2025, May 5, 2025 (fund price maintained at $95 per tonne), as disclosed in Note 8 of the FY2025 TIER Fund statements.
-
