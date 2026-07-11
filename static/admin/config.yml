@@ -4,45 +4,21 @@ backend:
   branch: main
   base_url: https://thesenseofnonsense.com
   auth_endpoint: /api/auth
-  auth_type: legacy
 
 publish_mode: editorial_workflow
 media_folder: "static/images"
 public_folder: "/images"
 
 collections:
-  - name: "series"
+  - name: "tier-files"
     label: "The TIER Files"
     label_singular: "Article"
     folder: "content/series/the-tier-files"
     create: true
-    path: "{{slug}}/index"
+    slug: "{{slug}}"
     format: "yaml-frontmatter"
-    slug: "part-{{fields.part}}-{{slug}}"
-    summary: "Part {{fields.part}}: {{title}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Part Number", name: "part", widget: "number" }
-      - { label: "Series", name: "series", widget: "string", default: "The TIER Files" }
-      - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZZ" }
-      - { label: "Draft", name: "draft", widget: "boolean", default: true }
-      - { label: "Featured", name: "featured", widget: "boolean", default: false, required: false }
-      - { label: "Tags", name: "tags", widget: "list", required: false }
-      - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
-
-  - name: "essays"
-    label: "Essays"
-    folder: "content/essays"
-    create: true
-    path: "{{slug}}/index"
-    format: "yaml-frontmatter"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Draft", name: "draft", widget: "boolean", default: true }
-      - { label: "Tags", name: "tags", widget: "list", required: false }
-      - { label: "Summary", name: "summary", widget: "text" }
-      - { label: "Body", name: "body", widget: "markdown" }
