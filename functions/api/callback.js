@@ -6,15 +6,18 @@ export async function onRequest(context) {
 <html>
 <body>
 <script>
-  const payload = 'authorization:github:success:' + JSON.stringify({
-    token: '${token}',
+  var match = window.location.search.match(/access_token=([^&]+)/);
+  var token = match ? match[1] : '${token}';
+  var user = {
+    token: token,
     provider: 'github',
-    backendName: 'github'
-  });
-  window.opener.postMessage(payload, '*');
-  window.close();
+    backendName: 'github',
+    name: 'lars-j-frank',
+    login: 'lars-j-frank'
+  };
+  localStorage.setItem('decap-cms-user', JSON.stringify(user));
+  window.location.href = '/admin/';
 </script>
-<p>Authenticated. Closing...</p>
 </body>
 </html>`;
 

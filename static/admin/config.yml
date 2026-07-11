@@ -4,6 +4,7 @@ backend:
   branch: main
   base_url: https://thesenseofnonsense.com
   auth_endpoint: /api/auth
+  auth_type: implicit
 
 publish_mode: editorial_workflow
 media_folder: "static/images"
