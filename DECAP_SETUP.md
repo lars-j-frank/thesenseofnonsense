@@ -1,48 +1,56 @@
-# Decap CMS setup (Cloudflare Pages + GitHub)
+# Decap CMS — content workflow
 
-CMS UI: https://thesenseofnonsense.com/admin/
+CMS: https://thesenseofnonsense.com/admin/
 
-- Cloudflare Pages project: `thesenseofnonsense`
-- GitHub repo: `lars-j-frank/thesenseofnonsense`
+Primary way to write and edit site content (mobile or desktop). Prefer Decap over hand-editing Markdown in git unless you are changing theme/code.
 
-## Current auth mode
+## What you can edit
 
-`/api/auth` supports two modes:
+| Collection | Use for |
+|------------|---------|
+| **The TIER Files** | Series articles (page bundles with images) |
+| **Essays** | Standalone essays |
+| **Pages** | About, series landing copy, section intros |
 
-1. **OAuth App (preferred):** set `GITHUB_CLIENT_ID` + `GITHUB_CLIENT_SECRET` on Pages
-2. **PAT bridge (temporary):** set `GITHUB_TOKEN` on Pages; Decap login uses the correct `postMessage` handshake
+Homepage tagline/description still live in `hugo.toml` (code), not Decap.
 
-Production currently uses the PAT bridge so login works without a browser OAuth App session. Upgrade to an OAuth App when you can (keeps the token out of HTML).
+## Mobile / everyday workflow
 
-## Upgrade to a GitHub OAuth App
+1. Open `/admin/` and **Login with GitHub** (as `lars-j-frank`).
+2. Open or create an entry.
+3. Write in the editor. Decap **autosaves drafts** under the editorial workflow (GitHub branch/PR).
+4. Set **Draft** to off when the piece should be buildable by Hugo.
+5. Click **Publish** — Decap merges to `main`; Cloudflare Pages rebuilds the site.
 
-1. Sign in as **lars-j-frank** (or any account; Decap users still authorize as themselves).
-2. https://github.com/settings/developers → **OAuth Apps** → **New OAuth App**
-3. Fields:
-   - Application name: `The Sense of Nonsense CMS`
-   - Homepage URL: `https://thesenseofnonsense.com`
-   - Authorization callback URL: `https://thesenseofnonsense.com/api/callback`
-4. Create the app, generate a client secret, then set Pages secrets:
+Until you Publish, draft work is not on the live site.
 
-```powershell
-npx wrangler pages secret put GITHUB_CLIENT_ID --project-name thesenseofnonsense
-npx wrangler pages secret put GITHUB_CLIENT_SECRET --project-name thesenseofnonsense
+## Images
+
+TIER Files and Essays use Hugo **page bundles** (`content/.../your-slug/index.md` plus images in the same folder).
+
+- Upload images from the Decap media UI while editing that article.
+- In Markdown, use `![alt](filename.png)` or existing Hugo shortcodes such as `{{</* figure src="filename.png" ... */>}}`.
+
+Global fallback media folder: `static/images` → `/images/...` on the site.
+
+## New TIER Files part
+
+1. Collection **The TIER Files** → New Article.
+2. Set **URL slug** first (e.g. `part-2-the-next-chapter`) — that becomes the folder name.
+3. Set **Series** to exactly `The TIER Files` (must match the series landing title).
+4. Set **Part number**, body, topics, images.
+5. Leave Draft on while writing; Publish when ready.
+
+## Auth notes
+
+Production currently uses a `GITHUB_TOKEN` bridge for Decap login. Prefer upgrading to a GitHub OAuth App (`GITHUB_CLIENT_ID` / `GITHUB_CLIENT_SECRET`) when convenient — see earlier setup notes in git history / Cloudflare secrets. Rotate the PAT after OAuth is live.
+
+## Repo layout (for reference)
+
 ```
-
-After OAuth secrets are present, `/api/auth` redirects to GitHub authorize instead of the PAT bridge. You can remove `GITHUB_TOKEN` once OAuth is verified.
-
-## Login
-
-1. Open https://thesenseofnonsense.com/admin/
-2. Click **Login with GitHub**
-3. For OAuth mode, approve as `lars-j-frank`
-4. Edit TIER Files / Essays. `editorial_workflow` publishes via pull requests.
-
-## Files
-
-| Path | Role |
-|------|------|
-| `static/admin/index.html` | Decap shell |
-| `static/admin/config.yml` | Backend + collections |
-| `functions/api/auth.js` | OAuth start or PAT handshake |
-| `functions/api/callback.js` | OAuth code exchange + handshake |
+static/admin/config.yml   # Decap collections (source of truth for CMS fields)
+static/admin/index.html   # Decap shell
+functions/api/auth.js     # Login start
+functions/api/callback.js # OAuth callback
+content/                  # All CMS-managed Markdown
+```
