@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="page archive-page">
+  <header class="page-header">
+    <h1>{{ .Title | default "Archive" }}</h1>
+  </header>
+  <div class="archive-list">
+    {{ $pages := where .Site.RegularPages "Type" "not in" (slice "page" "about") }}
+    {{ $pages = $pages.ByDate.Reverse }}
+    <div class="archive-year-group">
+      <ul class="archive-items">
+        {{ range $pages }}
+        <li class="archive-item">
+          <time class="archive-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{ with .Params.summary }}<span class="archive-summary"> — {{ . }}</span>{{ end }}
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</div>
+{{ end }}

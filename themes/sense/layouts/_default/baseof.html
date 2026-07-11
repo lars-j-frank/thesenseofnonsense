@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+  <link rel="canonical" href="{{ .Permalink }}" />
+  <link rel="stylesheet" href="/css/sense.css" />
+  {{ block "extrahead" . }}{{ end }}
+</head>
+<body class="{{ if .IsHome }}home{{ else if .IsPage }}singular{{ else }}listing{{ end }}">
+  <a href="#main" class="skip-link">Skip to content</a>
+  
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="site-brand">
+        <a href="{{ "/" | relURL }}" class="site-title">{{ .Site.Title }}</a>
+        <span class="site-tagline">{{ .Site.Params.tagline }}</span>
+      </div>
+      <nav class="site-nav" aria-label="Main navigation">
+        <button class="nav-toggle" aria-label="Toggle menu" type="button">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-list">
+          {{- $current := .RelPermalink -}}
+          {{- range .Site.Menus.main }}
+          <li><a href="{{ .URL | relURL }}" class="{{ if eq $current .URL }}active{{ end }}">{{ .Name }}</a></li>
+          {{- end }}
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="site-main">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-copy">&copy; {{ now.Format "2006" }} {{ .Site.Params.author }}. All rights reserved.</p>
+      <p class="footer-ethos">Public documents. Public interest.</p>
+    </div>
+  </footer>
+
+  <script src="/js/sense.js"></script>
+</body>
+</html>

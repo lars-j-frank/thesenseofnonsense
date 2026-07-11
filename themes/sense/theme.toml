@@ -1,0 +1,13 @@
+name = "sense"
+license = "MIT"
+homepage = "https://thesenseofnonsense.com"
+title = "The Sense of Nonsense editorial theme"
+description = "Custom in-repo editorial theme for The Sense of Nonsense."
+author = "Lars J. Frank"
+features = [
+  "Editorial typography with Lora + Inter",
+  "Light and dark mode (system preference)",
+  "Responsive layout",
+  "Series navigation",
+  "Taxonomy support for topics"
+]

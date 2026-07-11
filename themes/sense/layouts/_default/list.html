@@ -1,0 +1,34 @@
+{{ define "main" }}
+<div class="page list-page">
+  <header class="page-header">
+    <h1>{{ .Title | default "Essays" }}</h1>
+  </header>
+  {{ with .Content }}
+  <div class="prose section-intro">{{ . }}</div>
+  {{ end }}
+  <div class="article-list">
+    {{ $pages := .Pages.ByDate.Reverse }}
+    {{ range $pages }}
+    <article class="list-item">
+      <h2 class="list-item-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <div class="list-item-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format .Site.Params.dateFormat }}</time>
+        {{ with .Params.series }}
+        · <a href="/series/{{ . | urlize }}/" class="series-link">{{ . | title }}</a>
+        {{ end }}
+      </div>
+      {{ with .Params.summary }}
+      <p class="list-item-summary">{{ . }}</p>
+      {{ end }}
+      {{ with .Params.topics }}
+      <div class="list-item-topics">
+        {{ range . }}
+        <a href="/topics/{{ . | urlize }}/" class="topic-tag">{{ . }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </article>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

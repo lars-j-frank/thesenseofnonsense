@@ -1,0 +1,52 @@
+{{ define "main" }}
+<div class="page single-page">
+  <article class="article">
+    <header class="article-header">
+      <h1 class="article-title">{{ .Title }}</h1>
+      <div class="article-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format .Site.Params.dateFormat }}</time>
+        {{ with .Params.series }}
+        · <a href="/series/{{ . | urlize }}/" class="series-link">{{ . | title }}</a>
+        {{ end }}
+      </div>
+      {{ with .Params.summary }}
+      <p class="article-summary">{{ . }}</p>
+      {{ end }}
+      {{ with .Params.topics }}
+      <div class="article-topics">
+        {{ range . }}
+        <a href="/topics/{{ . | urlize }}/" class="topic-tag">{{ . }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </header>
+    <div class="prose article-body">
+      {{ .Content }}
+    </div>
+    <footer class="article-footer">
+      {{ if .Params.series }}
+      <div class="series-nav">
+        <h4>Part of <a href="/series/{{ .Params.series | urlize }}/">{{ .Params.series | title }}</a></h4>
+        {{ $series := where .Site.RegularPages ".Params.series" "eq" .Params.series }}
+      {{ $series = $series.ByParam "part" }}
+        <ol class="series-parts">
+          {{ range $series }}
+          <li{{ if eq .RelPermalink $.RelPermalink }} class="current"{{ end }}>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </li>
+          {{ end }}
+        </ol>
+      </div>
+      {{ end }}
+      <div class="article-nav">
+        {{ with .PrevInSection }}
+        <a href="{{ .RelPermalink }}" class="prev-link">&larr; {{ .Title }}</a>
+        {{ end }}
+        {{ with .NextInSection }}
+        <a href="{{ .RelPermalink }}" class="next-link">{{ .Title }} &rarr;</a>
+        {{ end }}
+      </div>
+    </footer>
+  </article>
+</div>
+{{ end }}

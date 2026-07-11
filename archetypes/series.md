@@ -1,0 +1,8 @@
+---
+title: "{{ replace .File.ContentBaseName "-" " " | title }}"
+date: {{ .Date }}
+draft: true
+summary: ""
+type: "series-landing"
+aliases: []
+---

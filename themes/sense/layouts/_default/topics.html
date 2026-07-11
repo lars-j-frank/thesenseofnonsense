@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="page taxonomy-page">
+  <header class="page-header">
+    <h1>Topics</h1>
+  </header>
+  <div class="topic-cloud">
+    {{ range .Pages.ByTitle }}
+    <a href="{{ .RelPermalink }}" class="topic-item">{{ .Title }}</a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

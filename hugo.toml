@@ -1,0 +1,68 @@
+baseURL = "https://thesenseofnonsense.com"
+title = "The Sense of Nonsense"
+theme = "sense"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+removePathAccents = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[permalinks]
+  essays = "/essays/:slug/"
+  series = "/series/:slug/"
+  topics = "/topics/:slug/"
+
+[taxonomies]
+  topic = "topics"
+  series = "series"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      typographer = true
+      footnote = true
+      table = true
+  [markup.highlight]
+    codeFences = true
+    lineNos = false
+
+[params]
+  tagline = "The story is in the ledger."
+  description = "An engineer writing within the water-energy-food nexus, primarily about the distance between what the public is told about carbon accounting and what is actually happening in the ledgers, filings, and regulatory systems that define it."
+  author = "Lars J. Frank"
+  copyright = "Lars J. Frank"
+  dateFormat = "2 January 2006"
+  accentColor = "#8B4513"
+  mainSections = ["essays", "series"]
+  featuredSeries = "the-tier-files"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "series"
+    name = "Series"
+    url = "/series/"
+    weight = 2
+  [[menu.main]]
+    identifier = "essays"
+    name = "Essays"
+    url = "/essays/"
+    weight = 3
+  [[menu.main]]
+    identifier = "archive"
+    name = "Archive"
+    url = "/archive/"
+    weight = 4
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 5

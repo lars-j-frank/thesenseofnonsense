@@ -1,0 +1,52 @@
+{{ define "main" }}
+<div class="page home-page">
+  <header class="home-header">
+    <h1 class="home-title">{{ .Site.Title }}</h1>
+    <p class="home-tagline">{{ .Site.Params.tagline }}</p>
+    <p class="home-intro">{{ .Site.Params.description }}</p>
+  </header>
+
+  {{ $featured := where .Site.RegularPages ".Params.featured" true }}
+  {{ if $featured }}
+  <section class="featured-articles">
+    <h2 class="section-heading">Featured</h2>
+    {{ range first 1 $featured }}
+    <article class="featured-card">
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+      <div class="featured-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format .Site.Params.dateFormat }}</time>
+        {{ with .Params.series }} · <a href="/series/{{ . | urlize }}/">{{ . | title }}</a>{{ end }}
+      </div>
+    </article>
+    {{ end }}
+  </section>
+  {{ end }}
+
+  {{ $featuredSeries := .Site.Params.featuredSeries }}
+  {{ if $featuredSeries }}
+  {{ $seriesPage := .Site.GetPage (printf "/series/%s" $featuredSeries) }}
+  {{ if $seriesPage }}
+  <section class="featured-series">
+    <h2 class="section-heading"><a href="{{ $seriesPage.RelPermalink }}">{{ $seriesPage.Title }}</a></h2>
+    <p>{{ $seriesPage.Summary | default $seriesPage.Description }}</p>
+  </section>
+  {{ end }}
+  {{ end }}
+
+  <section class="recent-articles">
+    <h2 class="section-heading">Recent</h2>
+    {{ $recent := where .Site.RegularPages "Type" "not in" (slice "page" "about") }}
+    {{ $recent = $recent.ByDate.Reverse | first 5 }}
+    <ul class="recent-list">
+      {{ range $recent }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+      </li>
+      {{ end }}
+    </ul>
+    <p class="archive-link"><a href="/archive/">View full archive →</a></p>
+  </section>
+</div>
+{{ end }}
