@@ -6,24 +6,24 @@ export async function onRequest(context) {
         return new Response('Missing GITHUB_TOKEN env var', { status: 500 });
     }
 
+    // The implicit auth flow: set token in localStorage and redirect to admin
     const html = `<!DOCTYPE html>
 <html>
 <body>
-<p>Authenticating...</p>
+<p>Logging in...</p>
 <script>
-  // Decap CMS opens this in a popup and waits for postMessage
-  // The format must be exactly: authorization:<provider>:<status>:<data JSON>
-  const sendToken = () => {
-    const data = JSON.stringify({ token: '${token}', provider: 'github' });
-    const payload = 'authorization:github:success:' + data;
-    window.opener.postMessage(payload, '*');
+  // Decap CMS stores user data in localStorage under this key
+  var user = {
+    token: '${token}',
+    provider: 'github',
+    backendName: 'github',
+    name: 'lars-j-frank',
+    login: 'lars-j-frank',
+    email: 'lars-j-frank@users.noreply.github.com',
+    avatar_url: 'https://github.com/lars-j-frank.png'
   };
-
-  // Try multiple times in case Decap CMS listener isn't ready
-  setTimeout(sendToken, 800);
-  setTimeout(sendToken, 1500);
-  setTimeout(sendToken, 2500);
-  setTimeout(() => window.close(), 3000);
+  localStorage.setItem('decap-cms-user', JSON.stringify(user));
+  window.location.href = '/admin/';
 </script>
 </body>
 </html>`;
