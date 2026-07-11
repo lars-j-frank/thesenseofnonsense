@@ -6,6 +6,30 @@
     <title>Content Manager</title>
   </head>
   <body>
+    <!-- Include the script that builds the page and powers Decap CMS -->
     <script src="https://unpkg.com/decap-cms@^3/dist/decap-cms.js"></script>
+    <script>
+      // Check if we have an access token in the URL (from implicit flow)
+      window.addEventListener('DOMContentLoaded', (event) => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const accessToken = urlParams.get('access_token');
+        const provider = urlParams.get('provider');
+        
+        if (accessToken && provider === 'github') {
+          // Store the token in localStorage as Decap CMS expects
+          const userData = {
+            token: accessToken,
+            provider: provider,
+            // These are what Decap CMS looks for
+            // Adding minimal required fields
+          };
+          localStorage.setItem('decocms__user', JSON.stringify(userData));
+          
+          // Clean up the URL (remove token params)
+          const cleanUrl = window.location.origin + window.location.pathname + window.location.hash;
+          window.history.replaceState({}, '', cleanUrl);
+        }
+      });
+    </script>
   </body>
 </html>
