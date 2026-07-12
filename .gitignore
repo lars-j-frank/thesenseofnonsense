@@ -18,3 +18,6 @@ Thumbs.db
 .env
 .env.local
 *.pem
+
+# Local research scrapes / PDFs (too large for public repo; keep off Decap)
+/research/
