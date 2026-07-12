@@ -46,7 +46,7 @@ collections:
       - { label: Published, field: draft, pattern: false }
     view_groups:
       - { label: Year, field: date, pattern: '\d{4}' }
-    preview_path: "series/the-tier-files/{{slug}}/"
+    preview_path: "series/{{slug}}/"
     editor:
       preview: true
     fields:
