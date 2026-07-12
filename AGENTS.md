@@ -17,13 +17,14 @@ Investigative publication by **Lars J. Frank** (pseudonym). Focused on carbon ac
 | Static site generator | Hugo v0.145.0 (extended) |
 | Theme | Custom in-repo (`themes/sense/`) — no third-party themes or submodules |
 | CSS | Custom editorial theme, light/dark mode via `prefers-color-scheme` |
-| Fonts | Lora (serif, body) + Inter (sans-serif, headings/nav) via Google Fonts |
+| Fonts | Lora (serif, body) + Source Sans 3 (sans-serif, UI/nav) via Google Fonts |
 | JS | Minimal — mobile nav toggle only |
 | Hosting | Cloudflare Pages (Git-based integration) |
 | Build command | `hugo` |
 | Output directory | `public` |
 | Production branch | `main` |
 | Env var | `HUGO_VERSION=0.145.0` |
+| Taxonomies | `topics` only (`series` is a plain front-matter field, not a Hugo taxonomy — avoids clashing with `/series/…` section URLs) |
 
 ## Content Architecture
 
@@ -88,12 +89,14 @@ Series articles use `series` + `part` front matter. The single.html template aut
 
 ### Design properties
 
-- Narrow reading width (680px for articles)
-- Neutral base palette, one muted accent (#8B4513 saddle brown)
-- Light mode: off-white background (#faf9f7)
-- Dark mode: dark background (#141413), auto-switches via system preference
-- Serif body (Lora), sans-serif headings (Inter)
-- No cards, no gradients, no startup aesthetic — editorial, list-based layouts
+- Narrow reading width (~700px for articles)
+- Cool paper / ink palette with one crimson accent (#9E1B32)
+- Light mode: cool paper background (#F7F7F5)
+- Dark mode: near-black (#0E0E0D), auto-switches via system preference
+- Serif body (Lora), sans-serif UI (Source Sans 3)
+- Listing surfaces use article cards with feature images (`cover.png` in page bundles)
+- Article pages stay list/prose reading — no card chrome on the longform view
+- Brand: SN mark + wordmark in header; favicon in `static/`
 
 ## Current Content
 

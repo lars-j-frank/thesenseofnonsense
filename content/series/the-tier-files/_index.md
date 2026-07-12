@@ -3,6 +3,7 @@ title: "The TIER Files"
 date: 2026-05-02
 draft: false
 type: "series-landing"
+layout: "series-landing"
 summary: "An ongoing investigation into Alberta's Technology Innovation and Emissions Reduction (TIER) system — the carbon-pricing regime that collects billions from industrial emitters and spends most of it somewhere else."
 ---
 

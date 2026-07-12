@@ -10,16 +10,11 @@
   {{ if $featured }}
   <section class="featured-articles">
     <h2 class="section-heading">Featured</h2>
-    {{ range first 1 $featured }}
-    <article class="featured-card">
-      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-      {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
-      <div class="featured-meta">
-        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format .Site.Params.dateFormat }}</time>
-        {{ with .Params.series }} · <a href="/series/{{ . | urlize }}/">{{ . | title }}</a>{{ end }}
-      </div>
-    </article>
-    {{ end }}
+    <div class="card-grid card-grid--featured">
+      {{ range first 1 $featured }}
+      {{ partial "article-card.html" (dict "page" . "class" "article-card--featured") }}
+      {{ end }}
+    </div>
   </section>
   {{ end }}
 
@@ -36,16 +31,14 @@
 
   <section class="recent-articles">
     <h2 class="section-heading">Recent</h2>
-    {{ $recent := where .Site.RegularPages "Type" "not in" (slice "page" "about") }}
-    {{ $recent = $recent.ByDate.Reverse | first 5 }}
-    <ul class="recent-list">
+    {{ $recent := where .Site.RegularPages "Section" "in" (slice "series" "essays") }}
+    {{ $recent = where $recent "Kind" "eq" "page" }}
+    {{ $recent = $recent.ByDate.Reverse | first 6 }}
+    <div class="card-grid">
       {{ range $recent }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
-      </li>
+      {{ partial "article-card.html" . }}
       {{ end }}
-    </ul>
+    </div>
     <p class="archive-link"><a href="/archive/">View full archive →</a></p>
   </section>
 </div>

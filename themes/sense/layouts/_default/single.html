@@ -28,12 +28,13 @@
       <div class="series-nav">
         <h4>Part of <a href="/series/{{ .Params.series | urlize }}/">{{ .Params.series | title }}</a></h4>
         {{ $series := where .Site.RegularPages ".Params.series" "eq" .Params.series }}
-      {{ $series = $series.ByParam "part" }}
         <ol class="series-parts">
-          {{ range $series }}
+          {{ range seq 1 20 }}
+          {{ range where $series "Params.part" . }}
           <li{{ if eq .RelPermalink $.RelPermalink }} class="current"{{ end }}>
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
           </li>
+          {{ end }}
           {{ end }}
         </ol>
       </div>

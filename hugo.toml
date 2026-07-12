@@ -16,7 +16,6 @@ buildExpired = false
 
 [taxonomies]
   topic = "topics"
-  series = "series"
 
 [markup]
   [markup.goldmark]
@@ -36,7 +35,7 @@ buildExpired = false
   author = "Lars J. Frank"
   copyright = "Lars J. Frank"
   dateFormat = "2 January 2006"
-  accentColor = "#8B4513"
+  accentColor = "#9E1B32"
   mainSections = ["essays", "series"]
   featuredSeries = "the-tier-files"
 

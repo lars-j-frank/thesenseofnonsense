@@ -3,17 +3,9 @@
   <header class="page-header">
     <h1>Topic: {{ .Title }}</h1>
   </header>
-  <div class="article-list">
+  <div class="card-grid">
     {{ range .Pages.ByDate.Reverse }}
-    <article class="list-item">
-      <h2 class="list-item-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-      <div class="list-item-meta">
-        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format .Site.Params.dateFormat }}</time>
-      </div>
-      {{ with .Params.summary }}
-      <p class="list-item-summary">{{ . }}</p>
-      {{ end }}
-    </article>
+    {{ partial "article-card.html" . }}
     {{ end }}
   </div>
 </div>
