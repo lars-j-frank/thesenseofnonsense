@@ -1,21 +1,22 @@
----
+﻿---
 title: "The Small World"
 description: "ERA funds companies, then draws directors from the funded ecosystem. The map is public. The recusal architecture mostly is not."
 author: "Lars J. Frank"
-date: 2026-08-22T09:00:00-06:00
-draft: true
+date: 2026-07-11T09:00:00-06:00
+draft: false
 slug: "part-6-the-small-world"
 series: "The TIER Files"
 part: 6
 featured: false
 topics: ["Alberta", "TIER", "carbon pricing", "climate policy", "public accounts"]
 url: "/series/the-tier-files/part-6-the-small-world/"
+images: ["cover.png", "p6-pipeline.png", "p6-edge-types.png"]
 summary: "Part 6 of The TIER Files. A documented map of board seats, funded companies, and Trusted Partners: the pipeline from the ecosystem to the boardroom, and the disclosure architecture that is supposed to make a small world safe."
 ---
 
 *Part 6 of **The TIER Files**, a series that follows Alberta's industrial carbon money from the smokestack to wherever it actually ends up.*
 
-*Everything here comes from audited financial statements, ERA's own project database and board materials, and other public documents. Sources, with page numbers and URLs, are at the bottom. This instalment maps relationships. It does not claim that any relationship caused any funding decision.*
+*Everything here comes from audited financial statements, ERA's own project database and board materials, and other public documents. Sources, with page numbers and URLs, are at the bottom. This instalment maps relationships drawn from those public bios and releases. It does not claim that any relationship caused any funding decision.*
 
 ---
 
@@ -23,7 +24,7 @@ Start with one walk you can do without leaving ERA's own website.
 
 Kathleen Chisholm is the current vice-chair of Emissions Reduction Alberta. Her ERA board biography says she spent roughly 2009 to 2024 as Capital Power's Senior Vice-President and Chief Legal and Sustainability Officer, and that she has recently retired from that role. Capital Power, in ERA's project database, shows as the recipient on two completed projects: Genesee CCS, with $5.0 million in ERA funding, and the Genesee wood-waste biomass co-firing project, with $326,000. Combined, $5.33 million. The database marks both Completed. ERA appointed her a director effective May 1, 2023.
 
-The chronology is tight enough to state without hedging. ERA announced the Genesee biomass award on July 7, 2017, and the Genesee CCS kickstart award on July 13, 2022. Both awards predate her board seat. The April 2023 appointment release still lists her as serving at Capital Power when she joins, so employment at the recipient and ERA board tenure overlapped after the funding decisions. The walk the public record supports is simpler than a conspiracy diagram: employer funded first; director later; for a stretch, both at once. I am not saying she steered money to Capital Power. The record does not say that.
+The chronology is tight enough to state without hedging. ERA announced the Genesee biomass award on July 7, 2017, and the Genesee CCS kickstart award on July 13, 2022. Both awards predate her board seat. The April 2023 appointment release still lists her as serving at Capital Power when she joins, so employment at the recipient and ERA board tenure overlapped after the funding decisions. The walk the public record supports is chronological: employer funded first; director later; for a stretch, both at once. The awards predate the seat. The public record supports co-occurrence and chronology.
 
 Once you have seen one of those walks, you start looking for the next.
 
@@ -31,9 +32,17 @@ Once you have seen one of those walks, you start looking for the next.
 
 The method is dull on purpose. Every person named below appears on ERA's board page, in an ERA media release, or in a remuneration note. Every funded-company link comes from ERA's WordPress project database (469 records as scraped), matched to those bios and to portfolio pages the venture firms publish themselves. Every commercial link to another organization comes from ERA's audited statements. Each edge gets a date range where the source allows one, and a confidence note where it does not. Connection is the finding. Causation is a different claim, and this piece does not make it.
 
-Challenge-announcement dates for the three original retrospective edges are now lined up against appointment releases (sources below). Right-of-reply letters still go out before any of these names run in a published version; silence and responses both get noted.
+![Horizontal bars of 44 sourced network edges grouped by relationship type, led by ERA and CCEMC funding-recipient links, then board and chair roles, employment tenure, and venture financing roles.](p6-edge-types.png?v=1)
+
+*How the forty-four edges sort when you stop reading them one at a time.*
+
+Challenge-announcement dates for the three original retrospective edges are now lined up against appointment releases (sources below). The relationships below are drawn from public bios, appointment releases, and the project database. Corrections are welcome.
 
 ### The pipeline to the boardroom
+
+![Schematic of the pipeline from builders and funders through named people in the edge list to the ERA board, with summary counts of 44 edges, 16 people, and 27 organizations.](p6-pipeline.png?v=1)
+
+*Builders and funders first; directors later. Forty-four sourced edges on the map.*
 
 Three current directors, same shape of edge.
 
@@ -43,9 +52,9 @@ Three current directors, same shape of edge.
 
 **Sarah Applebaum and CarbonCure, via Pangaea.** She is a Partner at Pangaea Ventures; Pangaea's public portfolio page lists CarbonCure Technologies; CarbonCure has two completed ERA projects in the database, $2.24 million and $3.0 million, for $5.24 million combined. ERA announced those awards on March 1, 2017 and October 30, 2019. Her ERA board appointment lands around June 2025, after a committee role from October 2023. Again: portfolio company funded, partner later on the funder's board.
 
-Individually, each of those walks is the sort of thing a small province produces without anyone needing a conspiracy diagram. Collectively they are a pattern you can count: the funded ecosystem is where a meaningful share of ERA's current directors now come from. Three documented retrospective edges on a board that the FY2025 annual report describes as having received five new members is enough of a concentration to put on the map and leave alone.
+Individually, each of those walks is ordinary in a small province with a thick energy-and-climate professional class. Collectively they are a pattern you can count: the funded ecosystem is where a meaningful share of ERA's current directors now come from. Three documented retrospective edges on a board that the FY2025 annual report describes as having received five new members is enough of a concentration to put on the map and leave alone.
 
-There is also a concurrent portfolio edge that belongs in a different column from the retrospectives. Blackwell's later affiliation is Builders VC. Future Fields, listed in that portfolio reconstruction, received about $4.09 million through ERA's Industrial Transformation Challenge, announced February 13, 2025, while Blackwell has sat on the ERA board since May 1, 2023. The database marks the project Active. That is a funder's director whose venture world overlaps a live award. It is still only an overlap until a recusal record or a right-of-reply answer says more. The question for ERA is whether that recusal exists in a file a citizen can eventually see.
+There is also a concurrent portfolio edge that belongs in a different column from the retrospectives. Blackwell's later affiliation is Builders VC. Future Fields, listed in that portfolio reconstruction, received about $4.09 million through ERA's Industrial Transformation Challenge, announced February 13, 2025, while Blackwell has sat on the ERA board since May 1, 2023. The database marks the project Active. That is documented co-occurrence: a funder's director whose venture world overlaps a live award. Co-occurrence is what the public record supports today. Whether a recusal sits in a file a citizen can eventually see remains an open question for ERA.
 
 Dr. Monica Gattinger's ERA bio lists her, presently, as a board member of the Clean Resource Innovation Network. ERA's FY2021 and FY2022 statements disclose a competition coordination agreement with CRIN (executed February 10, 2021) and CRIN-related revenue of $58,658 and then $563,019. The FY2023 statements say that agreement ended in FY2021-22 and that the receivables were collected; CRIN revenue is $0 in the FY2023 comparative, and no CRIN line appears in the FY2024 statements text pulled for this investigation. Concurrent board seats remain on the public record. On the evidence so far, the commercial counterparty relationship has closed.
 
@@ -59,13 +68,13 @@ David Moss, a director since July 2019, was appointed interim Board Chair by the
 
 ### The gatekeepers on the intake page
 
-ERA publishes a Trusted Partners roster: Government of Alberta, Alberta Innovates, Canada Infrastructure Bank, Export Development Canada, Genome Alberta, Métis Settlements Development Corporation, Natural Resources Canada, NGIF Accelerator, NorthX Climate Tech, PTAC, PrairiesCan, and Results Driven Agriculture Research (RDAR). The FY2025 annual report says four new trusted partners were welcomed that year. These are the referral and collaboration gatekeepers around Continuous Intake and the challenge machinery.
+ERA publishes a Trusted Partners roster: Government of Alberta, Alberta Innovates, Canada Infrastructure Bank, Export Development Canada, Genome Alberta, MÃ©tis Settlements Development Corporation, Natural Resources Canada, NGIF Accelerator, NorthX Climate Tech, PTAC, PrairiesCan, and Results Driven Agriculture Research (RDAR). The FY2025 annual report says four new trusted partners were welcomed that year. These are the referral and collaboration gatekeepers around Continuous Intake and the challenge machinery.
 
 The public page stops at the roster. I have not found, in a form a reader can use, a per-partner count of how many funded projects arrived through each gate. Referral concentration would be a finding even with zero personal overlaps between partner boards and funded companies. The roster is visible; the statistics that would let a reader audit the roster stay unpublished. (Director Stuart Cullum's bio also lists a board seat at the Canadian Agri-Food Automation and Intelligence Network; CAAIN is absent from the current Trusted Partners list. Adjacent, dated, and noted for the follow-on map rather than stretched here.)
 
 ### The part where I'm fair about it
 
-Alberta is a small province with a thick energy-and-climate professional class, and expertise concentrates. A board that knows the industry is partly the design of a technology funder that evaluates industrial projects. I am asking for judgment drawn from people who have run generators, sat on venture boards, and worked inside the ministry. Overlap is what you get when the same few hundred practitioners do the work for twenty years.
+Alberta is a small province with a thick energy-and-climate professional class, and expertise concentrates. A board that knows the industry is partly the design of a technology funder that evaluates industrial projects. Judgment drawn from people who have run generators, sat on venture boards, and worked inside the ministry is what that design buys. Overlap is what you get when the same few hundred practitioners do the work for twenty years.
 
 The concession covers the existence of the edges. The public architecture that is supposed to make a small world safe still has to be shown: published recusal records, a conflict register a citizen can read without filing a FOIP, referral statistics by Trusted Partner, and decision dates that line up cleanly against appointment dates without a freelance scrape of 469 project pages. Small ecosystems need denser disclosure architecture, because the alternative is asking the public to take the hygiene on faith.
 
@@ -77,13 +86,13 @@ ERA's privacy policy references a Conflict of Interest Policy by name. The polic
 
 One edge on this map is already in the audited statements and still refuses to resolve into proper nouns. From fiscal 2017 through fiscal 2025, the remuneration notes disclose a steady stream, roughly $290,000 to $333,000 a year, about $2.75 million cumulative, paid to counterparties the later wording finally calls "companies owned by senior management who report directly to the board." The notes leave the companies unnamed. They leave the managers unnamed. Corporate registries will, eventually. That identification, and the fifteen-year governance history around the same note, is the next instalment's job (and a follow-on map piece after it). This one stops at the shape of the edge: the people who run the agency own companies, the agency pays those companies, and the public record's entire account of the arrangement is one sentence and a number per year.
 
-That is enough map for one sitting. The funded ecosystem feeds the boardroom. The chair line runs through the sector's own leadership. The Trusted Partners sit on the intake page without published referral counts. A concurrent Builders-Future Fields edge sits beside the retrospectives and waits on recusal evidence. The CRIN commercial wire is historical; the dual board listing is current. And the management-owned companies sit in the notes like a door with the nameplate removed.
+That is enough map for one sitting. The funded ecosystem feeds the boardroom. The chair line runs through the sector's own leadership. The Trusted Partners sit on the intake page without published referral counts. A concurrent Builders-Future Fields edge sits beside the retrospectives as documented co-occurrence; the public file does not yet show a recusal record for it. The CRIN commercial wire is historical; the dual board listing is current. And the management-owned companies sit in the notes like a door with the nameplate removed.
 
 Next: the companies the board pays itself, read across fifteen years of the same note. Then the names those notes still withhold.
 
 ---
 
-*If I have misread a relationship or a date, the documents are linked below; show me and I will correct it. Named individuals receive right-of-reply before this draft is published.*
+*If I have misread a relationship or a date, the documents are linked below; show me and I will correct it.*
 
 ### Sources
 
@@ -93,7 +102,7 @@ Next: the companies the board pays itself, read across fifteen years of the same
 4. Pangaea Ventures portfolio listing for CarbonCure Technologies: [pangaeaventures.com/portfolio](https://pangaeaventures.com/portfolio) (fetched 2026-07-11). Builders VC and ERA portfolio reconstruction for Future Fields: working notes held with the investigation file.
 5. ERA media releases on board chair appointments and transitions: Sendall chair era and rebrand/CEO hire; Collyer appointment (Oct 1, 2018) and completion (Sep 30, 2023), including prior CAPP and Shell Canada roles as stated in ERA materials; Moss interim chair appointment language ("appointed interim Board Chair for ERA by the Government of Alberta"), Oct 2023. [eralberta.ca](https://www.eralberta.ca/)
 6. ERA Annual Report 2025: five new board members appointed; Trusted Partners welcome language ("Welcomed four new trusted partners").
-7. ERA Trusted Partners page (roster as refreshed 2026-07-11 from the public page): Government of Alberta, Alberta Innovates, Canada Infrastructure Bank, Export Development Canada, Genome Alberta, Métis Settlements Development Corporation, Natural Resources Canada, NGIF Accelerator, NorthX Climate Tech, PTAC, PrairiesCan, Results Driven Agriculture Research (RDAR). [eralberta.ca](https://www.eralberta.ca/)
+7. ERA Trusted Partners page (roster as refreshed 2026-07-11 from the public page): Government of Alberta, Alberta Innovates, Canada Infrastructure Bank, Export Development Canada, Genome Alberta, MÃ©tis Settlements Development Corporation, Natural Resources Canada, NGIF Accelerator, NorthX Climate Tech, PTAC, PrairiesCan, Results Driven Agriculture Research (RDAR). [eralberta.ca](https://www.eralberta.ca/)
 8. ERA Financial Statements FY2021 and FY2022: competition coordination agreement with CRIN executed February 10, 2021; CRIN-related revenue $58,658 (FY2021) and $563,019 (FY2022). FY2023 statements: agreement ended FY2021-22; receivables collected; CRIN revenue $0. FY2024 statements: no CRIN revenue line located.
 9. ERA Financial Statements FY2017 through FY2025, remuneration notes: fees to contract management / companies owned by senior management who report directly to the board ($287,595 to $333,455 per year; about $2.75M cumulative FY2017 through FY2025). Identities of the companies are not disclosed in the notes.
 10. ERA privacy policy reference to a Conflict of Interest Policy (policy document and any public recusal register not located in materials reviewed for this draft).

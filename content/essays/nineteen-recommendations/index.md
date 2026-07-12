@@ -1,11 +1,12 @@
----
+﻿---
 title: "Nineteen Recommendations"
 description: "The Auditor General once counted nineteen outstanding recommendations at Environment and Protected Areas. The live list is shorter. Two of the survivors are now marked not implemented."
 author: "Lars J. Frank"
-date: 2026-09-01T09:00:00-06:00
-draft: true
+date: 2026-07-11T10:00:00-06:00
+draft: false
 slug: "nineteen-recommendations"
 topics: ["Alberta", "TIER", "public accounts", "Auditor General"]
+images: ["ag-outstanding.png"]
 summary: "An essay from the Auditor General's recommendation tracker. Nineteen outstanding items at Environment and Protected Areas became thirteen, and two of those thirteen are recommendations the department has said it will not implement."
 ---
 
@@ -20,6 +21,10 @@ That is the number this site's topic list picked up, and it was correct for that
 It is no longer the live number.
 
 In the Auditor General's December 2025 report on the province's 2024-25 consolidated financial statements, Environment and Protected Areas sits at thirteen outstanding recommendations. Nine are older than three years. Two carry a status the office uses sparingly: Not Implemented. That status means the department previously accepted the recommendation and has since told the Auditor General it no longer plans to implement it. The recommendation stays on the outstanding list because the underlying risk, in the Auditor General's judgment, remains.
+
+![Horizontal bars comparing Environment and Protected Areas Auditor General recommendations: 19 outstanding in December 2023, 13 outstanding in December 2025, with the current list broken into Not Ready, Ready for assessment, and Not Implemented, plus closed or implemented items in the working file.](ag-outstanding.png?v=1)
+
+*Nineteen became thirteen. Two of the thirteen are refusals that stay on the list.*
 
 Thirteen is better arithmetic than nineteen if you are keeping score on closures. It is a messier story if you read the two refusals.
 

@@ -2,15 +2,15 @@
 title: "The Companies the Board Pays Itself"
 description: "For eight years the agency had no staff of its own. It never fully stopped paying the companies of the people who run it."
 author: "Lars J. Frank"
-date: 2026-09-04T09:00:00-06:00
-draft: true
+date: 2026-07-11T11:00:00-06:00
+draft: false
 slug: "part-7-the-companies-the-board-pays-itself"
 series: "The TIER Files"
 part: 7
 featured: false
 topics: ["Alberta", "TIER", "carbon pricing", "climate policy", "public accounts"]
 url: "/series/the-tier-files/part-7-the-companies-the-board-pays-itself/"
-images: ["p7-two-eras.png"]
+images: ["cover.png", "p7-two-eras.png"]
 summary: "Part 7 of The TIER Files. Fifteen years of remuneration notes: an agency run entirely by board-reporting contractors, a 93 per cent restatement nobody explained, and a payment stream to management-owned companies that never stopped."
 ---
 
@@ -21,17 +21,17 @@ summary: "Part 7 of The TIER Files. Fifteen years of remuneration notes: an agen
 
 ---
 
-Every set of audited financial statements has a note where the related parties live, and if you read enough years of them in a row, the notes stop being disclosures and start being a story. This instalment is that story, told across fifteen years of one recurring note in the statements of CCEMC and then ERA, and I want to say up front that every number and every quoted phrase below is the organization's own, signed off by its auditors, published on its own website. I am not revealing anything. I am just reading in order.
+Every set of audited financial statements has a note where the related parties live, and if you read enough years of them in a row, the notes stop being disclosures and start being a story. This instalment is that story, told across fifteen years of one recurring note in the statements of CCEMC and then ERA, and I want to say up front that every number and every quoted phrase below is the organization's own, signed off by its auditors, published on its own website. The work is reading the notes in order.
 
 ### The years with no staff
 
-Here is a thing I did not expect to learn when I started this series: for roughly its first eight years, the corporation distributing Alberta's industrial carbon compliance money had no staff of its own. The entire program management function, the people evaluating projects and running competitions and writing the cheques, was delivered by external contractors, and not contractors at arm's length either. The notes describe them, year after year, as contract management "who report directly to the Board."
+Here is a thing I did not expect to learn when I started this series: for roughly its first eight years, the corporation distributing Alberta's industrial carbon compliance money had no staff of its own. The entire program management function, the people evaluating projects and running competitions and writing the cheques, was delivered by external contractors with a reporting line straight to the board. The notes describe them, year after year, as contract management "who report directly to the Board."
 
 The fees, as disclosed: $2.65 million in fiscal 2010, then $3.35 million, then $4.31 million, then $7.07 million in fiscal 2013 as first reported, then $6.84 million, then a gap (we'll get to the gap, it has its own instalment), then $4.31 million and $4.38 million. Add it up and the outsourced-management era cost roughly $31.7 million, paid to board-reporting contractors, during the same years the corporation was approving hundreds of millions in project funding.
 
 You can defend this design, and people did. A new fund wants to move fast, hiring public-sector staff is slow, and buying an experienced management team off the shelf gets money flowing in year one instead of year three. Fine. But hold the structure in your head for a second: a board, and reporting directly to that board, private companies being paid millions a year to be the organization. There is no layer in that arrangement where an employee with a duty to the institution sits between the governors and the vendors, because the vendors are the institution.
 
-![Bar chart of fees disclosed in the remuneration note, fiscal 2010 through 2025: millions per year to board-reporting contract management through 2017, then a sudden drop to roughly 300 thousand per year to companies owned by senior management, with the fiscal 2013 as-first-reported figure and the unexplained 93 per cent restatement of the 2017 comparative annotated.](p7-two-eras.png)
+![Bar chart of fees disclosed in the remuneration note, fiscal 2010 through 2025: millions per year to board-reporting contract management through 2017, then a sudden drop to roughly 300 thousand per year to companies owned by senior management, with the fiscal 2013 as-first-reported figure and the unexplained 93 per cent restatement of the 2017 comparative annotated.](p7-two-eras.png?v=1)
 
 *One recurring note, two eras, and a restatement in the middle that nobody explained.*
 
@@ -43,7 +43,7 @@ That is a 93 per cent reduction in an audited comparative figure, between two se
 
 > **When an audited number shrinks 93 per cent between one year's statements and the next, somebody, somewhere, wrote a memo about it. The public just never gets the memo.**
 
-I am asking the organization for the reconciliation. This page will be corrected or expanded with whatever answer arrives.
+The public statements do not contain that reconciliation. If ERA publishes one, this page will be corrected or expanded.
 
 ### The arrangement that never ended
 
@@ -61,13 +61,13 @@ Same line. Same arrangement. Same approximate amount. The only thing that change
 
 To be precise about what the record supports, because precision is the whole game here: the notes leave the companies unnamed. They leave unnamed which senior managers own them. They leave undescribed what the fees purchase. They leave unstated whether the arrangements were competitively procured or how the board satisfies itself annually that paying its own executives' companies is the best available deal. All of that may have perfectly boring answers. Corporate registries exist, and a future instalment of this series is being built from them, along with the rest of the map of who owns what and who sat where across seventeen years of this ecosystem.
 
-And the fair paragraph, as always, because it is earned: this is disclosed. Every year, in an audited statement, reviewed by a Big Four firm, published voluntarily in a PDF anyone can download. Organizations that wanted to hide this arrangement had easier options than describing it annually in progressively more accurate language. The people involved may well provide services at below-market rates out of genuine commitment to the mandate. The public record is silent on that point either way.
+And the fair paragraph, as always, because it is earned: this is disclosed. Every year, in an audited statement, reviewed by a Big Four firm, published voluntarily in a PDF anyone can download. The arrangement appears annually in audited language that has grown more exact over time. The people involved may well provide services at below-market rates out of genuine commitment to the mandate. The public record is silent on that point either way.
 
 The silence is the actual finding. A public agency distributing a compliance levy has paid companies owned by its own senior management, continuously, for at least nine years, and the entire public accounting of that arrangement is one sentence per year and a number. The bar for spending other people's mandatory payments is supposed to sit a little higher than "technically disclosed."
 
-> **The organization that wanted to hide this had easier options. The organization that wanted to justify it never has.**
+> **The arrangement is disclosed in a sentence and a number. The public file still withholds the company names, the managers, and what the fees buy.**
 
-Next: Part 8, fixing the machine, timed for the statutory TIER review. The network map that sits beside this note is already drafted as Part 6.
+Next: Part 8, fixing the machine, timed for the statutory TIER review. The network map that sits beside this note is Part 6.
 
 ---
 

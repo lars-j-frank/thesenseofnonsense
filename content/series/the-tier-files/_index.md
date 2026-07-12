@@ -21,4 +21,10 @@ This series follows the money: where TIER revenue comes from, where it actually 
 
 **Part 4: The Float** (13 June 2026): sixteen years of disbursements against the $1.17 billion headline, and the year cancellations outran payments. Closes by pointing to money that leaves the province, and the paper trail that stopped being published.
 
-Next in the pipeline (drafts in progress, not yet published): attribute leakage across borders; the small world of funders and funded; fifteen years of remuneration notes; then a constructive brief ahead of the statutory TIER review.
+**Part 5: Paid in Alberta, Claimed Everywhere** (27 June 2026): Alberta TIER money funded biogas plants whose biomethane attributes appear in BCUC dockets; the province's own climate plan admits most RNG attributes leave for British Columbia.
+
+**Part 6: The Small World** (11 July 2026): a documented map of board seats, funded companies, and Trusted Partners: the pipeline from the ecosystem to the boardroom.
+
+**Part 7: The Companies the Board Pays Itself** (11 July 2026): fifteen years of remuneration notes on companies owned by senior management who report to the board.
+
+Still ahead: a constructive brief before the statutory TIER review at the end of 2026, and the next audited statements when they land.
