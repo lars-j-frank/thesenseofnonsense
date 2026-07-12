@@ -33,7 +33,7 @@ Here is what that line has looked like in the government's own estimates and yea
 | 2025-26 | 10,541 | 10,541 (forecast) |
 | 2026-27 | 10,541 | estimate year |
 
-![Grouped bar chart of AEPA program 9.1: the voted budget sits at exactly 10.541 million dollars in five consecutive budgets while actual spending came in at 7.1, 7.5, and 8.2 million.](p2-frozen-line.png?v=4)
+![Grouped bar chart of AEPA program 9.1: the voted budget sits at exactly 10.541 million dollars in five consecutive budgets while actual spending came in at 7.1, 7.5, and 8.2 million.](p2-frozen-line.png?v=5)
 
 *Five budgets, one number, underspent in every completed year.*
 
@@ -49,11 +49,11 @@ It's hard to feel a number like $8.2 million without something beside it, so her
 
 Emissions Reduction Alberta, the arm's-length agency that receives the grants and writes the cheques (and which we will spend considerable time with later in this series), reported operating expenses of $11.4 million in its most recent year, and between $9.5 and $11.4 million in each of the past four. So the organization that distributes the money costs more to run, every single year, than the entire provincial operation that regulates the market the money comes from. The cheque-writer out-budgets the referee.
 
-![Grouped bar chart comparing AEPA climate regulatory operations spending of 7 to 8 million dollars per year against ERA operating expenses of 9.5 to 11.4 million per year.](p2-referee-vs-bank.png?v=4)
+![Grouped bar chart comparing AEPA climate regulatory operations spending of 7 to 8 million dollars per year against ERA operating expenses of 9.5 to 11.4 million per year.](p2-referee-vs-bank.png?v=5)
 
 *The agency distributing the money costs more to run than the operation regulating the market. Fiscal years differ by two months (AEPA March 31; ERA May 31).*
 
-![Horizontal bar chart placing the regulatory branch's 8.2 million dollar spend beside the 936 million dollar TIER revenue it polices, ERA's 539 million in holdings, ERA's 25.6 million in interest, and ERA's 11.4 million overhead.](p2-scale.png?v=4)
+![Horizontal bar chart placing the regulatory branch's 8.2 million dollar spend beside the 936 million dollar TIER revenue it polices, ERA's 539 million in holdings, ERA's 25.6 million in interest, and ERA's 11.4 million overhead.](p2-scale.png?v=5)
 
 *The referee, drawn to scale against the money it is responsible for.*
 

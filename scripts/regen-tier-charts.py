@@ -87,7 +87,7 @@ def make_cover(chart_path: Path, out: Path, part: int, title: str):
     print("wrote", out.relative_to(ROOT))
 
 
-def labeled_box(ax, x, y, w, h, text, face, tc=INK, fs=9):
+def labeled_box(ax, x, y, w, h, text, face, tc=INK, fs=8.5):
     ax.add_patch(FancyBboxPatch(
         (x, y), w, h, boxstyle="square,pad=0",
         linewidth=1, edgecolor=GRID, facecolor=face,
@@ -113,7 +113,7 @@ ax.bar(x, grants, w, label="Innovation & technology grants", color=MUTED)
 ax.bar(x, grf, w, bottom=grants, label="Transfers to General Revenue Fund", color=HIGHLIGHT)
 ax.set_xticks(x)
 ax.set_xticklabels(years)
-ax.set_ylabel("$ millions")
+ax.set_ylabel("\\$ millions")
 ax.set_ylim(0, 560)
 ax.yaxis.grid(True, color=GRID, linewidth=0.6)
 ax.set_axisbelow(True)
@@ -125,11 +125,11 @@ for i, (g, t) in enumerate(zip(grants, grf)):
 save(fig, p1 / "tier-fund-flow.png")
 
 fig, ax = plt.subplots(figsize=(10, 4.4))
-style_ax(ax, "$1.85 to general revenue per dollar granted")
+style_ax(ax, "\\$1.85 to general revenue per dollar granted")
 vals = [590.0, 1088.8]
 labs = [
-    "Innovation & technology grants\n$590M (4-year)",
-    "Transfers to General Revenue Fund\n$1,089M (4-year)",
+    "Innovation & technology grants\n\\$590M (4-year)",
+    "Transfers to General Revenue Fund\n\\$1,089M (4-year)",
 ]
 cols = [MUTED, HIGHLIGHT]
 ax.barh([1, 0], vals, color=cols, height=0.55)
@@ -137,7 +137,7 @@ ax.set_xlim(0, 1300)
 ax.set_yticks([])
 ax.xaxis.grid(True, color=GRID, linewidth=0.6)
 ax.set_axisbelow(True)
-ax.set_xlabel("$ millions")
+ax.set_xlabel("\\$ millions")
 ax.text(30, 1, labs[0], va="center", color=INK, fontsize=10, fontweight="bold")
 ax.text(30, 0, labs[1], va="center", color=BG, fontsize=10, fontweight="bold")
 ax.annotate(
@@ -148,18 +148,18 @@ ax.annotate(
 save(fig, p1 / "p1-ratio.png")
 
 fig, ax = plt.subplots(figsize=(10, 5.0))
-style_ax(ax, "TIER Fund accumulated surplus tripled to $1.1B")
+style_ax(ax, "TIER Fund accumulated surplus tripled to \\$1.1B")
 ys = ["FY2022", "FY2023", "FY2024", "FY2025"]
 surplus = [336.8, 591.8, 1016.6, 1105.4]
 ax.fill_between(ys, surplus, color=HIGHLIGHT, alpha=0.18)
 ax.plot(ys, surplus, color=HIGHLIGHT, linewidth=2.4, marker="o", markersize=5)
 ax.set_ylim(0, 1300)
-ax.set_ylabel("$ millions")
+ax.set_ylabel("\\$ millions")
 ax.yaxis.grid(True, color=GRID, linewidth=0.6)
 ax.set_axisbelow(True)
 for x_, y_ in zip(ys, surplus):
     ax.annotate(
-        f"${y_:,.0f}M", (x_, y_), textcoords="offset points", xytext=(0, 8),
+        f"\\${y_:,.0f}M", (x_, y_), textcoords="offset points", xytext=(0, 8),
         ha="center", fontsize=9, color=INK,
     )
 save(fig, p1 / "tier-surplus.png")
@@ -170,11 +170,11 @@ rev = [709.4, 772.1, 936.2, 223.3]
 cols = [MUTED, MUTED, MUTED, HIGHLIGHT]
 ax.bar(ys, rev, color=cols, width=0.6)
 ax.set_ylim(0, 1100)
-ax.set_ylabel("$ millions")
+ax.set_ylabel("\\$ millions")
 ax.yaxis.grid(True, color=GRID, linewidth=0.6)
 ax.set_axisbelow(True)
 for x_, y_ in zip(ys, rev):
-    ax.text(x_, y_ + 28, f"${y_:,.0f}M", ha="center", fontsize=9, color=INK, fontweight="bold")
+    ax.text(x_, y_ + 28, f"\\${y_:,.0f}M", ha="center", fontsize=9, color=INK, fontweight="bold")
 ax.annotate(
     "−76%", xy=(3, 223), xytext=(2.15, 520),
     fontsize=12, fontweight="bold", color=HIGHLIGHT,
@@ -194,10 +194,10 @@ ax.text(
     fontsize=13, fontweight="bold", color=INK, ha="left",
 )
 labeled_box(ax, 34, 80, 32, 10, "Regulated facility\npays fund credit", WASH, fs=9)
-labeled_box(ax, 34, 64, 32, 10, "TIER Fund\n$2.64B collected (4 yrs)", MUTED_LIGHT, fs=9)
-labeled_box(ax, 3, 40, 28, 12, "Grants\n$590M (~22%)", MUTED, fs=9)
-labeled_box(ax, 36, 40, 28, 12, "General revenue\n$1,089M (~41%)", HIGHLIGHT, BG, fs=9)
-labeled_box(ax, 69, 40, 28, 12, "Held as surplus\n$1,105M end FY2025", SECONDARY, BG, fs=9)
+labeled_box(ax, 34, 64, 32, 10, "TIER Fund\n\\$2.64B collected (4 yrs)", MUTED_LIGHT, fs=9)
+labeled_box(ax, 3, 40, 28, 12, "Grants\n\\$590M (~22%)", MUTED, fs=9)
+labeled_box(ax, 36, 40, 28, 12, "General revenue\n\\$1,089M (~41%)", HIGHLIGHT, BG, fs=9)
+labeled_box(ax, 69, 40, 28, 12, "Held as surplus\n\\$1,105M end FY2025", SECONDARY, BG, fs=9)
 labeled_box(ax, 3, 18, 28, 11, "Mostly ERA &\nother delivery agents", WASH, fs=8)
 labeled_box(ax, 36, 18, 28, 11, "Indistinguishable from\ntax / royalty once in", WASH, fs=8)
 labeled_box(ax, 69, 18, 28, 11, "Not granted.\nNot transferred.", WASH, fs=8)
@@ -220,7 +220,7 @@ yrs = ["2022-23", "2023-24", "2024-25", "2025-26", "2026-27"]
 voted = [10.541, 10.541, 10.541, 10.541, 10.541]
 actual = [7.097, 7.468, 8.204, 10.541, None]
 fig, ax = plt.subplots(figsize=(10, 5.2))
-style_ax(ax, "Program 9.1 budget frozen at $10.541M for five years")
+style_ax(ax, "Program 9.1 budget frozen at \\$10.541M for five years")
 x = np.arange(len(yrs))
 ax.bar(x - 0.18, voted, 0.36, color=MUTED, label="Voted budget")
 for i, a in enumerate(actual):
@@ -230,7 +230,7 @@ for i, a in enumerate(actual):
     ax.bar(i + 0.18, a, 0.36, color=color, label="Actual / forecast" if i == 0 else None)
 ax.set_xticks(x)
 ax.set_xticklabels(yrs)
-ax.set_ylabel("$ millions")
+ax.set_ylabel("\\$ millions")
 ax.set_ylim(0, 13.5)
 ax.yaxis.grid(True, color=GRID, linewidth=0.6)
 ax.set_axisbelow(True)
@@ -252,7 +252,7 @@ ax.bar(x - 0.18, reg, 0.36, color=MUTED, label="AEPA program 9.1 (actual)")
 ax.bar(x + 0.18, era, 0.36, color=HIGHLIGHT, label="ERA operating expenses")
 ax.set_xticks(x)
 ax.set_xticklabels(labels)
-ax.set_ylabel("$ millions")
+ax.set_ylabel("\\$ millions")
 ax.set_ylim(0, 14)
 ax.yaxis.grid(True, color=GRID, linewidth=0.6)
 ax.set_axisbelow(True)
@@ -282,11 +282,11 @@ ax.set_yticks(y)
 ax.set_yticklabels(labs, fontsize=9)
 ax.invert_yaxis()
 ax.set_xlim(0, 1150)
-ax.set_xlabel("$ millions")
+ax.set_xlabel("\\$ millions")
 ax.xaxis.grid(True, color=GRID, linewidth=0.6)
 ax.set_axisbelow(True)
 for yi, v in zip(y, vals):
-    ax.text(v + 15, yi, f"${v:,.1f}M", va="center", fontsize=9, color=INK)
+    ax.text(v + 15, yi, f"\\${v:,.1f}M", va="center", fontsize=9, color=INK)
 save(fig, p2 / "p2-scale.png")
 make_cover(p2 / "p2-scale.png", p2 / "cover.png", 2, "The Eight-Million-Dollar Regulator")
 
@@ -300,12 +300,12 @@ disb = [44.0, 100.7, 84.4, 84.3, 71.7]
 ax.plot(fy, hold, color=HIGHLIGHT, linewidth=2.4, marker="o", label="Cash & investments")
 ax.bar(fy, disb, color=MUTED, width=0.45, label="Project disbursements")
 ax.set_ylim(0, 680)
-ax.set_ylabel("$ millions")
+ax.set_ylabel("\\$ millions")
 ax.yaxis.grid(True, color=GRID, linewidth=0.6)
 ax.set_axisbelow(True)
 ax.legend(frameon=False, fontsize=9)
 ax.annotate(
-    "$539.5M held", xy=(4, 539.5), xytext=(2.4, 610),
+    "\\$539.5M held", xy=(4, 539.5), xytext=(2.4, 610),
     fontsize=9, color=HIGHLIGHT,
     arrowprops=dict(arrowstyle="->", color=HIGHLIGHT),
 )
@@ -317,13 +317,13 @@ interest = [4.6, 5.3, 19.2, 29.7, 25.6]
 cols = [MUTED, MUTED, MUTED, HIGHLIGHT, MUTED]
 ax.bar(fy, interest, color=cols, width=0.55)
 ax.set_ylim(0, 38)
-ax.set_ylabel("$ millions")
+ax.set_ylabel("\\$ millions")
 ax.yaxis.grid(True, color=GRID, linewidth=0.6)
 ax.set_axisbelow(True)
 for x_, y_ in zip(fy, interest):
-    ax.text(x_, y_ + 0.7, f"${y_:.1f}M", ha="center", fontsize=9, color=INK, fontweight="bold")
+    ax.text(x_, y_ + 0.7, f"\\${y_:.1f}M", ha="center", fontsize=9, color=INK, fontweight="bold")
 ax.annotate(
-    ">$½ of grant revenue\n($51.9M)", xy=(3, 29.7), xytext=(1.2, 33),
+    "Over half of grant revenue\n($51.9M)", xy=(3, 29.7), xytext=(1.2, 33),
     fontsize=9, color=HIGHLIGHT,
     arrowprops=dict(arrowstyle="->", color=HIGHLIGHT),
 )
@@ -340,10 +340,10 @@ ax.text(
     fontsize=13, fontweight="bold", color=INK,
 )
 rows = [
-    ("Cash", "$309.5M", "Demand deposits"),
-    ("Short-term GICs", "$40.0M", "Scotiabank & CWB · 4.54–5.49%"),
-    ("Long-term GICs", "$190.0M", "Scotiabank & ATB · 3.75–4.14% · Nov 2026–Apr 2027"),
-    ("Total holdings", "$539.5M", "As of May 31, 2025 (Note 5)"),
+    ("Cash", "\\$309.5M", "Demand deposits"),
+    ("Short-term GICs", "\\$40.0M", "Scotiabank & CWB · 4.54–5.49%"),
+    ("Long-term GICs", "\\$190.0M", "Scotiabank & ATB · 3.75–4.14% · Nov 2026–Apr 2027"),
+    ("Total holdings", "\\$539.5M", "As of May 31, 2025 (Note 5)"),
 ]
 y = 78
 for i, (a, b, c) in enumerate(rows):
@@ -368,38 +368,38 @@ make_cover(p3 / "p3-holdings.png", p3 / "cover.png", 3, "The Climate Fund That B
 # --- Part 4 ---
 p4 = SERIES / "part-4-the-float"
 fig, ax = plt.subplots(figsize=(10, 5.2))
-style_ax(ax, "Sixteen years of payouts sit far below the $1.17B commitment")
+style_ax(ax, "Sixteen years of payouts sit far below the \\$1.17B commitment")
 annual = [0, 0.1, 23, 22, 37.1, 30, 28, 21.7, 34.1, 33.6, 38.2, 44, 100.7, 84.4, 84.3, 71.7]
 cum = np.cumsum(annual)
 years_n = list(range(2010, 2026))
 ax.plot(years_n, cum, color=HIGHLIGHT, linewidth=2.4, label="Cumulative project expenses")
-ax.axhline(1170, color=MUTED, linestyle="--", linewidth=1.5, label="$1.17B committed (headline)")
+ax.axhline(1170, color=MUTED, linestyle="--", linewidth=1.5, label="\\$1.17B committed (headline)")
 ax.set_ylim(0, 1400)
-ax.set_ylabel("$ millions")
+ax.set_ylabel("\\$ millions")
 ax.yaxis.grid(True, color=GRID, linewidth=0.6)
 ax.set_axisbelow(True)
 ax.legend(frameon=False, fontsize=9)
 ax.annotate(
-    f"~${cum[-1]:.0f}M paid", xy=(2025, cum[-1]), xytext=(2015, 900),
+    f"~\\${cum[-1]:.0f}M paid", xy=(2025, cum[-1]), xytext=(2015, 900),
     fontsize=9, color=HIGHLIGHT,
     arrowprops=dict(arrowstyle="->", color=HIGHLIGHT),
 )
 save(fig, p4 / "era-float.png")
 
 fig, ax = plt.subplots(figsize=(10, 5.2))
-style_ax(ax, "FY2025: ERA un-funded more ($82.7M) than it paid out ($71.7M)")
+style_ax(ax, "FY2025: ERA un-funded more (\\$82.7M) than it paid out (\\$71.7M)")
 cy = ["FY2022", "FY2023", "FY2024", "FY2025"]
 canc = [19.9, 22.6, 53.8, 82.7]
 cols = [MUTED, MUTED, MUTED, HIGHLIGHT]
 ax.bar(cy, canc, color=cols, width=0.55)
 ax.axhline(71.7, color=SECONDARY, linestyle="--", linewidth=1.4)
-ax.text(3.28, 74, "Paid out FY2025\n$71.7M", fontsize=8, color=SECONDARY, ha="left")
+ax.text(3.28, 74, "Paid out FY2025\n\\$71.7M", fontsize=8, color=SECONDARY, ha="left")
 ax.set_ylim(0, 100)
-ax.set_ylabel("$ millions cancelled / terminated")
+ax.set_ylabel("\\$ millions cancelled / terminated")
 ax.yaxis.grid(True, color=GRID, linewidth=0.6)
 ax.set_axisbelow(True)
 for x_, y_ in zip(cy, canc):
-    ax.text(x_, y_ + 2.2, f"${y_:.1f}M", ha="center", fontsize=9, fontweight="bold", color=INK)
+    ax.text(x_, y_ + 2.2, f"\\${y_:.1f}M", ha="center", fontsize=9, fontweight="bold", color=INK)
 save(fig, p4 / "p4-cancellations.png")
 
 fig, ax = plt.subplots(figsize=(11, 6.4))
@@ -414,7 +414,7 @@ ax.text(
 )
 labeled_box(ax, 6, 74, 26, 12, "Announcement &\ncontribution agreement", WASH, fs=9)
 labeled_box(ax, 37, 74, 26, 12, "Float\n(cash + GIC ladder)", MUTED_LIGHT, fs=9)
-labeled_box(ax, 68, 74, 26, 12, "Milestone payments\n~55–60¢ / $", MUTED, fs=9)
+labeled_box(ax, 68, 74, 26, 12, "Milestone payments\n~55–60¢ / \\$", MUTED, fs=9)
 labeled_box(ax, 37, 44, 26, 12, "Quiet death\ncancel / terminate / On Hold", HIGHLIGHT, BG, fs=9)
 labeled_box(ax, 6, 16, 26, 12, "Re-announce\nin new challenge", WASH, fs=9)
 labeled_box(ax, 37, 16, 26, 12, "Interest clawback\n/ netting", WASH, fs=9)
