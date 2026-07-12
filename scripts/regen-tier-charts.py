@@ -13,15 +13,15 @@ ROOT = Path(__file__).resolve().parents[1]
 SERIES = ROOT / "content" / "series" / "the-tier-files"
 
 BG = "#FFFFFF"
-WASH = "#F7F5F0"
-INK = "#1A1A1A"
-MUTED = "#B0B0B0"
-MUTED_LIGHT = "#D0D0D0"
-HIGHLIGHT = "#C45C26"  # Sense of Nonsense brand
-SECONDARY = "#4A4A4A"
-GRID = "#E8E8E8"
-POS = "#2F6F4E"
-NEG = "#C45C26"
+WASH = "#F3F3F2"
+INK = "#3C3D3C"       # Rich Grey
+MUTED = "#8B8783"    # Titanium
+MUTED_LIGHT = "#C5C3C0"
+HIGHLIGHT = "#DE0000"  # Glossy Red
+SECONDARY = "#525252"  # Manhattan Gray
+GRID = "#D6D4D1"
+POS = "#525252"
+NEG = "#B50000"      # Deep Bright Red
 SOURCE = "Source: audited statements / AEPA & ERA public filings. thesenseofnonsense.com"
 
 plt.rcParams.update({
@@ -75,7 +75,7 @@ def make_cover(chart_path: Path, out: Path, part: int, title: str):
     d = ImageDraw.Draw(cover)
     d.rectangle([0, 0, 8, H], fill=HIGHLIGHT)
     d.rectangle([0, H - band_h, W, H], fill=BG)
-    d.line([(pad, H - band_h), (W - pad, H - band_h)], fill="#E6E2DA", width=2)
+    d.line([(pad, H - band_h), (W - pad, H - band_h)], fill="#D6D4D1", width=2)
     try:
         fk = ImageFont.truetype("C:/Windows/Fonts/arialbd.ttf", 26)
         ft = ImageFont.truetype("C:/Windows/Fonts/georgia.ttf", 48)
@@ -85,7 +85,7 @@ def make_cover(chart_path: Path, out: Path, part: int, title: str):
     y0 = H - band_h + 28
     d.text((pad + 6, y0), f"THE TIER FILES  ·  PART {part}", fill=HIGHLIGHT, font=fk)
     d.text((pad + 6, y0 + 42), title, fill=INK, font=ft)
-    d.text((pad + 6, H - 42), "thesenseofnonsense.com", fill="#6B6B6B", font=fs)
+    d.text((pad + 6, H - 42), "thesenseofnonsense.com", fill="#8B8783", font=fs)
     cover.save(out, "PNG", optimize=True)
     print("wrote", out.relative_to(ROOT))
 
@@ -117,7 +117,7 @@ save(fig, p1 / "tier-fund-flow.png")
 
 # ratio
 fig, ax = plt.subplots(figsize=(8.5, 3.8))
-style_ax(ax, "$1.85 to general revenue for every dollar granted")
+style_ax(ax, "$1.85 to general revenue per dollar granted")
 vals = [590.0, 1088.8]
 labs = ["Innovation & technology grants\n$590M (4-year)", "Transfers to General Revenue Fund\n$1,089M (4-year)"]
 cols = [MUTED, HIGHLIGHT]

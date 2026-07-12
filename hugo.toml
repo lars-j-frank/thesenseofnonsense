@@ -35,7 +35,7 @@ buildExpired = false
   author = "Lars J. Frank"
   copyright = "Lars J. Frank"
   dateFormat = "2 January 2006"
-  accentColor = "#C45C26"
+  accentColor = "#DE0000"
   mainSections = ["series"]
   featuredSeries = "the-tier-files"
 
