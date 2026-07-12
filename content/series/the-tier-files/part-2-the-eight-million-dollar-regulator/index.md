@@ -9,7 +9,7 @@ series: "The TIER Files"
 part: 2
 featured: false
 topics: ["Alberta", "TIER", "carbon pricing", "climate policy", "public accounts"]
-images: ["p2-frozen-line.png"]
+images: ["cover.png"]
 summary: "Part 2 of The TIER Files. The provincial branch regulating a multi-billion-dollar carbon market runs on less than the interest income of the agency holding the grant money."
 ---
 

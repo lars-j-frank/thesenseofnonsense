@@ -9,7 +9,7 @@ series: "The TIER Files"
 part: 3
 featured: false
 topics: ["Alberta", "TIER", "carbon pricing", "climate policy", "public accounts"]
-images: ["p3-holdings.png"]
+images: ["cover.png"]
 summary: "Part 3 of The TIER Files. ERA's GIC ladder runs to 2027, its interest income topped half its grant revenue, and the province wrote a clawback clause that says everything."
 ---
 

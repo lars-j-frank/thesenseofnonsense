@@ -9,7 +9,7 @@ series: "The TIER Files"
 part: 1
 featured: true
 topics: ["Alberta", "TIER", "carbon pricing", "climate policy", "public accounts"]
-images: ["tier-fund-flow.png"]
+images: ["cover.png"]
 summary: "Part 1 of The TIER Files. Four years of audited statements show Alberta's industrial carbon fund sent $1.85 to general revenue for every dollar it granted to emissions reduction."
 ---
 

@@ -6,6 +6,10 @@
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
   <link rel="canonical" href="{{ .Permalink }}" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <meta name="theme-color" content="#9E1B32" />
   <link rel="stylesheet" href="/css/sense.css" />
   {{ block "extrahead" . }}{{ end }}
 </head>
@@ -14,10 +18,13 @@
   
   <header class="site-header">
     <div class="header-inner">
-      <div class="site-brand">
-        <a href="{{ "/" | relURL }}" class="site-title">{{ .Site.Title }}</a>
-        <span class="site-tagline">{{ .Site.Params.tagline }}</span>
-      </div>
+      <a href="{{ "/" | relURL }}" class="site-brand">
+        <img src="/logo.svg" alt="" class="site-logo" width="36" height="36" />
+        <span class="site-brand-text">
+          <span class="site-title">{{ .Site.Title }}</span>
+          <span class="site-tagline">{{ .Site.Params.tagline }}</span>
+        </span>
+      </a>
       <nav class="site-nav" aria-label="Main navigation">
         <button class="nav-toggle" aria-label="Toggle menu" type="button">
           <span></span><span></span><span></span>
@@ -39,7 +46,7 @@
   <footer class="site-footer">
     <div class="footer-inner">
       <p class="footer-copy">&copy; {{ now.Format "2006" }} {{ .Site.Params.author }}. All rights reserved.</p>
-      <p class="footer-ethos">Stories and analysis from within the nonsense</p>
+      <p class="footer-ethos">The story is in the ledger.</p>
     </div>
   </footer>
 

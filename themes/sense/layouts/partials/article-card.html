@@ -1,0 +1,50 @@
+{{- $p := . -}}
+{{- $extraClass := "" -}}
+{{- if reflect.IsMap . -}}
+  {{- $p = .page -}}
+  {{- $extraClass = .class | default "" -}}
+{{- end -}}
+{{- $cover := "" -}}
+{{- with $p.Params.images -}}
+  {{- if gt (len .) 0 -}}
+    {{- $name := index . 0 -}}
+    {{- with $p.Resources.GetMatch $name -}}
+      {{- $cover = .RelPermalink -}}
+    {{- else -}}
+      {{- $cover = printf "%s%s" $p.RelPermalink $name -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $cover -}}
+  {{- with $p.Resources.GetMatch "cover.png" -}}
+    {{- $cover = .RelPermalink -}}
+  {{- end -}}
+{{- end -}}
+{{- $kicker := "" -}}
+{{- with $p.Params.series -}}
+  {{- $kicker = . -}}
+  {{- with $p.Params.part -}}
+    {{- $kicker = printf "Part %v · %s" . $kicker -}}
+  {{- end -}}
+{{- end -}}
+<a href="{{ $p.RelPermalink }}" class="article-card{{ with $extraClass }} {{ . }}{{ end }}">
+  <div class="article-card__media">
+    {{- if $cover -}}
+    <img src="{{ $cover }}" alt="" loading="lazy" />
+    {{- else -}}
+    <div class="article-card__placeholder" aria-hidden="true">Ledger</div>
+    {{- end -}}
+  </div>
+  <div class="article-card__body">
+    {{- if $kicker -}}
+    <span class="article-card__kicker">{{ $kicker }}</span>
+    {{- end -}}
+    <h3 class="article-card__title">{{ $p.Title }}</h3>
+    {{- with $p.Params.summary -}}
+    <p class="article-card__summary">{{ . }}</p>
+    {{- end -}}
+    <div class="article-card__meta">
+      <time datetime="{{ $p.Date.Format "2006-01-02" }}">{{ $p.Date.Format $p.Site.Params.dateFormat }}</time>
+    </div>
+  </div>
+</a>
