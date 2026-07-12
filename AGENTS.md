@@ -138,7 +138,7 @@ git commit -m "description"
 git push origin main
 ```
 
-Push only while authenticated as the `lars-j-frank` GitHub account (`gh auth switch` / PAT scoped to that account). Never commit with a personal GitHub identity.
+Push only while authenticated as the `lars-j-frank` GitHub account.
 
 ## Content Authoring Guide
 
@@ -163,7 +163,7 @@ Series parts must set `series: "The TIER Files"` (exact landing title) and `part
 
 ## Editing Environment
 
-Local clone lives under Documents on the operator machine. Configure git `user.name` / `user.email` for this repo to the Lars J. Frank identity before committing.
+Configure git `user.name` / `user.email` for this repo to the Lars J. Frank identity before committing.
 
 ## Future Work
 
