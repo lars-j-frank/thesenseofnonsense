@@ -7,7 +7,7 @@ draft: false
 slug: "part-4-the-float"
 series: "The TIER Files"
 part: 4
-featured: false
+featured: true
 topics: ["Alberta", "TIER", "carbon pricing", "climate policy", "public accounts"]
 images: ["cover.png"]
 summary: "Part 4 of The TIER Files. Sixteen years of statements show roughly 55 to 60 cents of every committed dollar has ever reached a project, and the headline number quietly absorbs its own failures."

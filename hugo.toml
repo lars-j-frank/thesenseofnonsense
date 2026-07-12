@@ -36,7 +36,7 @@ buildExpired = false
   copyright = "Lars J. Frank"
   dateFormat = "2 January 2006"
   accentColor = "#C45C26"
-  mainSections = ["essays", "series"]
+  mainSections = ["series"]
   featuredSeries = "the-tier-files"
 
 [menu]
@@ -51,17 +51,12 @@ buildExpired = false
     url = "/series/"
     weight = 2
   [[menu.main]]
-    identifier = "essays"
-    name = "Essays"
-    url = "/essays/"
-    weight = 3
-  [[menu.main]]
     identifier = "archive"
     name = "Archive"
     url = "/archive/"
-    weight = 4
+    weight = 3
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 5
+    weight = 4

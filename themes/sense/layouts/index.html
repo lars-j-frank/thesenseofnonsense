@@ -6,40 +6,30 @@
     <p class="home-intro">{{ .Site.Params.description }}</p>
   </header>
 
-  {{ $featured := where .Site.RegularPages ".Params.featured" true }}
-  {{ if $featured }}
+  {{ $tier := where .Site.RegularPages "Section" "eq" "series" }}
+  {{ $tier = where $tier "Params.series" "eq" "The TIER Files" }}
+  {{ $tier = where $tier "Kind" "eq" "page" }}
+
   <section class="featured-articles">
-    <h2 class="section-heading">Featured</h2>
-    <div class="card-grid card-grid--featured">
-      {{ range first 1 $featured }}
-      {{ partial "article-card.html" (dict "page" . "class" "article-card--featured") }}
+    <h2 class="section-heading">The TIER Files</h2>
+    {{ range seq 1 1 }}
+      {{ range where $tier "Params.part" . }}
+      <div class="card-grid card-grid--featured">
+        {{ partial "article-card.html" (dict "page" . "class" "article-card--featured") }}
+      </div>
+      {{ end }}
+    {{ end }}
+    <div class="card-grid card-grid--tier">
+      {{ range seq 2 4 }}
+        {{ range where $tier "Params.part" . }}
+          {{ partial "article-card.html" . }}
+        {{ end }}
       {{ end }}
     </div>
-  </section>
-  {{ end }}
-
-  {{ $featuredSeries := .Site.Params.featuredSeries }}
-  {{ if $featuredSeries }}
-  {{ $seriesPage := .Site.GetPage (printf "/series/%s" $featuredSeries) }}
-  {{ if $seriesPage }}
-  <section class="featured-series">
-    <h2 class="section-heading"><a href="{{ $seriesPage.RelPermalink }}">{{ $seriesPage.Title }}</a></h2>
-    <p>{{ $seriesPage.Summary | default $seriesPage.Description }}</p>
-  </section>
-  {{ end }}
-  {{ end }}
-
-  <section class="recent-articles">
-    <h2 class="section-heading">Latest</h2>
-    {{ $recent := where .Site.RegularPages "Section" "in" (slice "series" "essays") }}
-    {{ $recent = where $recent "Kind" "eq" "page" }}
-    {{ $recent = $recent.ByDate.Reverse | first 6 }}
-    <div class="card-grid">
-      {{ range $recent }}
-      {{ partial "article-card.html" . }}
-      {{ end }}
-    </div>
-    <p class="archive-link"><a href="/archive/">Browse the full archive →</a></p>
+    {{ $seriesPage := .Site.GetPage "/series/the-tier-files" }}
+    {{ if $seriesPage }}
+    <p class="archive-link"><a href="{{ $seriesPage.RelPermalink }}">Series overview →</a></p>
+    {{ end }}
   </section>
 </div>
 {{ end }}
