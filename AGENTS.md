@@ -90,20 +90,24 @@ Series articles use `series` + `part` front matter. The single.html template aut
 ### Design properties
 
 - Narrow reading width (~680px for articles)
-- Light magazine palette (white canvas; Glossy Red `#DE0000` / Deep Bright Red `#B50000` accents; Rich Grey `#3C3D3C`, Manhattan `#525252`, Titanium `#8B8783`) — light theme only
+- Light magazine palette (white canvas; Glossy Red `#DE0000` / Deep Bright Red `#B50000` accents; Rich Grey `#3C3D3C`, Manhattan `#525252`, Titanium `#8B8783`) — light theme only; no auto dark mode
 - Serif display/body (Source Serif 4), sans UI (Libre Franklin)
-- Listing surfaces: image-led article cards (3-col grid; featured hero is split layout)
-- Feature images: `cover.png` in page bundles (light-matted chart covers)
+- Listing surfaces: image-led article cards with topic tags; homepage features Part 1 hero + Parts 2–4 grid + Topics strip
+- Feature images: `cover.png` in page bundles; charts regenerated via `scripts/regen-tier-charts.py` (McKinsey light style, red/grey)
 - Article pages stay clean longform — no card chrome
-- Brand: SN mark + wordmark; favicon in `static/`
-- Walrus / Atlantic / Vox adjacent: large visuals, serif headlines, generous whitespace
+- Brand: SN mark + wordmark on Rich Grey with Glossy Red bar; favicon in `static/`
+- CSS cache-bust via `sense.css?v=N` in `baseof.html`; chart images via `?v=N` on markdown refs
 
 ## Current Content
 
-- **Homepage** — tagline, intro, featured article block, series block, recent list
+- **Homepage** — tagline, intro, TIER Files featured grid, topic cloud
 - **About** — pen name explanation, public records ethos
-- **The TIER Files series** — landing page with description
-- **Part 1: The Billion-Dollar Detour** — seeded with placeholder body (awaiting full draft)
+- **The TIER Files** — landing + Parts 1–4 published (`draft: false`), biweekly from 2026-05-02
+  - Part 1: The Billion-Dollar Detour
+  - Part 2: The Eight-Million-Dollar Regulator
+  - Part 3: The Climate Fund That Became a Bank
+  - Part 4: The Float
+- Topics taxonomy live on cards and `/topics/`
 
 ## Cloudflare Pages Setup
 
