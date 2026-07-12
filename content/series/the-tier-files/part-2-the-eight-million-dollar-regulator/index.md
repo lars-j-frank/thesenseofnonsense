@@ -7,7 +7,7 @@ draft: false
 slug: "part-2-the-eight-million-dollar-regulator"
 series: "The TIER Files"
 part: 2
-featured: false
+featured: true
 topics: ["Alberta", "TIER", "carbon pricing", "climate policy", "public accounts"]
 images: ["cover.png"]
 summary: "Part 2 of The TIER Files. The provincial branch regulating a multi-billion-dollar carbon market runs on less than the interest income of the agency holding the grant money."
