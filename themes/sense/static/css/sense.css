@@ -482,9 +482,17 @@ a.article-card:hover .article-card__media img {
   color: var(--color-text-muted);
 }
 .prose img {
-  margin: 2rem 0 0.4rem;
+  margin: 2.25rem 0 0.45rem;
   width: 100%;
-  background: var(--color-wash);
+  max-width: none;
+  background: #fff;
+  border: 1px solid var(--color-border);
+}
+@media (min-width: 760px) {
+  .prose img {
+    width: calc(100% + 3.5rem);
+    margin-left: -1.75rem;
+  }
 }
 .prose .footnotes {
   margin-top: 3.5rem;

@@ -43,7 +43,7 @@ That matters because Alberta's flagship industrial climate program derives much 
 
 But the numbers tell a messier story.
 
-![Flow diagram tracing a compliance dollar from a regulated facility into the TIER Fund, then out as grants, general-revenue transfers, or held surplus.](p1-path.png)
+![Flow diagram tracing a compliance dollar from a regulated facility into the TIER Fund, then out as grants, general-revenue transfers, or held surplus.](p1-path.png?v=2)
 
 *Where a compliance dollar goes, drawn from the Statement of Operations. Surplus is a stock; grants and transfers are four-year flows.*
 
@@ -72,7 +72,7 @@ Here is the fund's own accounting for fiscal years ended March 31, in thousands 
 | Transfers to General Revenue Fund | 311,949 | 335,451 | 416,666 | 24,699 |
 | Accumulated surplus, year end | 336,805 | 591,821 | 1,016,606 | 1,105,432 |
 
-![Stacked bar chart of TIER Fund outflows by fiscal year, FY2022 to FY2025, showing transfers to the General Revenue Fund exceeding innovation and technology grants in every year.](tier-fund-flow.png)
+![Stacked bar chart of TIER Fund outflows by fiscal year, FY2022 to FY2025, showing transfers to the General Revenue Fund exceeding innovation and technology grants in every year.](tier-fund-flow.png?v=2)
 
 *In every year, the transfer to general revenue exceeded the emissions reduction grants.*
 
@@ -82,7 +82,7 @@ Across the four years, the fund moved $1,088.8 million into general revenue and 
 
 > **For every dollar that went to emissions reduction technology (much of it routed to Emissions Reduction Alberta), about $1.85 went to the government's general accounts.**
 
-![Horizontal comparison of four-year TIER Fund grants at 590 million dollars against general-revenue transfers at 1,088.8 million dollars.](p1-ratio.png)
+![Horizontal comparison of four-year TIER Fund grants at 590 million dollars against general-revenue transfers at 1,088.8 million dollars.](p1-ratio.png?v=2)
 
 *$1.85 to general revenue for every grant dollar. The surplus pile is separate.*
 
@@ -96,7 +96,7 @@ And then there is the bottom row.
 
 While all this money moved through, the fund's accumulated surplus grew from $337 million to $1.105 billion. That is compliance money collected from industry, not granted, not transferred, just held.
 
-![Area chart of the TIER Fund accumulated surplus growing from 337 million dollars at the end of FY2022 to 1,105 million dollars at the end of FY2025.](tier-surplus.png)
+![Area chart of the TIER Fund accumulated surplus growing from 337 million dollars at the end of FY2022 to 1,105 million dollars at the end of FY2025.](tier-surplus.png?v=2)
 
 *The fund's accumulated surplus tripled in four years and now exceeds $1.1 billion.*
 
@@ -130,7 +130,7 @@ This series is about what the disclosed numbers say once you actually read them 
 
 Look again at that FY2025 revenue figure: $223 million, down 76 per cent from the year before.
 
-![Bar chart of TIER Fund annual revenue: 709 million dollars in FY2022, 772 million in FY2023, 936 million in FY2024, then a 76 per cent collapse to 223 million in FY2025.](tier-revenue.png)
+![Bar chart of TIER Fund annual revenue: 709 million dollars in FY2022, 772 million in FY2023, 936 million in FY2024, then a 76 per cent collapse to 223 million in FY2025.](tier-revenue.png?v=2)
 
 *Compliance revenue collapsed in FY2025 as facilities switched to discounted credits.*
 
