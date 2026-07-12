@@ -31,24 +31,34 @@
 {{- else if eq $p.Type "series-landing" -}}
   {{- $kicker = "Series" -}}
 {{- end -}}
-<a href="{{ $p.RelPermalink }}" class="article-card{{ with $extraClass }} {{ . }}{{ end }}">
-  <div class="article-card__media">
-    {{- if $cover -}}
-    <img src="{{ $cover }}" alt="" loading="lazy" />
-    {{- else -}}
-    <div class="article-card__placeholder" aria-hidden="true">SN</div>
-    {{- end -}}
-  </div>
-  <div class="article-card__body">
-    {{- if $kicker -}}
-    <span class="article-card__kicker">{{ $kicker }}</span>
-    {{- end -}}
-    <h3 class="article-card__title">{{ $p.Title }}</h3>
-    {{- with $p.Params.summary -}}
-    <p class="article-card__summary">{{ . }}</p>
-    {{- end -}}
-    <div class="article-card__meta">
-      <time datetime="{{ $p.Date.Format "2006-01-02" }}">{{ $p.Date.Format $p.Site.Params.dateFormat }}</time>
+{{- $topics := $p.GetTerms "topics" -}}
+<article class="article-card{{ with $extraClass }} {{ . }}{{ end }}">
+  <a href="{{ $p.RelPermalink }}" class="article-card__main">
+    <div class="article-card__media">
+      {{- if $cover -}}
+      <img src="{{ $cover }}" alt="" loading="lazy" />
+      {{- else -}}
+      <div class="article-card__placeholder" aria-hidden="true">SN</div>
+      {{- end -}}
     </div>
+    <div class="article-card__body">
+      {{- if $kicker -}}
+      <span class="article-card__kicker">{{ $kicker }}</span>
+      {{- end -}}
+      <h3 class="article-card__title">{{ $p.Title }}</h3>
+      {{- with $p.Params.summary -}}
+      <p class="article-card__summary">{{ . }}</p>
+      {{- end -}}
+      <div class="article-card__meta">
+        <time datetime="{{ $p.Date.Format "2006-01-02" }}">{{ $p.Date.Format $p.Site.Params.dateFormat }}</time>
+      </div>
+    </div>
+  </a>
+  {{- with $topics -}}
+  <div class="article-card__topics">
+    {{- range . -}}
+    <a href="{{ .RelPermalink }}" class="topic-tag">{{ .LinkTitle }}</a>
+    {{- end -}}
   </div>
-</a>
+  {{- end -}}
+</article>

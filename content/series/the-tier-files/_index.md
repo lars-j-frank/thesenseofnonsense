@@ -6,6 +6,7 @@ type: "series-landing"
 layout: "series-landing"
 images: ["cover.png"]
 summary: "An ongoing investigation into Alberta's Technology Innovation and Emissions Reduction (TIER) system — the carbon-pricing regime that collects billions from industrial emitters and spends most of it somewhere else."
+topics: ["Alberta", "TIER", "carbon pricing", "climate policy", "public accounts"]
 ---
 
 The TIER system is Alberta's flagship climate policy. It puts a price on carbon for large industrial emitters and collects the cash into a dedicated fund that is supposed to be reinvested in emissions-reducing technology. The public filings tell a different story.

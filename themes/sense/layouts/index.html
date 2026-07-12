@@ -31,5 +31,16 @@
     <p class="archive-link"><a href="{{ $seriesPage.RelPermalink }}">Series overview →</a></p>
     {{ end }}
   </section>
+
+  {{ with .Site.Taxonomies.topics }}
+  <section class="home-topics">
+    <h2 class="section-heading"><a href="{{ "/topics/" | relURL }}">Topics</a></h2>
+    <div class="topic-cloud">
+      {{ range .ByCount }}
+      <a href="{{ .Page.RelPermalink }}" class="topic-item">{{ .Page.Title }} <span class="topic-count">{{ .Count }}</span></a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
 </div>
 {{ end }}

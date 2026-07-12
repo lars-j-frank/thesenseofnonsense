@@ -234,24 +234,34 @@ a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
   border: 1px solid var(--color-border);
   border-radius: 0;
   overflow: hidden;
-  text-decoration: none;
   color: inherit;
   height: 100%;
   box-shadow: 0 1px 2px rgba(26, 26, 26, 0.04);
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
-a.article-card:hover,
-a.article-card:focus {
+.article-card__main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   text-decoration: none;
   color: inherit;
+  min-height: 0;
+}
+.article-card:hover,
+.article-card:focus-within {
   border-color: var(--color-accent);
   box-shadow: 0 6px 18px rgba(26, 26, 26, 0.08);
 }
-a.article-card:hover .article-card__title {
+.article-card:hover .article-card__title,
+.article-card__main:focus .article-card__title {
   color: var(--color-accent);
 }
-a.article-card:hover .article-card__media img {
+.article-card:hover .article-card__media img {
   transform: scale(1.03);
+}
+.article-card__main:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: -2px;
 }
 
 .article-card__media {
@@ -307,6 +317,26 @@ a.article-card:hover .article-card__media img {
   margin-top: 0.35rem;
   font-weight: 500;
 }
+.article-card__topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0 1.2rem 1.15rem;
+  margin-top: -0.35rem;
+}
+.article-card--featured .article-card__main {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: 0;
+  align-items: stretch;
+}
+.article-card--featured .article-card__topics {
+  grid-column: 1 / -1;
+  padding: 0.85rem 1.5rem 1.25rem;
+  margin-top: 0;
+  border-top: 1px solid var(--color-border);
+  background: var(--color-wash);
+}
 .article-card__placeholder {
   width: 100%;
   height: 100%;
@@ -324,10 +354,6 @@ a.article-card:hover .article-card__media img {
 
 /* Featured hero — Atlantic / Walrus split */
 .article-card--featured {
-  display: grid;
-  grid-template-columns: 1.35fr 1fr;
-  gap: 0;
-  align-items: stretch;
   padding-bottom: 0;
 }
 .article-card--featured .article-card__media {
@@ -507,6 +533,19 @@ a.article-card:hover .article-card__media img {
 .prose .footnotes li { margin-bottom: 0.35rem; }
 
 /* === Topics === */
+.home-topics {
+  margin-top: 3.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-border);
+}
+.home-topics .section-heading {
+  margin-bottom: 1.15rem;
+}
+.topic-count {
+  font-weight: 500;
+  color: var(--color-text-muted);
+  margin-left: 0.15rem;
+}
 .article-topics { margin-top: 1.15rem; }
 .topic-tag {
   font-family: var(--font-sans);
@@ -592,7 +631,7 @@ a.article-card:hover .article-card__media img {
 @media (max-width: 980px) {
   .card-grid,
   .card-grid--tier { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .article-card--featured {
+  .article-card--featured .article-card__main {
     grid-template-columns: 1fr;
     gap: 0;
   }
