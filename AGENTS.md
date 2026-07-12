@@ -164,8 +164,8 @@ Windows path: `[operator-local-clone]`. Push as `lars-j-frank` (not `lars-j-fran
 
 ## Future Work
 
-- [ ] Write additional TIER Files parts (via Decap)
-- [ ] Write standalone essays (via Decap)
+- [ ] Next TIER Files instalments (attribute leakage / unpublished trail — see series landing)
+- [ ] Standalone essays
 - [ ] Add more topics as content grows
 - [ ] Upgrade Decap auth from PAT bridge to GitHub OAuth App
 - [ ] Consider RSS feed enhancements if needed
