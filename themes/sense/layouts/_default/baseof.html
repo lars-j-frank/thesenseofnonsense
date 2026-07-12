@@ -10,7 +10,7 @@
   <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <meta name="theme-color" content="#DE0000" />
-  <link rel="stylesheet" href="/css/sense.css?v=8" />
+  <link rel="stylesheet" href="/css/sense.css?v=9" />
   {{ block "extrahead" . }}{{ end }}
 </head>
 <body class="{{ if .IsHome }}home{{ else if .IsPage }}singular{{ else }}listing{{ end }}">
@@ -46,6 +46,13 @@
   <footer class="site-footer">
     <div class="footer-inner">
       <p class="footer-copy">&copy; {{ now.Format "2006" }} {{ .Site.Params.author }}. All rights reserved.</p>
+      {{ with .Site.Params.authorEmail }}
+      <p class="footer-contact">
+        <a href="mailto:{{ . }}?subject=The%20Sense%20of%20Nonsense">Contact the author</a>
+        <span class="footer-contact-sep" aria-hidden="true">·</span>
+        <a href="mailto:{{ . }}">{{ . }}</a>
+      </p>
+      {{ end }}
       <p class="footer-ethos">The story is in the ledger.</p>
     </div>
   </footer>
