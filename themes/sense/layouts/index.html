@@ -30,7 +30,7 @@
   {{ end }}
 
   <section class="recent-articles">
-    <h2 class="section-heading">Recent</h2>
+    <h2 class="section-heading">Latest</h2>
     {{ $recent := where .Site.RegularPages "Section" "in" (slice "series" "essays") }}
     {{ $recent = where $recent "Kind" "eq" "page" }}
     {{ $recent = $recent.ByDate.Reverse | first 6 }}
@@ -39,7 +39,7 @@
       {{ partial "article-card.html" . }}
       {{ end }}
     </div>
-    <p class="archive-link"><a href="/archive/">View full archive →</a></p>
+    <p class="archive-link"><a href="/archive/">Browse the full archive →</a></p>
   </section>
 </div>
 {{ end }}
