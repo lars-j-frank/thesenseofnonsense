@@ -17,7 +17,7 @@ Investigative publication by **Lars J. Frank** (pseudonym). Focused on carbon ac
 | Static site generator | Hugo v0.145.0 (extended) |
 | Theme | Custom in-repo (`themes/sense/`) — no third-party themes or submodules |
 | CSS | Custom editorial theme, light/dark mode via `prefers-color-scheme` |
-| Fonts | Lora (serif, body) + Source Sans 3 (sans-serif, UI/nav) via Google Fonts |
+| Fonts | Source Serif 4 (body/headlines) + Libre Franklin (UI/nav) via Google Fonts |
 | JS | Minimal — mobile nav toggle only |
 | Hosting | Cloudflare Pages (Git-based integration) |
 | Build command | `hugo` |
@@ -89,14 +89,14 @@ Series articles use `series` + `part` front matter. The single.html template aut
 
 ### Design properties
 
-- Narrow reading width (~700px for articles)
-- Cool paper / ink palette with one crimson accent (#9E1B32)
-- Light mode: cool paper background (#F7F7F5)
-- Dark mode: near-black (#0E0E0D), auto-switches via system preference
-- Serif body (Lora), sans-serif UI (Source Sans 3)
-- Listing surfaces use article cards with feature images (`cover.png` in page bundles)
-- Article pages stay list/prose reading — no card chrome on the longform view
-- Brand: SN mark + wordmark in header; favicon in `static/`
+- Narrow reading width (~680px for articles)
+- Light magazine palette (white canvas, warm wash, terracotta accent `#C45C26`) — light theme only
+- Serif display/body (Source Serif 4), sans UI (Libre Franklin)
+- Listing surfaces: image-led article cards (3-col grid; featured hero is split layout)
+- Feature images: `cover.png` in page bundles (light-matted chart covers)
+- Article pages stay clean longform — no card chrome
+- Brand: SN mark + wordmark; favicon in `static/`
+- Walrus / Atlantic / Vox adjacent: large visuals, serif headlines, generous whitespace
 
 ## Current Content
 
