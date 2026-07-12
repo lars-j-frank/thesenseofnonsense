@@ -42,7 +42,7 @@ Add it up and you get about $650 million actually delivered to projects across t
 
 The number ERA publishes about itself, as of June 2026, is $1.17 billion committed toward 352 projects since 2009. Set those two figures side by side and sit with them a moment. This is a seventeen-year-old organization whose whole job is moving money to emissions reduction projects, and somewhere between 55 and 60 cents of every dollar it currently claims to have committed has ever made it out the door. The rest is either still working through the milestone pipeline, at $375 million of outstanding commitments as of last May, or it belongs to a category the press releases never revisit, which is the money that got announced and then quietly un-happened.
 
-![Line chart of cumulative CCEMC and ERA project disbursements reaching about 655 million dollars by fiscal 2025, far below the dashed line marking the 1,170 million dollar commitment headline, with annual cancellation values annotated.](era-float.png?v=3)
+![Line chart of cumulative CCEMC and ERA project disbursements reaching about 655 million dollars by fiscal 2025, far below the dashed line marking the 1,170 million dollar commitment headline, with annual cancellation values annotated.](era-float.png?v=4)
 
 *Sixteen years of disbursements against the current headline. FY2015 interpolated because the statements were never published.*
 
@@ -60,7 +60,7 @@ In fiscal 2025 the machine hit a milestone of sorts, because the value of agreem
 
 > **In fiscal 2025, Alberta's flagship clean technology funder un-funded more than it funded.**
 
-![Bar chart of contribution agreement value cancelled or terminated each year, rising from 19.9 million dollars in fiscal 2022 to 82.7 million in fiscal 2025, crossing above the dashed line marking the 71.7 million actually paid to projects that year.](p4-cancellations.png?v=3)
+![Bar chart of contribution agreement value cancelled or terminated each year, rising from 19.9 million dollars in fiscal 2022 to 82.7 million in fiscal 2025, crossing above the dashed line marking the 71.7 million actually paid to projects that year.](p4-cancellations.png?v=4)
 
 *The un-funding curve crossed the funding line in fiscal 2025.*
 
@@ -72,7 +72,7 @@ So what happens to a dollar committed to a project that will never exist? This i
 
 Nothing happens to it. That's the answer. It never left ERA in the first place, so there is nothing to recover and nobody to chase. The commitment quietly comes off the books, the cash stays exactly where it has been all along, in the $539.5 million of cash and GICs from last instalment, and the dollar goes back into the pool to await its next announcement. ERA has earned over $104 million in interest in the past five years by holding money in exactly this way, and in fiscal 2024 its interest income was more than half its grant revenue, which is a strange ratio for a granting agency and a perfectly normal one for a bank.
 
-![Flow diagram tracing an announced dollar from press release into the float at ERA, then out either as milestone payments of roughly 55 to 60 cents per dollar or into the quiet-death categories, with dead dollars cycling back to be re-announced, clawed back, or reallocated.](p4-lifecycle.png?v=3)
+![Flow diagram tracing an announced dollar from press release into the float at ERA, then out either as milestone payments of roughly 55 to 60 cents per dollar or into the quiet-death categories, with dead dollars cycling back to be re-announced, clawed back, or reallocated.](p4-lifecycle.png?v=4)
 
 *Sixteen years of audited statements, drawn as a flowchart.*
 

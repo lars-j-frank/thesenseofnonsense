@@ -23,7 +23,7 @@ If you have ever laddered GICs for a retired parent, the following will feel war
 
 As of May 31, 2025, Emissions Reduction Alberta, the arm's-length agency that receives the largest share of Alberta's industrial carbon compliance grants, held $40 million in short-term GICs at Scotiabank and Canadian Western Bank earning between 4.54 and 5.49 per cent, and another $190 million in long-term GICs at Scotiabank and ATB, maturing between November 2026 and April 2027, earning between 3.75 and 4.14 per cent. Add the $309.5 million sitting in plain cash and you get $539.5 million, parked.
 
-![A statement-style panel reproducing ERA's disclosed holdings: 309.5 million dollars cash, 40 million in short-term GICs at Scotiabank and CWB, 190 million in long-term GICs at Scotiabank and ATB maturing November 2026 to April 2027, totalling 539.5 million.](p3-ladder.png?v=3)
+![A statement-style panel reproducing ERA's disclosed holdings: 309.5 million dollars cash, 40 million in short-term GICs at Scotiabank and CWB, 190 million in long-term GICs at Scotiabank and ATB maturing November 2026 to April 2027, totalling 539.5 million.](p3-ladder.png?v=4)
 
 *The ladder as disclosed, reformatted from Note 5. It reads like a retirement statement because structurally it is one. (Institution totals only; Note 5 does not break the GIC amounts per bank.)*
 
@@ -31,7 +31,7 @@ That's from Note 5 of ERA's own audited statements, and honestly it's a perfectl
 
 > **An agency does not ladder money into 2027 that it intends to spend soon. The portfolio is the strategy, written down.**
 
-![Combination chart showing ERA's cash and investment holdings of roughly half a billion dollars hovering far above annual project disbursements of 44 to 101 million per year, fiscal 2021 through 2025.](p3-holdings.png?v=3)
+![Combination chart showing ERA's cash and investment holdings of roughly half a billion dollars hovering far above annual project disbursements of 44 to 101 million per year, fiscal 2021 through 2025.](p3-holdings.png?v=4)
 
 *Roughly seven and a half years of disbursements, held.*
 
@@ -41,7 +41,7 @@ Some context for the pile. ERA paid out $71.7 million to projects last year. So 
 
 Meanwhile the interest accumulates the way interest does. $4.6 million, then $5.3 million, then $19.2 million, then $29.7 million, then $25.6 million over the past five years, which comes to just over $104 million earned by not spending money. In fiscal 2024 the arrangement achieved something I want to make sure you don't skim past: ERA's interest income, at $29.7 million, exceeded half of its grant revenue for the year, which was $51.9 million. For every two dollars the government gave the agency to fund clean technology, the agency made another dollar by holding what it already had.
 
-![Bar chart of ERA interest income rising from 4.6 million dollars in fiscal 2021 to a peak of 29.7 million in fiscal 2024, highlighted because it exceeded half of that year's grant revenue.](p3-interest.png?v=3)
+![Bar chart of ERA interest income rising from 4.6 million dollars in fiscal 2021 to a peak of 29.7 million in fiscal 2024, highlighted because it exceeded half of that year's grant revenue.](p3-interest.png?v=4)
 
 *Just over $104 million earned in five years by not spending money.*
 
