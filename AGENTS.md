@@ -16,7 +16,7 @@ Investigative publication by **Lars J. Frank** (pseudonym). Focused on carbon ac
 |-------|--------|
 | Static site generator | Hugo v0.145.0 (extended) |
 | Theme | Custom in-repo (`themes/sense/`) — no third-party themes or submodules |
-| CSS | Custom editorial theme, light/dark mode via `prefers-color-scheme` |
+| CSS | Custom editorial theme — light only (no `prefers-color-scheme` dark mode) |
 | Fonts | Source Serif 4 (body/headlines) + Libre Franklin (UI/nav) via Google Fonts |
 | JS | Minimal — mobile nav toggle only |
 | Hosting | Cloudflare Pages (Git-based integration) |
@@ -97,17 +97,20 @@ Series articles use `series` + `part` front matter. The single.html template aut
 - Article pages stay clean longform — no card chrome
 - Brand: SN mark + wordmark on Rich Grey with Glossy Red bar; favicon in `static/`
 - CSS cache-bust via `sense.css?v=N` in `baseof.html`; chart images via `?v=N` on markdown refs
+- Hugo templates: do not chain `else if` after `with` (Cloudflare Pages / Hugo parse failure — use `if`/`else if` on plain conditions, or nested `with`/`else` only)
 
 ## Current Content
 
-- **Homepage** — tagline, intro, TIER Files featured grid, topic cloud
-- **About** — pen name explanation, public records ethos
+- **Homepage** — tagline, intro, TIER Files featured grid (Part 1 hero + Parts 2–4), Topics strip
+- **Nav** — Home · Series · Archive · About (Essays removed from menu until there is essay content)
+- **About** — pen name explanation, public records ethos; Contact section with mailto
+- **Footer** — “Contact the author” mailto via `params.authorEmail` (`lars.j.frank@protonmail.com`)
 - **The TIER Files** — landing + Parts 1–4 published (`draft: false`), biweekly from 2026-05-02
   - Part 1: The Billion-Dollar Detour
   - Part 2: The Eight-Million-Dollar Regulator
   - Part 3: The Climate Fund That Became a Bank
   - Part 4: The Float
-- Topics taxonomy live on cards and `/topics/`
+- Topics taxonomy live on article cards and `/topics/`
 
 ## Cloudflare Pages Setup
 
@@ -130,12 +133,12 @@ hugo server -D
 hugo
 
 # Deploy
-git add -A
+git add <paths>   # never git add -A (risk of .cursor / secrets)
 git commit -m "description"
 git push origin main
 ```
 
-Push access via `lars-j-frank` GitHub account. PAT stored as `LARS_GITHUB_TOKEN` env var in the WSL Hermes profile.
+Push only while authenticated as the `lars-j-frank` GitHub account (`gh auth switch` / PAT scoped to that account). Never commit with a personal GitHub identity.
 
 ## Content Authoring Guide
 
@@ -160,12 +163,12 @@ Series parts must set `series: "The TIER Files"` (exact landing title) and `part
 
 ## Editing Environment
 
-Windows path: `[operator-local-clone]`. Push as `lars-j-frank` (not `lars-j-frank`) to preserve the anonymous GitHub identity.
+Local clone lives under Documents on the operator machine. Configure git `user.name` / `user.email` for this repo to the Lars J. Frank identity before committing.
 
 ## Future Work
 
 - [ ] Next TIER Files instalments (attribute leakage / unpublished trail — see series landing)
 - [ ] Standalone essays
 - [ ] Add more topics as content grows
-- [ ] Upgrade Decap auth from PAT bridge to GitHub OAuth App
+- [x] Decap auth: GitHub OAuth App only (PAT bridge removed — was world-readable at /api/auth)
 - [ ] Consider RSS feed enhancements if needed

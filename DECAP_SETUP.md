@@ -43,7 +43,11 @@ Global fallback media folder: `static/images` → `/images/...` on the site.
 
 ## Auth notes
 
-Production currently uses a `GITHUB_TOKEN` bridge for Decap login. Prefer upgrading to a GitHub OAuth App (`GITHUB_CLIENT_ID` / `GITHUB_CLIENT_SECRET`) when convenient — see earlier setup notes in git history / Cloudflare secrets. Rotate the PAT after OAuth is live.
+Production must use a **GitHub OAuth App** (`GITHUB_CLIENT_ID` / `GITHUB_CLIENT_SECRET` on Cloudflare Pages). Callback URL: `https://thesenseofnonsense.com/api/callback`.
+
+A personal-access-token bridge at `/api/auth` is **not allowed** — it would embed the token in public HTML. If Decap login fails with 503, the OAuth App secrets are missing.
+
+Login to Decap only as `lars-j-frank`.
 
 ## Repo layout (for reference)
 
