@@ -182,6 +182,58 @@ ax.annotate(
 )
 save(fig, p1 / "tier-revenue.png")
 
+# sector revenue (from TIER Fund statements of operations)
+fig, ax = plt.subplots(figsize=(10, 5.4))
+style_ax(ax, "Who actually pays into the TIER Fund")
+sectors = ["Mining, oil & gas", "Utilities", "Manufacturing", "Transportation"]
+fy_labels = ["FY2022", "FY2023", "FY2024", "FY2025"]
+# Rounded from audited sector lines (AEPA annual reports 2022-23 to 2024-25)
+sector_data = np.array([
+    [248, 384, 454, 97],   # mining
+    [389, 237, 330, 25],   # utilities
+    [52, 56, 91, 17],      # manufacturing
+    [17, 87, 32, 32],      # transportation
+], dtype=float)
+x = np.arange(len(fy_labels))
+n = len(sectors)
+width = 0.18
+palette = [SECONDARY, HIGHLIGHT, MUTED, MUTED_LIGHT]  # mining, utilities (story), mfg, transport
+for i, (name, row) in enumerate(zip(sectors, sector_data)):
+    offset = (i - (n - 1) / 2) * width
+    ax.bar(x + offset, row, width, label=name, color=palette[i])
+    for xi, yi in zip(x + offset, row):
+        if yi >= 25:
+            ax.text(xi, yi + 8, f"{yi:.0f}", ha="center", va="bottom", fontsize=7, color=INK)
+ax.set_xticks(x)
+ax.set_xticklabels(fy_labels)
+ax.set_ylabel("\\$ millions")
+ax.set_ylim(0, 520)
+ax.yaxis.grid(True, color=GRID, linewidth=0.6)
+ax.set_axisbelow(True)
+ax.legend(frameon=False, fontsize=8, ncol=2, loc="upper right")
+save(fig, p1 / "p1-sectors.png")
+
+# FY2025 budget vs actual
+fig, ax = plt.subplots(figsize=(10, 5.0))
+style_ax(ax, "FY2025: the plan versus the year")
+cats = ["Revenue", "Innovation grants", "Transfers to\nGeneral Revenue"]
+budget = [539, 295, 227]
+actual = [223, 109, 25]
+x = np.arange(len(cats))
+ax.bar(x - 0.18, budget, 0.36, color=MUTED, label="FY2025 budget")
+ax.bar(x + 0.18, actual, 0.36, color=HIGHLIGHT, label="FY2025 actual")
+ax.set_xticks(x)
+ax.set_xticklabels(cats)
+ax.set_ylabel("\\$ millions")
+ax.set_ylim(0, 620)
+ax.yaxis.grid(True, color=GRID, linewidth=0.6)
+ax.set_axisbelow(True)
+ax.legend(frameon=False, fontsize=9)
+for xi, b, a in zip(x, budget, actual):
+    ax.text(xi - 0.18, b + 10, f"{b}", ha="center", fontsize=8, color=INK)
+    ax.text(xi + 0.18, a + 10, f"{a}", ha="center", fontsize=8, color=INK, fontweight="bold")
+save(fig, p1 / "p1-budget-actual.png")
+
 # Path diagram — roomy figure, compact box type
 fig, ax = plt.subplots(figsize=(11, 6.4))
 ax.set_xlim(0, 100)

@@ -57,6 +57,12 @@ The fund is the cash end of that machine. It is a regulated fund administered by
 
 Money flows in from compliance payments across four sectors: mining and oil and gas, utilities, manufacturing, and transportation.
 
+And it's worth pausing on who actually writes those cheques, because the sector mix has been quietly telling its own story. In fiscal 2022 the utilities were the biggest payers at $388.6 million, back when coal was still on the grid. By fiscal 2025 the utilities paid $24.7 million, a 94 per cent drop, partly because the ministry's own reporting says electricity emissions are down 59 per cent since 2005 and the last coal plant converted in 2024 (genuinely good news, credit where due), and partly because everyone discovered the cheap credits we'll get to shortly. Mining and oil and gas went the other direction for a while, peaking at $454.4 million in fiscal 2024 before collapsing to $97.4 million with everyone else.
+
+![Grouped bar chart of TIER Fund compliance revenue by sector, fiscal 2022 through 2025: utilities fall from 388.6 million dollars to 24.7 million, mining and oil and gas peak at 454.4 million in fiscal 2024 then drop to 97.4 million, with manufacturing and transportation smaller throughout.](p1-sectors.png?v=1)
+
+*Who pays into the fund, by year. The utilities story is coal leaving the grid plus cheap credits arriving.*
+
 Money flows out three ways: a small administration expense, grants for innovation and technology, and a line called Transfers to the General Revenue Fund. The largest grant recipient is Emissions Reduction Alberta (ERA), the arm's-length agency that runs many of the funding competitions (more on that later). ERA is not the only destination for those grants; Environment and Protected Areas also disburses to other delivery agents, so when this series talks about the grant line it means the whole innovation-and-technology outflow, of which a large share is routed to ERA.
 
 That last line, the transfer to general revenue, is the one that doesn't seem to be put in a news release.
@@ -144,6 +150,12 @@ The statements model the uncertainty with an honesty that borders on alarming: d
 
 So the province froze the fund price at $95 by ministerial order on May 5, 2025 (Ministerial Order 13/2025), and the statements say the financial effect on future years cannot reasonably be estimated (better than saying it lands somewhere in a range of $2 billion).
 
+And here is the part that makes the collapse feel less like weather and more like a forecasting problem: the government's own budget column sits right there in the audited statements beside the actuals, which is a bold formatting choice, because for fiscal 2025 the plan was $539 million of revenue and $295 million of grants. What arrived was $223 million of revenue, and what went out was $109 million of grants. The fund missed its own revenue plan by 59 per cent and delivered 37 per cent of its own granting plan, in the same year, in the same table.
+
+![Grouped bar chart comparing the FY2025 budget to actuals: revenue budgeted at 539 million dollars against 223 million actual, grants budgeted at 295 million against 109 million actual, and General Revenue transfers budgeted at 227 million against 25 million actual.](p1-budget-actual.png?v=1)
+
+*The plan versus the year, from the same audited table.*
+
 In other words, the revenue engine of Alberta's flagship climate program is now hostage to a glutted credit market, and the people who run it have told the auditors they cannot predict what it will produce.
 
 Let's hold onto that thought. It becomes important later in this series, when the focus turns to the regulator responsible for that credit market and to what Alberta actually spends running it.
@@ -176,10 +188,12 @@ Next: the eight-million-dollar regulator.
 
 *Everything in this essay comes from audited financial statements and public budget documents. Key references:*
 
-1. Technology Innovation and Emissions Reduction Fund, audited financial statements. Published in *Environment and Protected Areas Annual Report 2024-2025*, pp. 52-74 (FY2025 and FY2024 figures; Statement of Operations p. 56; revenue uncertainty / Monte Carlo note p. 63; fund price freeze note p. 72). [open.alberta.ca](https://open.alberta.ca/publications/2817-304x)
-2. TIER Fund audited financial statements, *Environment and Protected Areas Annual Report 2023-2024*, p. 56 (FY2024 and FY2023 figures). [open.alberta.ca](https://open.alberta.ca/publications/2817-304x)
-3. TIER Fund audited financial statements, *Environment and Protected Areas Annual Report 2022-2023*, p. 56 (FY2023 and FY2022 figures). [open.alberta.ca](https://open.alberta.ca/publications/2817-304x)
-4. Technology Innovation and Emissions Reduction Regulation overview (system mechanics, compliance options, 100,000-tonne threshold, opt-in), [alberta.ca](https://www.alberta.ca/technology-innovation-and-emissions-reduction-regulation).
-5. Ministerial Order 13/2025, May 5, 2025 (fund price maintained at $95 per tonne), as disclosed in Note 8 of the FY2025 TIER Fund statements.
-6. On ERA as a major (not sole) grant destination: Emissions Reduction Alberta audited financial statements and annual reports, [eralberta.ca](https://www.eralberta.ca/); TIER Fund Statement of Operations grant line as transcribed above.
-7. Policy-circle coverage of TIER revenue use (context for the "rarely noticed" line, not a source for the dollar figures): Pembina Institute and Canadian Climate Institute publications on Alberta industrial carbon pricing and revenue recycling.
+1. Technology Innovation and Emissions Reduction Fund, audited financial statements. Published in *Environment and Protected Areas Annual Report 2024-2025*, pp. 52-74 (FY2025 and FY2024 figures, including sector-level revenue; Statement of Operations and budget column p. 56; revenue uncertainty / Monte Carlo note p. 63; fund price freeze, Note 8, p. 72). [open.alberta.ca](https://open.alberta.ca/publications/2817-304x)
+2. TIER Fund audited financial statements, *Environment and Protected Areas Annual Report 2023-2024*, p. 56 (FY2024 and FY2023 figures, including sector-level revenue). [open.alberta.ca](https://open.alberta.ca/publications/2817-304x)
+3. TIER Fund audited financial statements, *Environment and Protected Areas Annual Report 2022-2023*, p. 56 (FY2023 and FY2022 figures, including sector-level revenue). [open.alberta.ca](https://open.alberta.ca/publications/2817-304x)
+4. *Environment and Protected Areas Annual Report 2024-2025*, Results Analysis, objective 2.2, p. 35 (electricity emissions down 59 per cent since 2005; the grid's full transition off coal in 2024).
+5. Technology Innovation and Emissions Reduction Regulation overview (system mechanics, compliance options, 100,000-tonne threshold, opt-in), [alberta.ca](https://www.alberta.ca/technology-innovation-and-emissions-reduction-regulation).
+6. Ministerial Order 13/2025, May 5, 2025 (fund price maintained at $95 per tonne), as disclosed in Note 8 of the FY2025 TIER Fund statements.
+7. *Emissions Management and Climate Resilience Act*, RSA 2003, c. E-7.8 (the statutory basis for the fund and the government's discretion over its use). [kings-printer.alberta.ca](https://kings-printer.alberta.ca)
+8. On ERA as a major (not sole) grant destination: Emissions Reduction Alberta audited financial statements and annual reports, [eralberta.ca](https://www.eralberta.ca/); TIER Fund Statement of Operations grant line as transcribed above.
+9. Policy-circle coverage of TIER revenue use (context for the "rarely noticed" line, not a source for the dollar figures): Pembina Institute and Canadian Climate Institute publications on Alberta industrial carbon pricing and revenue recycling.
