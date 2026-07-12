@@ -26,13 +26,17 @@
   {{- with $p.Params.part -}}
     {{- $kicker = printf "Part %v · %s" . $kicker -}}
   {{- end -}}
+{{- else if eq $p.Layout "series-landing" -}}
+  {{- $kicker = "Series" -}}
+{{- else if eq $p.Type "series-landing" -}}
+  {{- $kicker = "Series" -}}
 {{- end -}}
 <a href="{{ $p.RelPermalink }}" class="article-card{{ with $extraClass }} {{ . }}{{ end }}">
   <div class="article-card__media">
     {{- if $cover -}}
     <img src="{{ $cover }}" alt="" loading="lazy" />
     {{- else -}}
-    <div class="article-card__placeholder" aria-hidden="true">Ledger</div>
+    <div class="article-card__placeholder" aria-hidden="true">SN</div>
     {{- end -}}
   </div>
   <div class="article-card__body">
