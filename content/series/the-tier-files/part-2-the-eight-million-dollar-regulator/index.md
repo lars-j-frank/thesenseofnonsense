@@ -1,37 +1,45 @@
 ---
-title: "The Eight-Million-Dollar Regulator"
-description: "The branch that runs Alberta's entire carbon market has had its budget frozen, to the dollar, for five straight years."
-author: "Lars J. Frank"
+title: The Eight-Million-Dollar Regulator
+slug: part-2-the-eight-million-dollar-regulator
+description: The branch that runs Alberta's entire carbon market has had its
+  budget frozen, to the dollar, for five straight years.
+summary: Part 2 of The TIER Files. The provincial branch regulating a
+  multi-billion-dollar carbon market runs on less than the interest income of
+  the agency holding the grant money.
 date: 2026-05-16T09:00:00-06:00
 draft: false
-slug: "part-2-the-eight-million-dollar-regulator"
-series: "The TIER Files"
+series: The TIER Files
 part: 2
 featured: true
-topics: ["Alberta", "TIER", "carbon pricing", "climate policy", "public accounts"]
-images: ["cover.png"]
-summary: "Part 2 of The TIER Files. The provincial branch regulating a multi-billion-dollar carbon market runs on less than the interest income of the agency holding the grant money."
+author: Lars J. Frank
+topics:
+  - Alberta
+  - TIER
+  - carbon pricing
+  - climate policy
+  - public accounts
+images:
+  - cover.png
 ---
-
 *Part 2 of **The TIER Files**, a series that follows Alberta's industrial carbon money from the smokestack to wherever it actually ends up.*
 
 *Everything here comes from audited financial statements and public budget documents. Sources, with page numbers, are at the bottom.*
 
----
+- - -
 
-Last time we established that Alberta's industrial carbon fund collected $2.64 billion in four years and sent most of it somewhere other than emissions reduction. This time I want to talk about the people who are supposed to make the whole machine trustworthy, because it turns out you can find them in the budget documents too, if you squint.
+Last time we established that Alberta's industrial carbon fund collected $2.64 billion in four years and sent most of it somewhere other than emissions reduction. This time I want to talk about the people who are supposed to make the whole machine trustworthy, because it turns out you can find them in the budget documents too (I mean, it *is* transparent we have to admit).
 
-Every carbon market lives or dies on its referee. Somebody has to write the quantification protocols that decide what counts as a real tonne. Somebody has to approve offset projects, oversee the verifiers, run the registry, chase the facilities that misreport, and generally stand between a $95-per-tonne compliance obligation and everyone's natural creativity about it. In Alberta that somebody is a branch of Environment and Protected Areas, and its budget line has a name so dull you could walk past it forever: program 9.1, Regulatory and Operations, under Emissions Management.
+Every carbon market lives or dies on its referee (shout-out to Verra and the forest scandal). Somebody has to write the quantification protocols that decide what counts as a real tonne. Somebody has to approve offset projects, oversee the verifiers, run the registry, chase the facilities that misreport, and generally stand between a $95-per-tonne compliance obligation and everyone's natural creativity about it. In Alberta that somebody is a branch of Environment and Protected Areas, and its budget line is "program 9.1, Regulatory and Operations," under Emissions Management.
 
 Here is what that line has looked like in the government's own estimates and year-end statements, in thousands of dollars:
 
-| Fiscal year | Voted budget | Actually spent |
-|---|---:|---:|
-| 2022-23 | 10,541 | 7,097 |
-| 2023-24 | 10,541 | 7,468 |
-| 2024-25 | 10,541 | 8,204 |
-| 2025-26 | 10,541 | 10,541 (forecast) |
-| 2026-27 | 10,541 | estimate year |
+| Fiscal year | Voted budget | Actually spent    |
+| ----------- | ------------ | ----------------- |
+| 2022-23     | 10,541       | 7,097             |
+| 2023-24     | 10,541       | 7,468             |
+| 2024-25     | 10,541       | 8,204             |
+| 2025-26     | 10,541       | 10,541 (forecast) |
+| 2026-27     | 10,541       | estimate year     |
 
 ![Grouped bar chart of AEPA program 9.1: the voted budget sits at exactly 10.541 million dollars in five consecutive budgets while actual spending came in at 7.1, 7.5, and 8.2 million.](p2-frozen-line.png?v=5)
 
@@ -69,9 +77,9 @@ In December 2023 the Auditor General reported that a large emitter had underpaid
 
 The same December 2023 report's recommendation summary showed Environment and Protected Areas carrying 19 outstanding auditor recommendations in total, eight of them more than three years old. This is not a branch having one bad file. This is a department that has been quietly triaging its own mandate for years.
 
-The protocol system tells a similar story in slower motion. Quantification protocols, the rulebooks that determine whether a tonne is real, have gone years between updates. Some have been withdrawn as unworkable. A few project types, carbon capture among them, are flagged so that nothing can even begin without written authorization from a director, which is a sensible control right up until you remember that a director is one person with one inbox, sitting inside an $8 million branch, and every proponent in the province is queued behind that inbox. Ask anyone who has taken an offset project through the system what the waiting feels like. (Ask them off the record, though. Everyone in this industry expects to apply again.) That "one inbox" line is characterization of the director-authorization requirement, not a documented queue length; if a FOIP on approval statistics ever comes back clean, I will update it.
+The protocol system tells a similar story in slower motion. Quantification protocols, the rulebooks that determine whether a tonne is real, have gone years between updates. Some have been withdrawn as unworkable. A few project types, carbon capture among them, are flagged so that nothing can even begin without written authorization from a director, which is a sensible control right up until you remember that a director is one person with one inbox, sitting inside an $8 million branch, and every proponent in the province is queued behind that inbox. Ask anyone who has taken an offset project through the system what the waiting feels like. (Ask them off the record, though. Everyone in this industry expects to apply again.  Antagonizing the regulator is better done through political channels and proxies rather than forcing call screening) That "one inbox" line is characterization of the director-authorization requirement, not a documented queue length; if a FOIP on approval statistics ever comes back clean, I will update it.  Oh, by the way, where is the Minister of Red Tape Reduction exactly?
 
-Meanwhile the workload keeps arriving on schedule, because the TIER Regulation has a legislated review due by the end of December 2026, which means this same frozen branch is currently rewriting the rulebook for the entire system while running it. The fund price got frozen at $95 by ministerial order in May 2025 after credit prices collapsed, and holding it there is itself a live wire, because the price was scheduled to rise to $110 in 2026 to stay aligned with the federal benchmark, so this branch is now also defending the system's federal equivalency. Then on December 3, 2025 the regulation was amended again by Orders in Council 369/2025 and 370/2025, creating an entirely new class of investment credits (plus reactivated credits), and the Standard for Direct Investment that is supposed to govern them had, as of this writing, still not been published. Somebody has to write it. Alberta.ca itself says the Standard would be released in early 2026.
+Meanwhile the workload keeps arriving on schedule, because the TIER Regulation has a legislated review due by the end of December 2026, which means this same frozen branch is currently rewriting the rulebook for the entire system while running it (and the queue doesn't prioritize the good applications above the bad and messy, the bad and messy just force the queue to grind to a halt). The fund price got frozen at $95 by ministerial order in May 2025 after credit prices collapsed, and holding it there is itself a live wire, because the price was scheduled to rise to $110 in 2026 to stay aligned with the federal benchmark, so this branch is now also defending the system's federal equivalency. Then on December 3, 2025 the regulation was amended again by Orders in Council 369/2025 and 370/2025, creating an entirely new class of investment credits (plus reactivated credits), and the Standard for Direct Investment that is supposed to govern them had, as of this writing, still not been published. Somebody has to write it. Alberta.ca itself says the Standard would be released in early 2026.
 
 And consider what the branch is actually refereeing now, because the market has not stood still while its budget did. When TIER launched in January 2020 the fund price was $30 a tonne and compliance meant credits, offsets, or cash. Six years later the price has tripled, the credit bank has ballooned into structural oversupply, and the instrument list has grown to five classes: emission performance credits, emission offsets, sequestration credits, and now investment credits and reactivated credits, the last two invented in December 2025 and still waiting on their governing standard. Every new instrument is a new integrity surface, a new thing that can be gamed, double-counted, or misquantified, and every one of them lands on the same desk with the same $10,541,000. All of that lands on program 9.1, which will have, per the current estimates, exactly $10,541,000 to do it with. Again.
 
@@ -87,7 +95,7 @@ That's not a funding decision anyone made on purpose, and that is precisely the 
 
 Next: the climate fund that became a bank.
 
----
+- - -
 
 *If I have misread a line item, the documents are linked below; show me and I will correct it.*
 
