@@ -21,14 +21,12 @@
   {{- end -}}
 {{- end -}}
 {{- $kicker := "" -}}
-{{- with $p.Params.series -}}
-  {{- $kicker = . -}}
+{{- if $p.Params.series -}}
+  {{- $kicker = $p.Params.series -}}
   {{- with $p.Params.part -}}
     {{- $kicker = printf "Part %v · %s" . $kicker -}}
   {{- end -}}
-{{- else if eq $p.Layout "series-landing" -}}
-  {{- $kicker = "Series" -}}
-{{- else if eq $p.Type "series-landing" -}}
+{{- else if or (eq $p.Layout "series-landing") (eq $p.Type "series-landing") -}}
   {{- $kicker = "Series" -}}
 {{- end -}}
 {{- $topics := $p.GetTerms "topics" -}}
