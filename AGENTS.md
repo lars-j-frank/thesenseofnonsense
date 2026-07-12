@@ -90,7 +90,7 @@ Series articles use `series` + `part` front matter. The single.html template aut
 ### Design properties
 
 - Narrow reading width (~680px for articles)
-- Light magazine palette (white canvas, warm wash, terracotta accent `#C45C26`) — light theme only
+- Light magazine palette (white canvas; Glossy Red `#DE0000` / Deep Bright Red `#B50000` accents; Rich Grey `#3C3D3C`, Manhattan `#525252`, Titanium `#8B8783`) — light theme only
 - Serif display/body (Source Serif 4), sans UI (Libre Franklin)
 - Listing surfaces: image-led article cards (3-col grid; featured hero is split layout)
 - Feature images: `cover.png` in page bundles (light-matted chart covers)
