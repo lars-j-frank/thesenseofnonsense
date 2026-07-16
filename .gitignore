@@ -25,5 +25,9 @@ secrets/
 # Hugo local lock (not needed in remote)
 .hugo_build.lock
 
-# Local research scrapes / PDFs (too large for public repo; keep off Decap)
+# Local research scrapes / PDFs (too large for public repo)
 /research/
+
+# Word DOCX drop zone is under Documents\writing\larsjf (outside repo).
+# If a local mirror appears here, keep it untracked:
+/writing/

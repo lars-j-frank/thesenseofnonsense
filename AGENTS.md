@@ -38,7 +38,7 @@ content/
 │   ├── _index.md          # Series listing
 │   └── the-tier-files/
 │       ├── _index.md      # Series landing page (type: series-landing)
-│       └── part-1-the-billion-dollar-detour.md
+│       └── part-N-…/index.md   # page bundles
 └── topics/_index.md       # Taxonomy listing
 ```
 
@@ -60,7 +60,7 @@ url: "/custom/path/"           # only when explicit URL needed
 
 - **essays** — standalone long-form articles under `/essays/:slug/`
 - **series** — grouped investigations with parent landing page under `/series/:slug/`
-- **series parts** — individual articles with `url` front matter to nest under series path, e.g. `/series/the-tier-files/part-1-the-billion-dollar-detour/`
+- **series parts** — individual articles with `url` front matter to nest under series path
 - **about** — single page
 - **archive** — auto-generated reverse-chronological listing
 
@@ -80,95 +80,78 @@ layouts/
 └── index.html            # Homepage: featured articles, series, recent list
 ```
 
-### Series navigation
-
-Series articles use `series` + `part` front matter. The single.html template automatically:
-- Shows a "Part of [Series]" block with ordered parts list
-- Highlights the current article
-- Provides prev/next within section
-
 ### Design properties
 
 - Narrow reading width (~680px for articles)
 - Light magazine palette (white canvas; Glossy Red `#DE0000` / Deep Bright Red `#B50000` accents; Rich Grey `#3C3D3C`, Manhattan `#525252`, Titanium `#8B8783`) — light theme only; no auto dark mode
 - Serif display/body (Source Serif 4), sans UI (Libre Franklin)
-- Listing surfaces: image-led article cards with topic tags; homepage features Part 1 hero + Parts 2–4 grid + Topics strip
-- Feature images: `cover.png` in page bundles; charts regenerated via `scripts/regen-tier-charts.py` (McKinsey light style, red/grey)
-- Article pages stay clean longform — no card chrome
-- Brand: SN mark + wordmark on Rich Grey with Glossy Red bar; favicon in `static/`
+- Feature images: `cover.png` in page bundles; charts via `scripts/regen-tier-charts.py` and `scripts/gen-draft-charts.py`
 - CSS cache-bust via `sense.css?v=N` in `baseof.html`; chart images via `?v=N` on markdown refs
-- Hugo templates: do not chain `else if` after `with` (Cloudflare Pages / Hugo parse failure — use `if`/`else if` on plain conditions, or nested `with`/`else` only)
+- Hugo templates: do not chain `else if` after `with` (Cloudflare Pages / Hugo parse failure)
 
-## Current Content
+## Writing workflow (Word DOCX — same idea as Whitepaper studio)
 
-- **Homepage** — tagline, intro, TIER Files featured grid (Part 1 hero + Parts 2–4), Topics strip
-- **Nav** — Home · Series · Archive · About (Essays removed from menu until there is essay content)
-- **About** — pen name explanation, public records ethos; Contact section with mailto
-- **Footer** — “Contact the author” mailto via `params.authorEmail` (`lars.j.frank@protonmail.com`)
-- **The TIER Files** — landing + Parts 1–4 published (`draft: false`), biweekly from 2026-05-02
-  - Part 1: The Billion-Dollar Detour
-  - Part 2: The Eight-Million-Dollar Regulator
-  - Part 3: The Climate Fund That Became a Bank
-  - Part 4: The Float
-- Topics taxonomy live on article cards and `/topics/`
+Prose is edited in Word (including phone via Drive). Markdown in `content/` remains the Hugo source of truth. Front matter never enters the DOCX.
+
+**Drop zone:** `%USERPROFILE%\Documents\writing\larsjf\` (PDF/DOCX for Drive sync). Hash stamps live in `.sync\`.
+
+| Script | Purpose |
+|--------|---------|
+| `scripts/export-all-writing.ps1` | Export every article body → `writing\larsjf\<stem>.docx` |
+| `scripts/export-docx.ps1 -MdPath …` | Export one article |
+| `scripts/check-writing-edits.ps1` | **Always run first** — import Word edits if DOCX hash ≠ last export |
+| `scripts/import-docx-if-newer.ps1 -MdPath …` | Import one article |
+
+**Agent rule:** Before editing any article under `content/`, run `.\scripts\check-writing-edits.ps1`. If it imports changes (exit code 2), treat the updated markdown as authoritative and do not overwrite those edits. After substantive markdown edits, re-run `.\scripts\export-all-writing.ps1` (or `export-docx.ps1` for the touched piece).
+
+Edit detection is SHA-256 based (not timestamps), matching the Whitepaper `docx-sync.json` pattern.
 
 ## Cloudflare Pages Setup
 
-Set up via Git integration at dash.cloudflare.com:
-1. Connected to `lars-j-frank/thesenseofnonsense`
-2. Build command: `hugo`, output: `public`
+1. Git integration → `lars-j-frank/thesenseofnonsense`
+2. Build: `hugo`, output: `public`
 3. Production branch: `main`
-4. Env var: `HUGO_VERSION=0.145.0`
+4. Env: `HUGO_VERSION=0.145.0`
 5. Custom domain: thesenseofnonsense.com
 
-Deploys automatically on push to `main`. Draft content (`draft: true`) is skipped in production.
+No CMS and no Pages Functions. In the Cloudflare Pages project, delete any leftover secrets that existed for the old CMS login. On GitHub, delete any OAuth App that was created for `/admin` if it still exists.
+
+Deploys on push to `main`. Drafts (`draft: true`) are skipped in production.
 
 ## Git Workflow
 
-```bash
-# Preview locally
+```powershell
 hugo server -D
-
-# Build for production
 hugo
-
-# Deploy
-git add <paths>   # never git add -A (risk of .cursor / secrets)
+git add <paths>   # never git add -A
 git commit -m "description"
 git push origin main
 ```
 
-Push only while authenticated as the `lars-j-frank` GitHub account.
+Commit author for this repo: Lars J. Frank / lars.j.frank@protonmail.com. Push as the `lars-j-frank` GitHub account only.
 
-## Content Authoring Guide
+## Content Authoring
 
-**Primary editor:** Decap CMS at https://thesenseofnonsense.com/admin/ (see `DECAP_SETUP.md`). Use it for articles, essays, About, and series landing copy — including mobile. Autosave + Publish go through GitHub; Cloudflare rebuilds from `main`.
+1. Run `.\scripts\check-writing-edits.ps1`
+2. Edit `content/.../index.md` (or the matching DOCX, then check-writing-edits)
+3. `hugo server -D` to preview
+4. `.\scripts\export-docx.ps1` / `export-all-writing.ps1` after markdown changes
+5. Commit and push when ready to publish (`draft: false`)
 
-### CLI fallback (theme/code or offline)
-
-```bash
+```powershell
 hugo new content essays/your-essay-title/index.md
-hugo new content series/the-tier-files/part-2-title/index.md
-hugo server -D
+hugo new content series/the-tier-files/part-8-title/index.md
 ```
 
-Series parts must set `series: "The TIER Files"` (exact landing title) and `part: N`. Prefer page bundles (`slug/index.md` + images in the same folder).
+Series parts must set `series: "The TIER Files"` (exact landing title) and `part: N`. Prefer page bundles.
 
-### Publish workflow (Decap)
+## House copy rules
 
-1. Edit in `/admin/`
-2. Drafts autosave via editorial workflow
-3. Set Draft off when ready for Hugo to build the page
-4. Publish → merge to `main` → Cloudflare deploy
-
-## Editing Environment
-
-Configure git `user.name` / `user.email` for this repo to the Lars J. Frank identity before committing.
+- No em dashes; Canadian spelling (per cent); no define-by-negation tropes; no AI tell phrases
+- Connection ≠ causation; every number from a named public document
 
 ## Future Work
 
-- [ ] Next TIER Files instalments (attribute leakage / unpublished trail — see series landing)
-- [ ] Standalone essays
-- [ ] Add more topics as content grows
-- [x] Decap auth: GitHub OAuth App only (PAT bridge removed — was world-readable at /api/auth)
-- [ ] Consider RSS feed enhancements if needed
+- [ ] Part 8 ahead of the Dec 2026 TIER statutory review
+- [ ] More topics as content grows
+- [ ] Optional RSS enhancements
