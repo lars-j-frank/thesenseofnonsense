@@ -39,11 +39,11 @@ That's from Note 5 of ERA's own audited statements, and honestly it's a perfectl
 
 Some context for the pile. ERA paid out $71.7 million to projects last year. So the agency is holding roughly seven and a half years of disbursements at its current pace, and the pace has been slowing, not quickening ($100.7 million in fiscal 2022, then $84.4, then $84.3, then $71.7).
 
-Meanwhile the interest accumulates the way interest does. $4.6 million, then $5.3 million, then $19.2 million, then $29.7 million, then $25.6 million over the past five years, which comes to just over $104 million earned by not spending money. In fiscal 2024 the arrangement achieved something I want to make sure you don't skim past: ERA's interest income, at $29.7 million, exceeded half of its grant revenue for the year, which was $51.9 million. For every two dollars the government gave the agency to fund clean technology, the agency made another dollar by holding what it already had.
+Meanwhile the interest accumulates the way interest does. $4.6 million, then $5.3 million, then $19.2 million, then $29.7 million, then $25.6 million over the past five years, which comes to just over $84 million earned by holding the money. In fiscal 2024 the arrangement achieved something I want to make sure you don't skim past: ERA's interest income, at $29.7 million, exceeded half of its grant revenue for the year, which was $51.9 million. For every two dollars the government gave the agency to fund clean technology, the agency made another dollar by holding what it already had.
 
 ![Bar chart of ERA interest income rising from 4.6 million dollars in fiscal 2021 to a peak of 29.7 million in fiscal 2024, highlighted because it exceeded half of that year's grant revenue.](p3-interest.png?v=5)
 
-*Just over $104 million earned in five years by not spending money.*
+*Just over $84 million in interest income over five years.*
 
 > **For every two dollars the government gave the agency to fund clean technology, the agency made another dollar by holding what it already had.**
 
@@ -75,7 +75,7 @@ That date has now passed. ERA is plainly still operating, still announcing chall
 
 ### The concession paragraph
 
-The fair reading, and it deserves saying properly: an agency funding multi-year capital projects genuinely needs reserves, because a demonstration plant announced today draws its money over five years and you'd rather the money exist. Milestone-based payments are prudent. Earning interest on committed-but-undisbursed funds beats earning nothing, and every dollar of that $104 million is disclosed, audited, and now partially recaptured by the province.
+The fair reading, and it deserves saying properly: an agency funding multi-year capital projects genuinely needs reserves, because a demonstration plant announced today draws its money over five years and you'd rather the money exist. Milestone-based payments are prudent. Earning interest on committed-but-undisbursed funds beats earning nothing, and every dollar of that $84 million is disclosed, audited, and now partially recaptured by the province.
 
 But reserves are a means, and somewhere along the way this pile stopped being a means. A reserve sized at seven years of your own slowing disbursement pace, laddered out to 2027, growing faster than you can spend it, is not working capital. It's an endowment, and endowments are what institutions build when preserving themselves has quietly become the mission. The province has effectively conceded the point in writing, first with the clawback clause and then by letting a third of the annual allocation get netted away against interest, which is a thing you only do to an agency whose problem is accumulation. Every dollar in that ladder is a tonne of carbon somebody paid to have addressed, and the honest description of the current arrangement is that Alberta's industrial polluters are financing a bond portfolio with a climate mandate attached.
 
@@ -90,6 +90,6 @@ Next: the float, or what happens to money that gets announced and then never qui
 ### Sources
 
 1. Emissions Reduction Alberta, audited financial statements, year ended May 31, 2025 (KPMG): Statement of Financial Position (cash of $309.5M); Note 5 (short-term GICs of $40M at 4.54-5.49%, long-term GICs of $190M at 3.75-4.14% maturing November 2026 to April 2027; institutions named, amounts not broken out per bank); Note 3 (the August 26, 2024 allocation letter, the $29.7M interest reduction, and the October 11, 2024 grant agreement amendment); Note 11 (96% single-agreement revenue dependence and the March 31, 2026 expiry); Note 12 (CFR Compliance Fund registration June 5, 2025, and $188.2M received as of August 21, 2025). [eralberta.ca](https://www.eralberta.ca/)
-2. ERA audited financial statements FY2021 through FY2025: interest income of $4.6M, $5.3M, $19.2M, $29.7M, $25.6M (five-year sum ~$104.4M); project expenses of $44.0M, $100.7M, $84.4M, $84.3M, $71.7M; FY2024 grant revenue of $51.9M; cash and investment balances of $510.6M, $512.3M, $440.9M, $487.6M, $539.5M.
+2. ERA audited financial statements FY2021 through FY2025: interest income of $4.6M, $5.3M, $19.2M, $29.7M, $25.6M (five-year sum ~$84.4M); project expenses of $44.0M, $100.7M, $84.4M, $84.3M, $71.7M; FY2024 grant revenue of $51.9M; cash and investment balances of $510.6M, $512.3M, $440.9M, $487.6M, $539.5M.
 3. ERA financial statements / annual reports covering fiscal 2016 (no grant revenue that year; operations funded from accumulated reserves during the provincial climate-policy transition). [eralberta.ca](https://www.eralberta.ca/)
 4. ERA program announcements and challenge notices through spring 2026 (continued operations following the March 31, 2026 grant-agreement expiry date). [eralberta.ca](https://www.eralberta.ca/)

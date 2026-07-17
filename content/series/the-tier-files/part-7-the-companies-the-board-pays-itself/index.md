@@ -67,7 +67,7 @@ The silence is the actual finding. A public agency distributing a compliance lev
 
 > **The arrangement is disclosed in a sentence and a number. The public file still withholds the company names, the managers, and what the fees buy.**
 
-Next: Part 8, fixing the machine, timed for the statutory TIER review. The network map that sits beside this note is Part 6.
+Next: Part 8, fixing the machine. The network map that sits beside this note is Part 6. A review of the TIER Regulation had been due by the end of 2026; Order in Council 369/2025 moved that deadline to 31 December 2030.
 
 ---
 
@@ -81,4 +81,5 @@ Next: Part 8, fixing the machine, timed for the statutory TIER review. The netwo
 4. ERA financial statements FY2019 through FY2025, remuneration notes (the nine-year series through $321,613 in FY2025; the FY2025 note at p. 12 of the [standalone statements](https://www.eralberta.ca/wp-content/uploads/2025/10/2025-05-31-Emissions-Reduction-Alberta-FS-AUD-F.pdf)).
 5. Note wording change: ERA FS FY2022 ("remuneration to contract management who report directly to the board") versus ERA FS FY2023 onward ("remuneration to companies owned by senior management who report directly to the board").
 6. The 2015 annual report, which contains no financial statements (the gap year in every series above).
+7. Order in Council 369/2025, s. 23 (TIER Regulation review deadline moved from 31 December 2026 to 31 December 2030). [King's Printer](https://kings-printer.alberta.ca/Documents/Orders/Orders_in_Council/2025/2025_369.html)
 

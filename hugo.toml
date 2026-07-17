@@ -67,3 +67,8 @@ buildExpired = false
     name = "About"
     url = "/about/"
     weight = 4
+  [[menu.main]]
+    identifier = "press"
+    name = "Press"
+    url = "/press/"
+    weight = 5

@@ -78,13 +78,13 @@ Here is the fund's own accounting for fiscal years ended March 31, in thousands 
 | Transfers to General Revenue Fund | 311,949 | 335,451 | 416,666 | 24,699 |
 | Accumulated surplus, year end | 336,805 | 591,821 | 1,016,606 | 1,105,432 |
 
-![Stacked bar chart of TIER Fund outflows by fiscal year, FY2022 to FY2025, showing transfers to the General Revenue Fund exceeding innovation and technology grants in every year.](tier-fund-flow.png?v=5)
+![Stacked bar chart of TIER Fund outflows by fiscal year, FY2022 to FY2025, showing transfers to the General Revenue Fund exceeding innovation and technology grants in the first three years and falling below grants in fiscal 2025.](tier-fund-flow.png?v=6)
 
-*In every year, the transfer to general revenue exceeded the emissions reduction grants.*
+*In the first three years, the transfer to general revenue exceeded the emissions reduction grants. In fiscal 2025 the pattern flipped as revenue collapsed.*
 
-Read the middle two rows against each other and you see that in every single year, the transfer to general revenue exceeded the grants for emissions reduction.
+Read the middle two rows against each other and you see the pattern. In fiscal 2022, 2023, and 2024, the transfer to general revenue exceeded the grants for emissions reduction. In fiscal 2025, grants were $109.4 million and the transfer fell to $24.7 million, because compliance revenue collapsed and there was less cash to move.
 
-Across the four years, the fund moved $1,088.8 million into general revenue and $590.0 million into the grants that are the fund's public identity.
+Across the four years, the fund still moved $1,088.8 million into general revenue and $590.0 million into the grants that are the fund's public identity.
 
 > **For every dollar that went to emissions reduction technology (much of it routed to Emissions Reduction Alberta), about $1.85 went to the government's general accounts.**
 

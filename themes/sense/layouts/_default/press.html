@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div class="page press-page">
+  <header class="press-header">
+    <div>
+      <p class="press-kicker">Newsroom reference</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.summary }}
+      <p class="press-summary">{{ . }}</p>
+      {{ end }}
+      <p class="press-updated">Verified and updated {{ .Date.Format .Site.Params.dateFormat }}</p>
+    </div>
+    <div class="press-actions">
+      <a class="press-button press-button--primary" href="mailto:{{ .Site.Params.authorEmail }}?subject=Press%20inquiry%20about%20The%20TIER%20Files">Contact Lars</a>
+      <button class="press-button" type="button" onclick="window.print()">Print or save PDF</button>
+    </div>
+  </header>
+
+  <div class="press-grid">
+    <aside class="press-sidebar" aria-label="Press kit contents">
+      <p class="press-sidebar-title">In this kit</p>
+      <nav>
+        <a href="#the-series-in-one-sentence">Series summary</a>
+        <a href="#the-lead-finding">Lead finding</a>
+        <a href="#verified-findings">Verified findings</a>
+        <a href="#about-lars-j-frank">Author biography</a>
+        <a href="#available-for-comment">Interview topics</a>
+        <a href="#reporting-method">Method</a>
+        <a href="#charts-available-for-publication">Charts</a>
+        <a href="#questions-reporters-tend-to-ask">Questions</a>
+        <a href="#primary-records">Primary records</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="press-sidebar-note">
+        <strong>Credit</strong>
+        <span>The Sense of Nonsense / Lars J. Frank</span>
+      </div>
+    </aside>
+
+    <article class="prose press-body">
+      {{ .Content }}
+    </article>
+  </div>
+</div>
+{{ end }}

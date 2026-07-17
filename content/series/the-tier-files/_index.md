@@ -27,4 +27,4 @@ This series follows the money: where TIER revenue comes from, where it actually 
 
 **Part 7: The Companies the Board Pays Itself** (11 July 2026): fifteen years of remuneration notes on companies owned by senior management who report to the board.
 
-Still ahead: a constructive brief before the statutory TIER review at the end of 2026, and the next audited statements when they land.
+Still ahead: a constructive brief ahead of the next TIER review, and the next audited statements when they land. The review had been due at the end of 2026; Order in Council 369/2025 moved the deadline to 31 December 2030.

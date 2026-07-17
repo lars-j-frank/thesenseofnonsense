@@ -106,7 +106,7 @@ years = ["FY2022", "FY2023", "FY2024", "FY2025"]
 grants = np.array([205.1, 181.1, 94.3, 109.4])
 grf = np.array([311.9, 335.5, 416.7, 24.7])
 fig, ax = plt.subplots(figsize=(10, 5.2))
-style_ax(ax, "General-revenue transfers exceeded grants every year")
+style_ax(ax, "General-revenue transfers exceeded grants in three of four years")
 x = np.arange(len(years))
 w = 0.55
 ax.bar(x, grants, w, label="Innovation & technology grants", color=MUTED)

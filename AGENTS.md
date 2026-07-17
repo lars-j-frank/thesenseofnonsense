@@ -152,6 +152,6 @@ Series parts must set `series: "The TIER Files"` (exact landing title) and `part
 
 ## Future Work
 
-- [ ] Part 8 ahead of the Dec 2026 TIER statutory review
+- [ ] Part 8 ahead of the next TIER statutory review (deadline moved to Dec 2030 by O.C. 369/2025)
 - [ ] More topics as content grows
 - [ ] Optional RSS enhancements
