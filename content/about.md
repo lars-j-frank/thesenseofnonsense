@@ -10,3 +10,5 @@ Lars J. Frank writes under a pen name. The work published here comes from public
 ## Contact
 
 Corrections, documents, and tips: [lars.j.frank@protonmail.com](mailto:lars.j.frank@protonmail.com).
+
+For reporters: [Press kit](/press/).

@@ -1,19 +1,13 @@
 baseURL = "https://thesenseofnonsense.com"
 title = "The Sense of Nonsense"
 theme = "sense"
+languageCode = "en-us"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 removePathAccents = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
-
-[languages]
-  [languages.en]
-    locale = "en-US"
-    label = "English"
-    weight = 1
-    title = "The Sense of Nonsense"
 
 [permalinks]
   essays = "/essays/:slug/"
