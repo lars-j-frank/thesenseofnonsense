@@ -2,7 +2,7 @@
 
 An investigative publication by **Lars J. Frank**.
 
-> The story is in the ledger.
+> Stories and analysis from within the nonsense.
 
 Public documents. Public interest. An engineer writing within the water-energy-food nexus, primarily about the distance between what the public is told about carbon accounting and what is actually happening in the ledgers, filings, and regulatory systems that define it.
 

@@ -28,6 +28,9 @@ secrets/
 # Local research scrapes / PDFs (too large for public repo)
 /research/
 
+# Brand kit: OFL fonts re-downloaded by render script
+/brand/linkedin/fonts/
+
 # Word DOCX drop zone is under Documents\writing\larsjf (outside repo).
 # If a local mirror appears here, keep it untracked:
 /writing/

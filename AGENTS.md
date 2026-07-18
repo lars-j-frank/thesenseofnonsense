@@ -7,8 +7,9 @@ Investigative publication by **Lars J. Frank** (pseudonym). Focused on carbon ac
 - **Domain:** thesenseofnonsense.com
 - **Repo:** github.com/lars-j-frank/thesenseofnonsense (public)
 - **Author identity:** Lars J. Frank <lars.j.frank@protonmail.com>
-- **Tagline:** "The story is in the ledger."
+- **Tagline:** "Stories and analysis from within the nonsense"
 - **Tone:** restrained, literate, skeptical, technical, not performative — "reads annual reports for sport"
+- **Copy ban:** Do not use "The story is in the ledger" or slogan variants of it (reads as AI tagline). Stick to the site tagline or plain documentary phrasing.
 
 ## Tech Stack
 
@@ -149,6 +150,7 @@ Series parts must set `series: "The TIER Files"` (exact landing title) and `part
 
 - No em dashes; Canadian spelling (per cent); no define-by-negation tropes; no AI tell phrases
 - Connection ≠ causation; every number from a named public document
+- Omit leading “The” from short titles, labels, and short sentences when meaning remains clear. Prefer direct labels (Overview, Findings, Float) over format-explaining labels (The series in one sentence). Keep “The” in proper names such as The TIER Files. Show content; do not describe its format.
 
 ## Future Work
 
