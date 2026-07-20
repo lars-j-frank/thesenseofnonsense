@@ -20,7 +20,7 @@ summary: "Part 2 of Ghost Lives. Alberta quasi-stacks into BC; BC stacks into th
 
 ---
 
-![Comic splash page: Ghost Lives — the molecule that lived five times.](comic-00-splash.png?v=1)
+![Comic splash page: Ghost Lives, the molecule that lived five times.](comic-00-splash.png?v=1)
 
 *Issue art for the journey below. Read it as argument, not evidence.*
 
@@ -114,13 +114,15 @@ From the gram's point of view: Life 4 is a compliance instrument sold into the l
 
 ### Life 5: BC Low Carbon Fuel Standard credit
 
-When the same renewable gas is used in compressed natural gas vehicles, FortisBC states that it has obtained BC LCFS credits for avoided emissions. BC's low-carbon fuel rules and the federal CFR can both generate credits on low-CI fuel pathways where eligibility overlaps. Whether both credits issue on the same volume is a boundaries-and-evidence question under each program; FortisBC's IR response establishes that it has obtained LCFS credits from RNG in CNG use.
+When renewable gas is used in compressed natural gas vehicles, FortisBC states that it has obtained BC LCFS credits for avoided emissions. In the same G-137-25 filing, FEI describes book-and-claim under the LCFS around **BC-based** RNG delivered to CNG stations. The Stage 2 record includes intervener evidence that out-of-province RNG faces physical-delivery hurdles for BC LCFS credit generation. So Life 5 is on the FortisBC file; it is not automatically available to every Alberta digester tonne that already supports Lives 2 through 4.
+
+Where eligibility overlaps, BC's low-carbon fuel rules and the federal CFR can both generate credits on low-CI fuel pathways. Whether both credits issue on the same volume is a boundaries-and-evidence question under each program.
 
 Life 5 is another tradable credit, this time inside BC's transportation fuel market, again often sold to an obligated fossil-fuel party.
 
 ### Where does it end?
 
-![Ghost lives stacked on one physical reduction.](p2-ghost-stack.png?v=1)
+![Ghost lives stacked on one physical reduction.](p2-ghost-stack.png?v=2)
 
 *Permission structure from the public filings. Not every tonne carries every life.*
 
@@ -137,7 +139,7 @@ A single avoided methane gram (expressed as CO2e) can, under the architectures d
 3. a FortisBC customer retirement under the GGRR,
 4. a BC carbon-tax refund on the sold volume,
 5. a federal CFR credit, and
-6. a BC LCFS credit if the end use is transportation.
+6. a BC LCFS credit if the end use is transportation and the pathway is eligible (FEI's own filing frames LCFS book-and-claim around BC-based RNG).
 
 Not every gram carries every life. Contracts, attestations, and eligibility rules chop the stack. The point is the *permission structure*. Alberta's plan admits attribute export while keeping program claims. BC's utility sells the attribute to ratepayers and, on its own Commission evidence, monetizes related federal credits. The federal fuel rule was built to stack. The registry that would let a citizen see which lives still attach to which gram does not yet exist in publishable form.
 
@@ -152,7 +154,7 @@ Walk one tonne of CO2e, not one gram, so the arithmetic matches how credits are 
 3. **Displacement.** One tonne CO2e of attributes is paired with conventional gas at AECO/NIT and sold into FortisBC's inventory.
 4. **BC customer Life.** FortisBC sells that tonne (as gigajoules) into the blend or voluntary program. Internal accounts mark the attribute retired. A Vancouver household's bill shows a renewable share. The Province refunds carbon tax on that share.
 5. **CFR Life.** Through a side letter, a CFR credit (or a share of credits) is created for biomethane placed as fuel in Canada. A gasoline importer buys the credit and retires it against its CFR obligation. That importer sells the same volume of liquid fuel it would have sold, with a lower compliance burden.
-6. **LCFS Life (if CNG).** If a trucking fleet burns the renewable gas, a BC LCFS credit may also issue and trade.
+6. **LCFS Life (if eligible CNG).** If a trucking fleet burns eligible renewable gas, a BC LCFS credit may also issue and trade. FEI's G-137-25 materials describe that pathway for BC-based RNG; out-of-province eligibility is narrower on the Stage 2 record.
 
 Atmosphere: one tonne of avoided warming impact (subject to all the usual lifecycle caveats).
 Ledgers: up to half a dozen entries that each look, locally, like a tonne of progress.
@@ -167,7 +169,7 @@ Quasi-stacking, as used here, is Alberta's version: keep the funded reduction on
 
 ### Concession
 
-Pipelines mix molecules. Inventories follow territories. Fuel rules follow lifecycle models. Program KPIs follow grant agreements. These systems were not designed by one committee, and stitching them with book-and-claim was a rational response to physical reality. Stacking can make a digester financeable that would not have been built on one revenue stream alone. Some of those digesters reduce real methane. Federal–provincial complementarity is written into CFR materials for a reason.
+Pipelines mix molecules. Inventories follow territories. Fuel rules follow lifecycle models. Program KPIs follow grant agreements. These systems were not designed by one committee, and stitching them with book-and-claim was a rational response to physical reality. Stacking can make a digester financeable that would not have been built on one revenue stream alone. Some of those digesters reduce real methane. Federal-provincial complementarity is written into CFR materials for a reason.
 
 The concession does not erase the ghost lives. It explains why they were invited in.
 
@@ -175,7 +177,7 @@ The concession does not erase the ghost lives. It explains why they were invited
 
 Follow the gram and the story is shorter than the regulations.
 
-Methane is captured once. Alberta can still claim the funded project. British Columbia can still sell the attribute to every ratepayer and refund carbon tax on it. Ottawa's fuel rule can still turn a related credit into compliance for a liquid-fuel supplier. BC's LCFS can still do the same in transportation. FortisBC calls the federal piece stackable and returns a share of proceeds to rates. Alberta's own plan admits the attributes leave.
+Methane is captured once. Alberta can still claim the funded project. British Columbia can still sell the attribute to every ratepayer and refund carbon tax on it. Ottawa's fuel rule can still turn a related credit into compliance for a liquid-fuel supplier. BC's LCFS can still do the same in transportation where the pathway qualifies. FortisBC calls the federal piece stackable and returns a share of proceeds to rates. Alberta's own plan admits the attributes leave.
 
 Where stacking ends is not a law of physics. It is a choice about whether uniqueness is required before a tonne may be sold, booked, refunded, and credited again. The public file, from Edmonton through the BCUC docket to the CFR credit market, still does not publish a single ledger that would let a reader watch one gram retire from every life at once.
 

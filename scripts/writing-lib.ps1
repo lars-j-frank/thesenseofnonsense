@@ -99,6 +99,8 @@ function Get-ArticleManifest {
         @{ Stem = "part-5-paid-in-alberta-claimed-everywhere"; Rel = "content\series\the-tier-files\part-5-paid-in-alberta-claimed-everywhere\index.md" }
         @{ Stem = "part-6-the-small-world"; Rel = "content\series\the-tier-files\part-6-the-small-world\index.md" }
         @{ Stem = "part-7-the-companies-the-board-pays-itself"; Rel = "content\series\the-tier-files\part-7-the-companies-the-board-pays-itself\index.md" }
+        @{ Stem = "part-1-what-the-premium-buys"; Rel = "content\series\ghost-lives\part-1-what-the-premium-buys\index.md" }
+        @{ Stem = "part-2-where-stacking-ends"; Rel = "content\series\ghost-lives\part-2-where-stacking-ends\index.md" }
         @{ Stem = "the-missing-year"; Rel = "content\essays\the-missing-year\index.md" }
         @{ Stem = "what-era-announced"; Rel = "content\essays\what-era-announced\index.md" }
         @{ Stem = "nineteen-recommendations"; Rel = "content\essays\nineteen-recommendations\index.md" }

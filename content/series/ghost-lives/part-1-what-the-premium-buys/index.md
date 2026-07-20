@@ -20,7 +20,7 @@ summary: "Part 1 of Ghost Lives. FortisBC's renewable gas program charges a prem
 
 ---
 
-![Comic splash: Ghost Lives — the molecule that lived five times.](comic-splash.png?v=1)
+![Comic splash: Ghost Lives, the molecule that lived five times.](comic-splash.png?v=1)
 
 *Ghost Lives, issue zero. The molecule does one job. The paper assigns it several.*
 
@@ -32,7 +32,7 @@ On 5 June 2025 the British Columbia Utilities Commission opened Order G-137-25, 
 
 That section is the tell. A utility that has to explain why monetizing federal Clean Fuel Regulations credits from the same renewable gas it sells to premium customers is *not* double counting is already living inside the architecture this series is about.
 
-This instalment stays on the BC side of the ledger: the Commission, the utility, the premium, the mandatory blend, the carbon-tax refund, and the credit markets FortisBC itself describes. Part 2 follows the same reduction back into Alberta and forward into the federal fuel rules, molecule by molecule.
+I wanted to check the claim against the public file, the same way Part 5 of The TIER Files checked Alberta's digesters against the BCUC biomethane docket. This instalment stays on the BC side: the Commission, the utility, the premium, the mandatory blend, the carbon-tax refund, and the credit markets FortisBC itself describes. Part 2 follows the same reduction back into Alberta and forward into the federal fuel rules.
 
 ### What a customer buys
 
@@ -40,7 +40,7 @@ FortisBC's renewable gas program, formerly the Biomethane Program, was first app
 
 Voluntary customers can designate five, ten, twenty-five, fifty, or one hundred per cent of their gas use as renewable. Through the Stage 2 review decided in Order G-77-24, the Commission approved a subsidised voluntary rate for non-NGV sales customers at a **$7 per gigajoule premium** above conventional natural gas. FortisBC's own cost page later shows the biomethane charge rising to **$8.660 per GJ as of 1 April 2026**. Check the current tariff before quoting either figure in print; the marketing page and the ordered methodology are different instruments, and both move.
 
-As of **1 July 2025**, FortisBC says **all** its gas customers have **three per cent** of their gas use designated as renewable, whether they volunteered or not. The blend was one per cent on 1 July 2024. The voluntary program continues on top of that floor. A customer who designates five per cent is buying two per cent of voluntary renewable gas and three per cent of the automatic designation.
+The mandatory floor has been climbing. FortisBC put the designated blend at **one per cent** on 1 July 2024, **three per cent** on 1 July 2025, and **3.5 per cent** on 1 July 2026 for all gas customers, whether they volunteered or not. The voluntary program continues on top of that floor. A customer who designates five per cent today is buying 1.5 per cent of voluntary renewable gas and 3.5 per cent of the automatic designation.
 
 So the premium is no longer a niche product for green households. Every ratepayer funds renewable gas acquisition. Voluntary customers pay more. The Commission has repeatedly accepted that structure under the Greenhouse Gas Reduction (Clean Energy) Regulation, which makes qualifying renewable gas acquisition a "prescribed undertaking." Under section 18 of the Clean Energy Act, the Commission must set rates that let the utility recover prescribed-undertaking costs and must not exercise its powers in a way that prevents the undertaking.
 
@@ -48,9 +48,9 @@ That legal frame matters. Once a contract qualifies as a prescribed undertaking,
 
 ### What arrives in the pipe
 
-More than seventy per cent of FortisBC's contracted renewable gas supply is from outside British Columbia, delivered by displacement rather than as a tagged molecule that travels west (FEI Stage 2 IR responses to My Sea to Sky). The supplier injects biomethane into a local system somewhere else. Nearby customers burn those molecules as ordinary gas. At a trading hub (AECO/NIT, Huntingdon, Station 2), an equivalent volume of conventional gas is paired with the environmental attributes and sold to FortisBC as "renewable natural gas."
+Most of the contracted volume is from outside British Columbia. In Stage 2 IR responses to Creative Energy, FortisBC confirmed that the majority of expected annual volume for both existing and anticipated contracted RNG projects is sourced outside the province. Delivery is by displacement rather than as a tagged molecule that travels west. (An intervener later put the out-of-province share above seventy per cent in a question to FortisBC; FortisBC corrected other premises in that exchange and did not publish its own percentage there.) The supplier injects biomethane into a local system somewhere else. Nearby customers burn those molecules as ordinary gas. At a trading hub (AECO/NIT, Huntingdon, Station 2), an equivalent volume of conventional gas is paired with the environmental attributes and sold to FortisBC as "renewable natural gas."
 
-![Displacement delivery: molecules stay local while attributes travel to FortisBC.](p1-displacement.png?v=1)
+![Displacement delivery: molecules stay local while attributes travel to FortisBC.](p1-displacement.png?v=2)
 
 *Book-and-claim in one picture. The paper moves. The methane usually does not.*
 
@@ -72,7 +72,7 @@ From FortisBC's own filings, a single acquired reduction can carry, at the same 
 
 **Claim 1: the voluntary premium.** The customer pays $7 to $8.66/GJ above conventional gas and is told the environmental attributes attach to their consumption.
 
-**Claim 2: the mandatory blend.** Every sales customer funds a share of renewable gas costs through rate mechanisms approved in the Stage 2 review (including the S&T LC / RNG rider structure). As of July 2025 that share is framed as a three per cent designation.
+**Claim 2: the mandatory blend.** Every sales customer funds a share of renewable gas costs through rate mechanisms approved in the Stage 2 review (including the S&T LC / RNG rider structure). As of July 2026 that share is framed as a 3.5 per cent designation.
 
 **Claim 3: the provincial carbon-tax refund.** When biomethane is sold to customers, FortisBC's Stage 2 record describes carbon tax credits granted to customers and refunds claimed from the Province. The G-77-24 decision notes that FortisBC must sell biomethane in the month it is blended to receive the provincial refund. The reduction therefore triggers a public fiscal benefit (foregone carbon tax) as well as a private premium.
 
@@ -80,11 +80,11 @@ From FortisBC's own filings, a single acquired reduction can carry, at the same 
 
 Two of the supplier attestation letters filed with FortisBC's 2024 BPA Annual Compliance Report exclude CFR credits. The Commission flagged those exclusions. FortisBC's explanation is that the exclusions reflect registration mechanics under the CFR, not a transfer of environmental attributes away from FEI, and that FEI still owns the attributes under the BPA. Read carefully: the utility is describing a world in which the attribute is "retired" for the GGRR customer sale while a related federal compliance credit is still being created and sold.
 
-**Claim 5: BC Low Carbon Fuel Standard credits.** In its response to BCUC Information Request No. 1 in the same inquiry, FortisBC states that it "participates in the BC LCFS and has obtained credits for avoided emissions for the use of RNG in CNG vehicles." RNG has been eligible under BC's low-carbon fuel rules since 2019. Those credits are tradable to obligated fuel suppliers.
+**Claim 5: BC Low Carbon Fuel Standard credits.** In its response to BCUC Information Request No. 1 in the same inquiry, FortisBC states that it "participates in the BC LCFS and has obtained credits for avoided emissions for the use of RNG in CNG vehicles." In the same G-137-25 submission, FEI frames book-and-claim under the LCFS around **BC-based** RNG delivered to CNG stations. The Stage 2 record also carries intervener evidence that out-of-province RNG faces physical-delivery hurdles for BC LCFS credit generation. So Claim 5 is real on the FortisBC file; it is the claim least automatically available to an Alberta digester tonne.
 
-Five paper objects. One methane reduction at the digester.
+Five paper objects. One methane reduction at the digester. Not every object lands on every tonne.
 
-![Five claims one reduction can carry, from FortisBC filings.](p1-five-claims.png?v=1)
+![Five claims one reduction can carry, from FortisBC filings.](p1-five-claims.png?v=3)
 
 *The architecture, not a claim that every gigajoule hits every market.*
 
@@ -118,7 +118,7 @@ A digester that keeps manure methane out of the air does real atmospheric work. 
 
 The finding does not require proving fraud. It requires reading FortisBC's own Commission filings.
 
-A customer who pays the renewable gas premium is buying a claim that FortisBC says is retired on consumption. The same acquisition architecture, on those same filings, can also trigger a provincial carbon-tax refund, generate a federal CFR credit sold to a primary supplier of gasoline or diesel, and, for transportation use, generate a BC LCFS credit. Over seventy per cent of the contracted supply is out-of-province paper attached to conventional gas. Retirement is tracked by internal volume accounting without a public certificate. Two supplier attestations already carve out CFR credits while the GGRR retirement story continues.
+A customer who pays the renewable gas premium is buying a claim that FortisBC says is retired on consumption. The same acquisition architecture, on those same filings, can also trigger a provincial carbon-tax refund, generate a federal CFR credit sold to a primary supplier of gasoline or diesel, and, for transportation use of eligible RNG, generate a BC LCFS credit. FortisBC has confirmed that a majority of its expected contracted RNG volume is out-of-province paper attached to conventional gas. Retirement is tracked by internal volume accounting without a public certificate. Two supplier attestations already carve out CFR credits while the GGRR retirement story continues.
 
 What the premium buys is a place in that stack. Whether it buys a unique tonne is a question the public file still cannot answer from the outside.
 
@@ -138,12 +138,12 @@ Next: follow one gram of CO2e from an Alberta lagoon through every ghost life th
 2. FortisBC Energy Inc., Submission per G-137-25 Appendix B (Exhibit C1-2), especially s. 3.2 "Creating Credits Under the CFR is not Double Counting," side-letter mechanics, and attestation-letter CFR exclusions. [FEI PDF](https://www.cdn.fortisbc.com/libraries/docs/default-source/about-us-documents/regulatory-affairs-documents/gas-utility/c1-2-bcuc-2025-rng-inquiry-fei-submission.pdf)
 3. FortisBC Energy Inc., Response to BCUC IR No. 1 (Exhibit C1-3 / All IR1), chain-of-custody description and BC LCFS participation statement. [FEI PDF](https://www.cdn.fortisbc.com/libraries/docs/default-source/about-us-documents/regulatory-affairs-documents/gas-utility/251027-bcuc-2025-rng-inquiry-bcuc-all-ir1-response-ff.pdf)
 4. BCUC Decision and Order G-77-24, FEI BERC Stage 2 / Revised Renewable Gas Program: $7/GJ voluntary premium, carbon-tax refund timing, rate recovery structure. [BCUC PDF](https://docs.bcuc.com/documents/other/2024/doc_76410_g-77-24-fei-berc-stage2-review-decision.pdf)
-5. FortisBC, "How much does Renewable Natural Gas cost": 3 per cent designated blend (1 July 2025); biomethane charge $8.660/GJ (1 April 2026) as published on the company page. [fortisbc.com](https://www.fortisbc.com/services/sustainable-energy-options/renewable-natural-gas/how-much-does-renewable-natural-gas-cost)
-6. FEI Stage 2 Revised Renewable Gas Program, response to My Sea to Sky IR3: out-of-province share of contracted supply and displacement delivery. [FEI PDF](https://www.cdn.fortisbc.com/libraries/docs/default-source/about-us-documents/regulatory-affairs-documents/gas-utility/231004-fei-stage-2-revised-rg-program-ms2s-ir3-response-ff.pdf)
+5. FortisBC, "How much does Renewable Natural Gas cost": designated blend progression (1% from 1 July 2024; 3% from 1 July 2025; 3.5% from 1 July 2026); biomethane charge $8.660/GJ (1 April 2026) as published on the company page. [fortisbc.com](https://www.fortisbc.com/services/sustainable-energy-options/renewable-natural-gas/how-much-does-renewable-natural-gas-cost)
+6. FEI Stage 2 Revised Renewable Gas Program, response to Creative Energy IR1: majority of expected annual volume for existing and anticipated contracted RNG projects sourced outside BC. [FEI PDF](https://www.cdn.fortisbc.com/libraries/docs/default-source/about-us-documents/regulatory-affairs-documents/gas-utility/220516-fei-stage-2-revised-rg-program-creative-ir1-response-ff.pdf). My Sea to Sky IR3 (displacement / inventorying; intervener "over 70%" premise left unconfirmed as a FEI figure): [FEI PDF](https://www.cdn.fortisbc.com/libraries/docs/default-source/about-us-documents/regulatory-affairs-documents/gas-utility/231004-fei-stage-2-revised-rg-program-ms2s-ir3-response-ff.pdf)
 7. BCUC Decision and Order G-212-22, RNG Inquiry Phase 1; Phase 2 Final Report (13 June 2023): definition of RNG acquisition for GGRR purposes; notional delivery. [Phase 1 PDF](https://docs.bcuc.com/documents/other/2022/doc_67309_g-212-22-bcuc-rng-inquiry-phase1-decision.pdf)
 8. Greenhouse Gas Reduction (Clean Energy) Regulation, as amended July 2024: environmental attribute definition; retirement at sale or transfer to customers; volume and cost caps for prescribed undertakings.
 9. Clean Energy Act, s. 18: prescribed undertakings; Commission duty to allow cost recovery and not to prevent the undertaking.
-10. BCUC acceptance of FEI–Shell BPA (Iowa supply; displacement), Order E-14-21 and reasons: out-of-country RNG as prescribed undertaking. [BCUC orders](https://www.ordersdecisions.bcuc.com/bcuc/orders/en/item/511318/index.do)
+10. BCUC acceptance of FEI-Shell BPA (Iowa supply; displacement), Order E-14-21 and reasons: out-of-country RNG as prescribed undertaking. [BCUC orders](https://www.ordersdecisions.bcuc.com/bcuc/orders/en/item/511318/index.do)
 11. FortisBC news release (23 April 2019): RNG inclusion under BC Low Carbon Fuel Standard. [newswire.ca](https://www.newswire.ca/news-releases/renewable-natural-gas-now-part-of-the-low-carbon-fuel-standard-891032986.html)
 12. Province of British Columbia, Renewable and Low Carbon Fuels / Low Carbon Fuel Standard overview. [gov.bc.ca](https://www2.gov.bc.ca/gov/content/industry/electricity-alternative-energy/transportation-energies/renewable-low-carbon-fuels)
 13. Cross-reference: Lars J. Frank, "Paid in Alberta, Claimed Everywhere," The TIER Files Part 5: Alberta funding and attribute export into FortisBC biomethane dockets. [thesenseofnonsense.com](https://thesenseofnonsense.com/series/the-tier-files/part-5-paid-in-alberta-claimed-everywhere/)
