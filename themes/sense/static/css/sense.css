@@ -835,3 +835,23 @@ a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
   .press-body a { color: inherit; overflow-wrap: anywhere; }
   .press-body img { break-inside: avoid; }
 }
+
+/* === Comic panels (Ghost Lives) === */
+.prose img[src*="comic-"] {
+  border: 3px solid #141413;
+  background: #141413;
+  box-shadow: 6px 6px 0 rgba(222, 0, 0, 0.35);
+}
+.prose p:has(+ em) img[src*="comic-"],
+.prose > p > img[src*="comic-"] {
+  margin-bottom: 0.35rem;
+}
+.comic-kicker {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin: 2.5rem 0 0.35rem;
+}
