@@ -8,7 +8,7 @@
 
 This is the working source for public press material, interview notes, pitches, and fact checking. Figures should be quoted with the periods and qualifications shown here.
 
-## The short version
+## Short version
 
 ### One sentence
 
@@ -18,7 +18,7 @@ The TIER Files is a document-based investigation of Alberta's industrial carbon-
 
 The TIER Files follows Alberta's industrial carbon money from the compliance payment to the public accounts. Across seven instalments, Lars J. Frank reconstructs fund transfers, accumulated surpluses, grant disbursements, cancelled agreements, investment holdings, environmental attributes, and related-party remuneration from audited statements and regulatory records.
 
-### The newsroom lead
+### Newsroom lead
 
 Four fiscal years of audited TIER Fund statements show $590.0 million in innovation and technology grants and $1,088.8 million in transfers to Alberta's General Revenue Fund. That works out to about $1.85 transferred for every dollar granted. The fund also reported a $1.105 billion accumulated surplus at 31 March 2025.
 
@@ -93,7 +93,7 @@ The two amounts measure different things. The first is the value removed from co
 
 ### 5. Lifetime commitments and cash paid to projects
 
-The Float reconstructs about **$650 million** in cumulative project expense from ERA and predecessor CCEMC statements covering fiscal 2010 through fiscal 2025. ERA's public material in June 2026 said it had committed **$1.17 billion toward 352 projects** since 2009.
+Float reconstructs about **$650 million** in cumulative project expense from ERA and predecessor CCEMC statements covering fiscal 2010 through fiscal 2025. ERA's public material in June 2026 said it had committed **$1.17 billion toward 352 projects** since 2009.
 
 The resulting lifetime paid-to-committed comparison is about **55 to 60 cents per committed dollar**.
 
@@ -123,25 +123,25 @@ The public records establish overlapping funding, registry, and biomethane-purch
 
 ## Series guide
 
-### Part 1: The Billion-Dollar Detour
+### Part 1: A Billion-Dollar Detour
 
 Four years of TIER Fund statements, the $1.85 transfer-to-grant ratio, the $1.105 billion accumulated surplus, and the fiscal 2025 revenue fall.
 
 [Read Part 1](https://thesenseofnonsense.com/series/part-1-the-billion-dollar-detour/)
 
-### Part 2: The Eight-Million-Dollar Regulator
+### Part 2: Eight-Million-Dollar Regulator
 
 The voted budget and actual spending for the provincial program that administers industrial regulation, set beside the size of the market and the Auditor General's underpayment finding.
 
 [Read Part 2](https://thesenseofnonsense.com/series/part-2-the-eight-million-dollar-regulator/)
 
-### Part 3: The Climate Fund That Became a Bank
+### Part 3: From Fund to Bank
 
 ERA's cash and GIC holdings, five years of interest income, the 2024 allocation reduction, and the grant agreement's interest mechanism.
 
 [Read Part 3](https://thesenseofnonsense.com/series/part-3-the-climate-fund-that-became-a-bank/)
 
-### Part 4: The Float
+### Part 4: Float
 
 Sixteen years of project expense, outstanding commitments, cancellations and terminations, and the difference between committed funding and cash paid to projects.
 
@@ -153,17 +153,21 @@ Alberta-funded biogas plants, Alberta offset records, BCUC biomethane dockets, e
 
 [Read Part 5](https://thesenseofnonsense.com/series/the-tier-files/part-5-paid-in-alberta-claimed-everywhere/)
 
-### Part 6: The Small World
+### Part 6: Small World
 
 A sourced map of ERA directors, funded firms, portfolio companies, and partner organizations. The article distinguishes documented relationships from influence over decisions.
 
 [Read Part 6](https://thesenseofnonsense.com/series/the-tier-files/part-6-the-small-world/)
 
-### Part 7: The Companies the Board Pays Itself
+### Part 7: Companies the Board Pays Itself
 
 Fifteen years of program-management and remuneration notes, including the 93 per cent comparative change and the continuing payments to management-owned companies.
 
 [Read Part 7](https://thesenseofnonsense.com/series/the-tier-files/part-7-the-companies-the-board-pays-itself/)
+
+## LinkedIn
+
+Profile assets and paste-ready copy: [`brand/linkedin/`](../brand/linkedin/README.md). Use the LF monogram as the profile photo (no synthetic headshot). Banner, headline, and About text are in that folder.
 
 ## About Lars J. Frank
 
@@ -264,11 +268,11 @@ The following charts may be reproduced with credit to **The Sense of Nonsense / 
 
 ## Boilerplate
 
-### The publication
+### Publication
 
 The Sense of Nonsense is an independent investigative publication by Lars J. Frank. It reports from public financial, regulatory, and technical records, with a focus on carbon accounting, public finance, and institutional reporting.
 
-### The series
+### Series
 
 The TIER Files is an ongoing investigation of Alberta's Technology Innovation and Emissions Reduction system. The series follows compliance money through the TIER Fund, government accounts, Emissions Reduction Alberta, funded projects, and the records used to claim results.
 
@@ -308,7 +312,7 @@ The transfer authority is public and legal. The reporting question is what happe
 
 The source pages, arithmetic, and charts are here:
 
-[Part 1: The Billion-Dollar Detour](https://thesenseofnonsense.com/series/part-1-the-billion-dollar-detour/)
+[Part 1: A Billion-Dollar Detour](https://thesenseofnonsense.com/series/part-1-the-billion-dollar-detour/)
 
 The later instalments follow the grant money into ERA's cash and GIC holdings, milestone payments, cancelled agreements, environmental attributes, and related-party notes. I am happy to walk through the statements or send the underlying table with page references.
 
@@ -325,7 +329,7 @@ The same statements describe a $50 million provincial allocation reduced by $29.
 
 I have traced the balances, investment maturities, five-year interest series, and allocation mechanism in Part 3 of The TIER Files:
 
-[The Climate Fund That Became a Bank](https://thesenseofnonsense.com/series/part-3-the-climate-fund-that-became-a-bank/)
+[From Fund to Bank](https://thesenseofnonsense.com/series/part-3-the-climate-fund-that-became-a-bank/)
 
 I can provide the note references and calculation sheet.
 
@@ -342,7 +346,7 @@ For fiscal 2025, the value of agreements cancelled or terminated was $82.7 milli
 
 The reconciliation is here:
 
-[Part 4: The Float](https://thesenseofnonsense.com/series/part-4-the-float/)
+[Part 4: Float](https://thesenseofnonsense.com/series/part-4-the-float/)
 
 If useful, I can send the year-by-year project-expense table and the exact caveats behind the range.
 

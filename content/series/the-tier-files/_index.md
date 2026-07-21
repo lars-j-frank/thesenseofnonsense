@@ -13,18 +13,18 @@ The TIER system is Alberta's flagship climate policy. It puts a price on carbon 
 
 This series follows the money: where TIER revenue comes from, where it actually goes, and what happens to the gap in between. Every figure is transcribed from audited statements and budget documents. Sources, with page numbers, sit at the bottom of each instalment.
 
-**Part 1: The Billion-Dollar Detour** (2 May 2026): four years of TIER Fund statements, the $1.85 general-revenue ratio, and the surplus that hit $1.1 billion.
+**Part 1: A Billion-Dollar Detour** (2 May 2026): four years of TIER Fund statements, the $1.85 general-revenue ratio, and the surplus that hit $1.1 billion.
 
-**Part 2: The Eight-Million-Dollar Regulator** (16 May 2026): the frozen program 9.1 line that referees the market.
+**Part 2: Eight-Million-Dollar Regulator** (16 May 2026): the frozen program 9.1 line that referees the market.
 
-**Part 3: The Climate Fund That Became a Bank** (30 May 2026): ERA's half-billion cash-and-GIC pile, and the clawback clause that admits the float.
+**Part 3: From Fund to Bank** (30 May 2026): ERA's half-billion cash-and-GIC pile, and the clawback clause that admits the float.
 
-**Part 4: The Float** (13 June 2026): sixteen years of disbursements against the $1.17 billion headline, and the year cancellations outran payments. Closes by pointing to money that leaves the province, and the paper trail that stopped being published.
+**Part 4: Float** (13 June 2026): sixteen years of disbursements against the $1.17 billion headline, and the year cancellations outran payments. Closes by pointing to money that leaves the province, and the paper trail that stopped being published.
 
 **Part 5: Paid in Alberta, Claimed Everywhere** (27 June 2026): Alberta TIER money funded biogas plants whose biomethane attributes appear in BCUC dockets; the province's own climate plan admits most RNG attributes leave for British Columbia.
 
-**Part 6: The Small World** (11 July 2026): a documented map of board seats, funded companies, and Trusted Partners: the pipeline from the ecosystem to the boardroom.
+**Part 6: Small World** (11 July 2026): a documented map of board seats, funded companies, and Trusted Partners: the pipeline from the ecosystem to the boardroom.
 
-**Part 7: The Companies the Board Pays Itself** (11 July 2026): fifteen years of remuneration notes on companies owned by senior management who report to the board.
+**Part 7: Companies the Board Pays Itself** (11 July 2026): fifteen years of remuneration notes on companies owned by senior management who report to the board.
 
 Still ahead: a constructive brief ahead of the next TIER review, and the next audited statements when they land. The review had been due at the end of 2026; Order in Council 369/2025 moved the deadline to 31 December 2030.

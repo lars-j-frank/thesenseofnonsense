@@ -19,8 +19,8 @@ Lars is a disclosed pen name. No synthetic headshot. No portrait of the real per
 | LinkedIn slot | File | Spec |
 |---|---|---|
 | Profile photo | `assets/avatar-lf-800.png` | 800×800 |
-| Background / banner | `assets/banner-primary-1584x396.png` | 1584×396 |
-| Alt banner | `assets/banner-ledger-1584x396.png` | darker, tagline-forward |
+| Background / banner | `assets/banner-primary-1584x396.png` | 1584×396 (type starts at x=460, clear of avatar) |
+| Alt banner | `assets/banner-ledger-1584x396.png` | darker, tagline-forward (same left clearance) |
 | Brand board | `assets/brand-board.png` | reference only |
 
 ```powershell

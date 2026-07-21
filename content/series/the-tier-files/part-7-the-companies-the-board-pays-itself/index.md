@@ -1,5 +1,5 @@
 ﻿---
-title: "The Companies the Board Pays Itself"
+title: "Companies the Board Pays Itself"
 description: "For eight years the agency had no staff of its own. It never fully stopped paying the companies of the people who run it."
 author: "Lars J. Frank"
 date: 2026-07-11T11:00:00-06:00

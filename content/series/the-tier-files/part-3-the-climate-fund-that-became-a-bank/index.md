@@ -1,5 +1,5 @@
 ---
-title: "The Climate Fund That Became a Bank"
+title: "From Fund to Bank"
 description: "ERA holds over half a billion dollars in cash and GICs. The government noticed, and quietly started clawing the interest back."
 author: "Lars J. Frank"
 date: 2026-05-30T09:00:00-06:00

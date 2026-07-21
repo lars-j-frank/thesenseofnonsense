@@ -254,6 +254,35 @@ def part6() -> None:
     print("wrote", out.relative_to(ROOT))
 
 
+def part6_cover() -> None:
+    p6 = ROOT / "content/series/the-tier-files/part-6-the-small-world"
+    W, H = 1600, 1000
+    cover = Image.new("RGB", (W, H), "#F3F3F2")
+    d = ImageDraw.Draw(cover)
+    pad = 72
+    d.rectangle([pad, pad, W - pad, H - pad], outline="#8B4513", width=3)
+    try:
+        fk = ImageFont.truetype("C:/Windows/Fonts/arialbd.ttf", 28)
+        fp = ImageFont.truetype("C:/Windows/Fonts/arial.ttf", 24)
+        ft = ImageFont.truetype("C:/Windows/Fonts/georgia.ttf", 72)
+        fs = ImageFont.truetype("C:/Windows/Fonts/arial.ttf", 26)
+    except OSError:
+        fk = fp = ft = fs = ImageFont.load_default()
+
+    def center(text: str, y: int, font, fill) -> None:
+        bbox = d.textbbox((0, 0), text, font=font)
+        tw = bbox[2] - bbox[0]
+        d.text(((W - tw) / 2, y), text, fill=fill, font=font)
+
+    center("THE TIER FILES", 300, fk, ACCENT)
+    center("Part 6", 360, fp, MUTED)
+    center("Small World", 460, ft, INK)
+    center("Board seats, funded companies, Trusted Partners", 580, fs, MUTED)
+    out = p6 / "cover.png"
+    cover.save(out, "PNG", optimize=True)
+    print("wrote", out.relative_to(ROOT))
+
+
 def part7_cover() -> None:
     p7 = ROOT / "content/series/the-tier-files/part-7-the-companies-the-board-pays-itself"
     chart = Image.open(p7 / "p7-two-eras.png").convert("RGB")
@@ -281,7 +310,7 @@ def part7_cover() -> None:
         fk = ft = fs = ImageFont.load_default()
     y0 = H - band_h + 28
     d.text((pad + 6, y0), "THE TIER FILES  ·  PART 7", fill=ACCENT, font=fk)
-    d.text((pad + 6, y0 + 42), "The Companies the Board Pays Itself", fill=INK, font=ft)
+    d.text((pad + 6, y0 + 42), "Companies the Board Pays Itself", fill=INK, font=ft)
     d.text((pad + 6, H - 42), "thesenseofnonsense.com", fill=MUTED, font=fs)
     out = p7 / "cover.png"
     cover.save(out, "PNG", optimize=True)
@@ -548,6 +577,7 @@ def part5_layers() -> None:
 
 if __name__ == "__main__":
     part6()
+    part6_cover()
     part7_cover()
     what_era_announced()
     missing_year()

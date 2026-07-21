@@ -1,5 +1,5 @@
 ---
-title: "The Float"
+title: "Float"
 description: "ERA says it has committed $1.17 billion to clean technology since 2009. About $650 million has ever reached a project."
 author: "Lars J. Frank"
 date: 2026-06-13T09:00:00-06:00

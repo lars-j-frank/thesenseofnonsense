@@ -28,6 +28,10 @@ TITANIUM = (139, 135, 131)  # #8B8783
 BORDER = (214, 212, 209)  # #D6D4D1
 WHITE = (255, 255, 255)
 
+# LinkedIn profile photo overlaps bottom-left of the banner (~300px circle).
+# Keep all readable type to the right of this inset.
+BANNER_TEXT_X = 460
+
 FONT_URLS = {
     "LibreFranklin.ttf": "https://raw.githubusercontent.com/google/fonts/main/ofl/librefranklin/LibreFranklin%5Bwght%5D.ttf",
     "SourceSerif4.ttf": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourceserif4/SourceSerif4%5Bopsz%2Cwght%5D.ttf",
@@ -75,29 +79,34 @@ def render_avatar(initials: str, out: Path) -> None:
 
 def render_banner_primary(out: Path) -> None:
     w, h = 1584, 396
+    x = BANNER_TEXT_X
     img = Image.new("RGB", (w, h), WHITE)
     draw = ImageDraw.Draw(img)
     draw.rectangle([0, 0, 18, h], fill=RED)
     draw.line([(18, 0), (18, h)], fill=BORDER, width=1)
 
+    # Soft ruling in the avatar zone only (may be covered)
+    for y, x2 in ((220, 380), (256, 340), (292, 300), (328, 260)):
+        draw.line([(48, y), (x2, y)], fill=BORDER, width=1)
+
     name_font = load_font(FONTS / "SourceSerif4.ttf", 58, "SemiBold")
     pub_font = load_font(FONTS / "LibreFranklin.ttf", 22, "Bold")
     tag_font = load_font(FONTS / "SourceSerif4-Italic.ttf", 24, "Regular")
 
-    draw.text((72, 100), "Lars J. Frank", font=name_font, fill=GREY)
-    draw.text((72, 172), "THE SENSE OF NONSENSE", font=pub_font, fill=MANHATTAN)
-    draw.line([(72, 212), (300, 212)], fill=RED, width=2)
+    draw.text((x, 100), "Lars J. Frank", font=name_font, fill=GREY)
+    draw.text((x, 172), "THE SENSE OF NONSENSE", font=pub_font, fill=MANHATTAN)
+    draw.line([(x, 212), (x + 240, 212)], fill=RED, width=2)
     draw.text(
-        (72, 236),
+        (x, 236),
         "Stories and analysis from within the nonsense",
         font=tag_font,
         fill=TITANIUM,
     )
 
     for i, y in enumerate(range(90, 307, 36)):
-        x2 = 1512 if i < 6 else 1400
-        draw.line([(980, y), (x2, y)], fill=BORDER, width=1)
-    draw.rectangle([980, 90, 988, 306], fill=RED)
+        x2 = 1512 if i < 6 else 1440
+        draw.line([(1180, y), (x2, y)], fill=BORDER, width=1)
+    draw.rectangle([1180, 90, 1188, 306], fill=RED)
 
     img.save(out, "PNG", optimize=True)
     print(f"wrote {out.name}")
@@ -105,27 +114,31 @@ def render_banner_primary(out: Path) -> None:
 
 def render_banner_ledger(out: Path) -> None:
     w, h = 1584, 396
+    x = BANNER_TEXT_X
     img = Image.new("RGB", (w, h), GREY)
     draw = ImageDraw.Draw(img)
     draw.rectangle([0, 0, 18, h], fill=RED)
+
+    for y, x2 in ((220, 380), (256, 340), (292, 300), (328, 260)):
+        draw.line([(48, y), (x2, y)], fill=(100, 100, 98), width=1)
 
     tag_font = load_font(FONTS / "SourceSerif4.ttf", 38, "SemiBold")
     meta_font = load_font(FONTS / "LibreFranklin.ttf", 18, "Bold")
 
     draw.text(
-        (72, 125),
+        (x, 125),
         "Stories and analysis from within the nonsense",
         font=tag_font,
         fill=WHITE,
     )
     draw.text(
-        (72, 190),
+        (x, 190),
         "LARS J. FRANK  ·  THE TIER FILES  ·  THESENSEOFNONSENSE.COM",
         font=meta_font,
         fill=TITANIUM,
     )
-    for y, x2 in ((260, 900), (288, 760), (316, 820)):
-        draw.line([(72, y), (x2, y)], fill=(100, 100, 98), width=1)
+    for y, x2 in ((280, 1180), (308, 1040), (336, 1100)):
+        draw.line([(x, y), (x2, y)], fill=(100, 100, 98), width=1)
 
     img.save(out, "PNG", optimize=True)
     print(f"wrote {out.name}")

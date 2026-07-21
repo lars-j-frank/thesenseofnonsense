@@ -1,5 +1,5 @@
 ﻿---
-title: "The Small World"
+title: "Small World"
 description: "ERA funds companies, then draws directors from the funded ecosystem. The map is public. The recusal architecture mostly is not."
 author: "Lars J. Frank"
 date: 2026-07-11T09:00:00-06:00

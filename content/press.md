@@ -5,14 +5,14 @@ date: 2026-07-17
 draft: false
 type: "press"
 layout: "press"
-summary: "The newsroom reference for The TIER Files, an investigation of Alberta's industrial carbon-pricing system."
+summary: "Newsroom reference for The TIER Files, an investigation of Alberta's industrial carbon-pricing system."
 ---
 
-## The series in one sentence
+## Overview
 
 **The TIER Files** is a document-based investigation of Alberta's industrial carbon-pricing system, following compliance money through the TIER Fund and Emissions Reduction Alberta.
 
-## The lead finding
+## Lead finding
 
 Four fiscal years of audited TIER Fund statements report **$590.0 million in innovation and technology grants** and **$1,088.8 million in transfers to Alberta's General Revenue Fund**.
 
@@ -22,9 +22,9 @@ The fund also reported an **accumulated surplus of $1,105.4 million at 31 March 
 
 The law permits qualifying TIER Fund money to be transferred to general revenue. The reporting question concerns what those transferred dollars funded after they entered the government's general accounts. The public statements record the transfer out. A dollar-for-dollar account of subsequent spending would require a separate reconciliation.
 
-[Read Part 1: The Billion-Dollar Detour](/series/part-1-the-billion-dollar-detour/)
+[Read Part 1: A Billion-Dollar Detour](/series/part-1-the-billion-dollar-detour/)
 
-## Verified findings
+## Findings
 
 ### ERA held $539.5 million in cash and investments
 
@@ -32,7 +32,7 @@ At 31 May 2025, ERA reported $309.5 million in cash, $40.0 million in short-term
 
 The $539.5 million balance was about 7.5 times that year's project expense. This compares a point-in-time balance with one year's expense and should be read as scale rather than as a liquidity forecast.
 
-[Read Part 3: The Climate Fund That Became a Bank](/series/part-3-the-climate-fund-that-became-a-bank/)
+[Read Part 3: From Fund to Bank](/series/part-3-the-climate-fund-that-became-a-bank/)
 
 ### A $50 million allocation produced about $20.3 million in cash
 
@@ -46,7 +46,7 @@ ERA reported $82,737,012 in contribution agreements cancelled or terminated duri
 
 These figures measure different things. Cancellation removes the unearned balance of an agreement; project expense records amounts earned by projects during the year. The $82.7 million is agreement value removed, rather than cash paid and recovered.
 
-[Read Part 4: The Float](/series/part-4-the-float/)
+[Read Part 4: Float](/series/part-4-the-float/)
 
 ### About 55 to 60 cents per committed dollar reached project expense
 
@@ -60,9 +60,9 @@ ERA's fiscal 2025 statements say program management expenses include remuneratio
 
 The statements disclose the category and amount. Company names, owner identities, service descriptions, and procurement details would require additional records.
 
-[Read Part 7: The Companies the Board Pays Itself](/series/the-tier-files/part-7-the-companies-the-board-pays-itself/)
+[Read Part 7: Companies the Board Pays Itself](/series/the-tier-files/part-7-the-companies-the-board-pays-itself/)
 
-## About Lars J. Frank
+## Author
 
 Lars J. Frank is the pen-name author of **The TIER Files** at The Sense of Nonsense. His reporting follows Alberta's industrial carbon money through audited statements, public accounts, regulatory filings, and funding records. The series covers the TIER Fund, Emissions Reduction Alberta, project disbursements, carbon accounting, and the gap between public announcements and the underlying ledger.
 
@@ -84,7 +84,7 @@ Frank can speak to:
 * related-party disclosures and the limits of what they establish;
 * public reporting reforms supported by the documentary record.
 
-## Reporting method
+## Method
 
 The work starts with the audited statement or governing record. Line items are transcribed in their original units, comparative figures are checked across consecutive years, and ratios are recalculated from the published values.
 
@@ -92,7 +92,7 @@ Stocks, annual flows, commitments, expenses, and forecasts are kept separate. Es
 
 Corrections, documents, and tips are welcome at [lars.j.frank@protonmail.com](mailto:lars.j.frank@protonmail.com).
 
-## Charts available for publication
+## Charts
 
 Charts may be reproduced with credit to **The Sense of Nonsense / Lars J. Frank**. Please preserve the period labels and source line.
 
@@ -128,7 +128,7 @@ Charts may be reproduced with credit to **The Sense of Nonsense / Lars J. Frank*
 
 *Caption: ERA reported $82.7 million in agreements cancelled or terminated in fiscal 2025, compared with $71.7 million in project expense. Source: ERA audited statements.*
 
-## Questions reporters tend to ask
+## Questions
 
 ### Is the transfer to general revenue legal?
 

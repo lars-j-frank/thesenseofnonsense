@@ -264,7 +264,7 @@ for a, b in [
 ]:
     ax.annotate("", xy=b, xytext=a, arrowprops=dict(arrowstyle="->", color=MUTED, lw=1.3))
 save(fig, p1 / "p1-path.png")
-make_cover(p1 / "p1-ratio.png", p1 / "cover.png", 1, "The Billion-Dollar Detour")
+make_cover(p1 / "p1-ratio.png", p1 / "cover.png", 1, "A Billion-Dollar Detour")
 
 # --- Part 2 ---
 p2 = SERIES / "part-2-the-eight-million-dollar-regulator"
@@ -340,7 +340,7 @@ ax.set_axisbelow(True)
 for yi, v in zip(y, vals):
     ax.text(v + 15, yi, f"\\${v:,.1f}M", va="center", fontsize=9, color=INK)
 save(fig, p2 / "p2-scale.png")
-make_cover(p2 / "p2-scale.png", p2 / "cover.png", 2, "The Eight-Million-Dollar Regulator")
+make_cover(p2 / "p2-scale.png", p2 / "cover.png", 2, "Eight-Million-Dollar Regulator")
 
 # --- Part 3 ---
 p3 = SERIES / "part-3-the-climate-fund-that-became-a-bank"
@@ -415,7 +415,7 @@ ax.text(
     fontsize=8, color=MUTED,
 )
 save(fig, p3 / "p3-ladder.png")
-make_cover(p3 / "p3-holdings.png", p3 / "cover.png", 3, "The Climate Fund That Became a Bank")
+make_cover(p3 / "p3-holdings.png", p3 / "cover.png", 3, "From Fund to Bank")
 
 # --- Part 4 ---
 p4 = SERIES / "part-4-the-float"
@@ -481,7 +481,7 @@ for a, b in [
 ]:
     ax.annotate("", xy=b, xytext=a, arrowprops=dict(arrowstyle="->", color=MUTED, lw=1.3))
 save(fig, p4 / "p4-lifecycle.png")
-make_cover(p4 / "p4-cancellations.png", p4 / "cover.png", 4, "The Float")
+make_cover(p4 / "p4-cancellations.png", p4 / "cover.png", 4, "Float")
 
 # Keep series landing card in sync
 import shutil

@@ -1,5 +1,5 @@
 ---
-title: "The Eight-Million-Dollar Regulator"
+title: "Eight-Million-Dollar Regulator"
 description: "The branch that runs Alberta's entire carbon market has had its budget frozen, to the dollar, for five straight years."
 author: "Lars J. Frank"
 date: 2026-05-16T09:00:00-06:00

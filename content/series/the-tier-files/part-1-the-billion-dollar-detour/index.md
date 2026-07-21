@@ -1,5 +1,5 @@
 ---
-title: "The Billion-Dollar Detour"
+title: "A Billion-Dollar Detour"
 description: "Alberta's heavy emitters paid $2.6 billion into a climate fund over four years. Most of it never funded climate anything."
 author: "Lars J. Frank"
 date: 2026-05-02T09:00:00-06:00
