@@ -38,7 +38,7 @@ buildExpired = false
   dateFormat = "2 January 2006"
   accentColor = "#DE0000"
   mainSections = ["series"]
-  featuredSeries = "the-tier-files"
+  featuredSeries = "ghost-lives"
 
 [menu]
   [[menu.main]]

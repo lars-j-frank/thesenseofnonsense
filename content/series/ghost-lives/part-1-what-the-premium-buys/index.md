@@ -64,7 +64,7 @@ G-137-25 reopened the tracking question. The Commission asked whether existing c
 
 FortisBC's answer, in short: inventories are territorial; biogenic CO2 from RNG combustion should not be double-counted as if it were fossil; contractual warranties, audits, and market scans show no evidence of supplier double counting; and the federal Clean Fuel Regulations are a separate, stackable market.
 
-Hold that last clause. We will need it.
+That last clause is the one that opens the door.
 
 ### Five claims on one reduction
 

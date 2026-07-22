@@ -7,9 +7,15 @@
   <div class="prose section-intro">{{ . }}</div>
   {{ end }}
   <div class="card-grid">
-    {{ $pages := .Pages.ByDate.Reverse }}
-    {{ range $pages }}
-    {{ partial "article-card.html" . }}
+    {{/* Series section: show series landings only, newest first */}}
+    {{ if eq .Section "series" }}
+      {{ range (.Sections.ByDate.Reverse) }}
+        {{ partial "article-card.html" . }}
+      {{ end }}
+    {{ else }}
+      {{ range .Pages.ByDate.Reverse }}
+        {{ partial "article-card.html" . }}
+      {{ end }}
     {{ end }}
   </div>
 </div>

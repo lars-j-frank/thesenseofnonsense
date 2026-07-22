@@ -6,16 +6,18 @@
       <div class="article-meta">
         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format .Site.Params.dateFormat }}</time>
         {{ with .Params.series }}
-        · <a href="/series/{{ . | urlize }}/" class="series-link">{{ . | title }}</a>
+        {{ $seriesName := . }}
+        {{ $landing := $.Site.GetPage (printf "/series/%s" ($seriesName | urlize)) }}
+        · {{ with $landing }}<a href="{{ .RelPermalink }}" class="series-link">{{ $seriesName }}</a>{{ else }}<span class="series-link">{{ $seriesName }}</span>{{ end }}
         {{ end }}
       </div>
       {{ with .Params.summary }}
       <p class="article-summary">{{ . }}</p>
       {{ end }}
-      {{ with .Params.topics }}
+      {{ with .GetTerms "topics" }}
       <div class="article-topics">
         {{ range . }}
-        <a href="/topics/{{ . | urlize }}/" class="topic-tag">{{ . }}</a>
+        <a href="{{ .RelPermalink }}" class="topic-tag">{{ .LinkTitle }}</a>
         {{ end }}
       </div>
       {{ end }}
@@ -25,9 +27,11 @@
     </div>
     <footer class="article-footer">
       {{ if .Params.series }}
+      {{ $seriesName := .Params.series }}
+      {{ $landing := .Site.GetPage (printf "/series/%s" ($seriesName | urlize)) }}
+      {{ $series := where .Site.RegularPages "Params.series" "eq" $seriesName }}
       <div class="series-nav">
-        <h4>Part of <a href="/series/{{ .Params.series | urlize }}/">{{ .Params.series | title }}</a></h4>
-        {{ $series := where .Site.RegularPages ".Params.series" "eq" .Params.series }}
+        <h4>Part of {{ with $landing }}<a href="{{ .RelPermalink }}">{{ $seriesName }}</a>{{ else }}{{ $seriesName }}{{ end }}</h4>
         <ol class="series-parts">
           {{ range seq 1 20 }}
           {{ range where $series "Params.part" . }}
@@ -38,7 +42,18 @@
           {{ end }}
         </ol>
       </div>
+      {{ with .Params.part }}
+      {{ $part := . }}
+      <div class="article-nav">
+        {{ range where $series "Params.part" (sub $part 1) }}
+        <a href="{{ .RelPermalink }}" class="prev-link">&larr; {{ .Title }}</a>
+        {{ end }}
+        {{ range where $series "Params.part" (add $part 1) }}
+        <a href="{{ .RelPermalink }}" class="next-link">{{ .Title }} &rarr;</a>
+        {{ end }}
+      </div>
       {{ end }}
+      {{ else }}
       <div class="article-nav">
         {{ with .PrevInSection }}
         <a href="{{ .RelPermalink }}" class="prev-link">&larr; {{ .Title }}</a>
@@ -47,6 +62,7 @@
         <a href="{{ .RelPermalink }}" class="next-link">{{ .Title }} &rarr;</a>
         {{ end }}
       </div>
+      {{ end }}
     </footer>
   </article>
 </div>

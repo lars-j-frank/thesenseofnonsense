@@ -7,7 +7,7 @@ draft: false
 slug: "part-2-where-stacking-ends"
 series: "Ghost Lives"
 part: 2
-featured: false
+featured: true
 topics: ["Alberta", "British Columbia", "FortisBC", "carbon pricing", "RNG", "Clean Fuel Regulations", "TIER"]
 url: "/series/ghost-lives/part-2-where-stacking-ends/"
 images: ["cover.png", "p2-ghost-stack.png", "comic-00-splash.png", "comic-01-lagoon.png", "comic-02-digester.png", "comic-03-alberta.png", "comic-04-displacement.png", "comic-05-ratepayer.png", "comic-06-cfr.png", "comic-07-finale.png"]
@@ -36,7 +36,7 @@ The paperwork multiplies.
 
 ### Three grams, three systems, then the ghosts
 
-It helps to hold three stories side by side before combining them.
+Hold three stories side by side before combining them.
 
 **Gram A: inventory carbon.** A gram of CO2 emitted from burning fossil gas in a Vancouver furnace shows up, in principle, in British Columbia's provincial inventory and in Canada's National Inventory Report under the IPCC territorial method. Location of combustion matters. Production emissions sit where production happened.
 

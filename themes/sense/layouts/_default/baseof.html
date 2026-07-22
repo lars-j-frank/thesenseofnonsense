@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
   <link rel="canonical" href="{{ .Permalink }}" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <meta name="theme-color" content="#DE0000" />
-  <link rel="stylesheet" href="/css/sense.css?v=11" />
+  <link rel="stylesheet" href="/css/sense.css?v=12" />
   {{ block "extrahead" . }}{{ end }}
 </head>
 <body class="{{ if .IsHome }}home{{ else if .IsPage }}singular{{ else }}listing{{ end }}">

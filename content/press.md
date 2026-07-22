@@ -1,16 +1,18 @@
 ---
 title: "Press kit"
-description: "Verified facts, biographies, interview topics, and downloadable charts for coverage of The TIER Files."
+description: "Verified facts, biographies, interview topics, and downloadable charts for coverage of The TIER Files and Ghost Lives."
 date: 2026-07-17
 draft: false
 type: "press"
 layout: "press"
-summary: "Newsroom reference for The TIER Files, an investigation of Alberta's industrial carbon-pricing system."
+summary: "Newsroom reference for The TIER Files and Ghost Lives."
 ---
 
 ## Overview
 
 **The TIER Files** is a document-based investigation of Alberta's industrial carbon-pricing system, following compliance money through the TIER Fund and Emissions Reduction Alberta.
+
+**Ghost Lives** follows a methane reduction from FortisBC's renewable gas program through the BCUC record and into federal Clean Fuel credits. Start with [What the Premium Buys](/series/ghost-lives/part-1-what-the-premium-buys/).
 
 ## Lead finding
 

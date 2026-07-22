@@ -79,7 +79,7 @@ Selected drops, from their own boilerplate:
 
 A lifetime commitment figure that can lose nearly fifty million dollars and thirteen projects between late summer and mid-autumn is doing something specific. It is revising the past so the present sentence stays clean. By June 10, 2026, the same boilerplate had climbed back to **$1.17 billion toward 352 projects**, which is the number you will still find if you open a recent release today.
 
-I also added up the dollar figures in funding-round headlines across the archive I could reach. That naÃ¯ve sum lands around two billion dollars. Do not treat that as the gross. Program envelopes get announced before awards, the same challenge gets a second release, ceilings go unfilled, and expansions restate money already counted. The sum is evidence that large figures have been put in headlines many times. It is a terrible balance sheet.
+I also added up the dollar figures in funding-round headlines across the archive I could reach. That naïve sum lands around two billion dollars. Do not treat that as the gross. Program envelopes get announced before awards, the same challenge gets a second release, ceilings go unfilled, and expansions restate money already counted. The sum is evidence that large figures have been put in headlines many times. It is a terrible balance sheet.
 
 ### Gross, with bands
 
