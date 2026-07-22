@@ -99,7 +99,7 @@ Milestone payment remains prudent. Innovation portfolios kill projects; a funder
 
 The concessions leave the communications asymmetry and the definitional choice standing. Awards arrive with ministers, podiums, and estimated tonnes. Deaths arrive as status tags and note disclosures. The lifetime sentence the public is invited to remember is built to forget. Seventeen years is long enough to publish a gross announced total beside the net, or a simple table that matches each press release to paid, outstanding, or dead. The architecture that exists instead is a headline that can only look healthy, because its failures are deducted before you see it.
 
-If you were inside one of those 116 files when the photograph was taken and outside it when the status flipped, the inbox is still open: [lars.j.frank@protonmail.com](mailto:lars.j.frank@protonmail.com). Paperwork beats a scrape.
+If you were inside one of those 116 files when the photograph was taken and outside it when the status flipped, the inbox is still open: [tips@thesenseofnonsense.com](mailto:tips@thesenseofnonsense.com). Paperwork beats a scrape.
 
 ---
 
@@ -113,4 +113,4 @@ If you were inside one of those 116 files when the photograph was taken and outs
 4. Lifetime-claim trajectory and documented boilerplate drops: ERA `/media-releases/` archive and funding-challenge pages, with Wayback snapshots for older URLs; working extracts held with the investigation notes.
 5. ERA Financial Statements FY2022-FY2025 (KPMG): contribution agreements cancelled or terminated of approximately $19.9M, $22.6M, $53.75M, and $82.7M (four-year sum ~$179M); FY2025 subsequent events including On Hold. [eralberta.ca](https://www.eralberta.ca/).
 6. Cumulative project expenses and outstanding commitments framing: [Float](/series/the-tier-files/part-4-the-float/), drawing on CCEMC/ERA statements of operations FY2010-FY2025 and FY2025 Note 10 commitments of $374,993,802.
-7. Tip line for cancelled or terminated projects: [lars.j.frank@protonmail.com](mailto:lars.j.frank@protonmail.com).
+7. Tip line for cancelled or terminated projects: [tips@thesenseofnonsense.com](mailto:tips@thesenseofnonsense.com).

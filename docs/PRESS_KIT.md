@@ -3,7 +3,7 @@
 **Prepared:** 17 July 2026  
 **Publication:** The Sense of Nonsense  
 **Author:** Lars J. Frank  
-**Contact:** [lars.j.frank@protonmail.com](mailto:lars.j.frank@protonmail.com)  
+**Contact:** [press@thesenseofnonsense.com](mailto:press@thesenseofnonsense.com)  
 **Series:** [thesenseofnonsense.com/series/the-tier-files/](https://thesenseofnonsense.com/series/the-tier-files/)
 
 This is the working source for public press material, interview notes, pitches, and fact checking. Figures should be quoted with the periods and qualifications shown here.
@@ -218,7 +218,7 @@ Keep introductions within the documentary scope:
 8. Identify estimates and unresolved gaps.
 9. Correct the public page when the record changes.
 
-Questions, source challenges, and correction requests go to [lars.j.frank@protonmail.com](mailto:lars.j.frank@protonmail.com).
+Questions, source challenges, and correction requests go to [press@thesenseofnonsense.com](mailto:press@thesenseofnonsense.com).
 
 ## Reporter questions
 
@@ -296,7 +296,7 @@ The series links its calculations to the audited statements, annual reports, Aud
 
 Read the series: [thesenseofnonsense.com/series/the-tier-files/](https://thesenseofnonsense.com/series/the-tier-files/)
 
-Press and corrections: [lars.j.frank@protonmail.com](mailto:lars.j.frank@protonmail.com)
+Press and corrections: [press@thesenseofnonsense.com](mailto:press@thesenseofnonsense.com)
 
 **30**
 
@@ -317,7 +317,7 @@ The source pages, arithmetic, and charts are here:
 The later instalments follow the grant money into ERA's cash and GIC holdings, milestone payments, cancelled agreements, environmental attributes, and related-party notes. I am happy to walk through the statements or send the underlying table with page references.
 
 Lars J. Frank  
-[lars.j.frank@protonmail.com](mailto:lars.j.frank@protonmail.com)
+[press@thesenseofnonsense.com](mailto:press@thesenseofnonsense.com)
 
 ### Business and public-finance desks
 
@@ -334,7 +334,7 @@ I have traced the balances, investment maturities, five-year interest series, an
 I can provide the note references and calculation sheet.
 
 Lars J. Frank  
-[lars.j.frank@protonmail.com](mailto:lars.j.frank@protonmail.com)
+[press@thesenseofnonsense.com](mailto:press@thesenseofnonsense.com)
 
 ### Funding-announcement follow-up
 
@@ -351,7 +351,7 @@ The reconciliation is here:
 If useful, I can send the year-by-year project-expense table and the exact caveats behind the range.
 
 Lars J. Frank  
-[lars.j.frank@protonmail.com](mailto:lars.j.frank@protonmail.com)
+[press@thesenseofnonsense.com](mailto:press@thesenseofnonsense.com)
 
 ## Fact-check rules for reuse
 

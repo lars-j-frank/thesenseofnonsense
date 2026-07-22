@@ -33,7 +33,7 @@ Stories and analysis from within the nonsense.
 
 https://thesenseofnonsense.com  
 https://thesenseofnonsense.com/series/the-tier-files/  
-lars.j.frank@protonmail.com
+press@thesenseofnonsense.com
 
 ## Experience (optional single entry)
 
@@ -56,7 +56,7 @@ Omit, or keep to two or three if LinkedIn insists. Prefer none.
 
 ## Contact info
 
-- **Email:** lars.j.frank@protonmail.com  
+- **Email:** press@thesenseofnonsense.com  
 - **Website:** https://thesenseofnonsense.com  
 - **Phone:** omit
 

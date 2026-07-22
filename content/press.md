@@ -90,7 +90,7 @@ The work starts with the audited statement or governing record. Line items are t
 
 Stocks, annual flows, commitments, expenses, and forecasts are kept separate. Estimates are labelled. Each article states the strongest reasonable alternative explanation and links the source record with a page or note reference.
 
-Corrections, documents, and tips are welcome at [lars.j.frank@protonmail.com](mailto:lars.j.frank@protonmail.com).
+Corrections, documents, and tips are welcome at [tips@thesenseofnonsense.com](mailto:tips@thesenseofnonsense.com). Press inquiries: [press@thesenseofnonsense.com](mailto:press@thesenseofnonsense.com).
 
 ## Charts
 
@@ -158,6 +158,6 @@ Order in Council 369/2025 moved the TIER Regulation review deadline from 31 Dece
 ## Contact
 
 **Lars J. Frank**  
-[lars.j.frank@protonmail.com](mailto:lars.j.frank@protonmail.com?subject=Press%20inquiry%20about%20The%20TIER%20Files)
+[press@thesenseofnonsense.com](mailto:press@thesenseofnonsense.com?subject=Press%20inquiry%20about%20The%20TIER%20Files)
 
 Please include your outlet, deadline, and the finding or document you want to discuss.

@@ -2,7 +2,7 @@
 
 **Prepared:** 17 July 2026  
 **Publication:** [The Sense of Nonsense](https://thesenseofnonsense.com)  
-**Contact:** [lars.j.frank@protonmail.com](mailto:lars.j.frank@protonmail.com)
+**Contact:** [press@thesenseofnonsense.com](mailto:press@thesenseofnonsense.com)
 
 ## Mark, not a face
 

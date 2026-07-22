@@ -9,6 +9,6 @@ Lars J. Frank writes under a pen name. The work published here comes from public
 
 ## Contact
 
-Corrections, documents, and tips: [lars.j.frank@protonmail.com](mailto:lars.j.frank@protonmail.com).
+Corrections, documents, and tips: [tips@thesenseofnonsense.com](mailto:tips@thesenseofnonsense.com).
 
-For reporters: [Press kit](/press/).
+For reporters: [press@thesenseofnonsense.com](mailto:press@thesenseofnonsense.com) · [Press kit](/press/).

@@ -88,7 +88,7 @@ A system this comfortable is not an accident of workload. Seventeen years is lon
 
 > **The announcement is the product. The disbursement is an implementation detail.**
 
-One more thing, and it's an invitation. The number I could not build cleanly from the public record is the gross total this program has announced over seventeen years, because the running headline forgets, and reconstructing it means walking back through every press release, funding challenge, and archived project page since 2009. I'm doing that work. But if you were part of a project that ERA announced and that later died somewhere between the photograph and the first milestone payment, write me at [lars.j.frank@protonmail.com](mailto:lars.j.frank@protonmail.com). I would very much like to compare your paperwork to their headline.
+One more thing, and it's an invitation. The number I could not build cleanly from the public record is the gross total this program has announced over seventeen years, because the running headline forgets, and reconstructing it means walking back through every press release, funding challenge, and archived project page since 2009. I'm doing that work. But if you were part of a project that ERA announced and that later died somewhere between the photograph and the first milestone payment, write me at [tips@thesenseofnonsense.com](mailto:tips@thesenseofnonsense.com). I would very much like to compare your paperwork to their headline.
 
 Next: the money that leaves the province entirely, and the paper trail that stopped being published.
 
@@ -103,4 +103,4 @@ Next: the money that leaves the province entirely, and the paper trail that stop
 3. ERA Financial Statements FY2022 through FY2024: cancellation and termination values of $19.9 million, $22.6 million, and $53.75 million respectively (four-year cancellation sum ~$179M with FY2025).
 4. ERA Financial Statements FY2019: Note 3, the $5 million methane program grant re-allocation to another delivery entity, recorded as a revenue reversal.
 5. "Since 2009, ERA has committed $1.17 billion toward 352 projects": ERA news release / public materials, June 2026. [eralberta.ca](https://www.eralberta.ca/)
-6. Tip line for cancelled or terminated projects: [lars.j.frank@protonmail.com](mailto:lars.j.frank@protonmail.com).
+6. Tip line for cancelled or terminated projects: [tips@thesenseofnonsense.com](mailto:tips@thesenseofnonsense.com).
