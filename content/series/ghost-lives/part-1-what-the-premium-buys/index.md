@@ -70,6 +70,8 @@ That last clause is the one that opens the door.
 
 From FortisBC's own filings, a single acquired reduction can carry, at the same time, multiple monetizable or reportable claims. Not every gigajoule carries every claim. The architecture permits the stack.
 
+> **The same gigajoule can charge a premium, earn a carbon-tax refund, and back a federal fuel credit, all on FortisBC's own filings.**
+
 **Claim 1: the voluntary premium.** The customer pays $7 to $8.66/GJ above conventional gas and is told the environmental attributes attach to their consumption.
 
 **Claim 2: the mandatory blend.** Every sales customer funds a share of renewable gas costs through rate mechanisms approved in the Stage 2 review (including the S&T LC / RNG rider structure). As of July 2026 that share is framed as a 3.5 per cent designation.
@@ -100,6 +102,8 @@ FortisBC tells the Commission it does not receive environmental certificates tha
 
 That may satisfy the Regulation's wording. It does not give a citizen a serial number. There is no public registry, yet, that would let a Vancouver ratepayer match the gigajoules on their bill to an unsold-elsewhere tonne at a Lethbridge digester. FortisBC says industry and government are working on a Canadian registry (CLEER and related workstreams appear in the IR record). Until that exists, retirement is an accounting entry inside the utility, overseen through Commission filings, not a publicly inspectable certificate cancellation.
 
+> **Retirement is an accounting entry inside the utility, not a certificate a citizen can check.**
+
 ### What the Commission is actually asking
 
 G-137-25 is not a prosecution. It is a definition and accounting inquiry. The questions go to the intent of the GGRR, the adequacy of compliance requirements against cross-border double counting, and whether further out-of-province acquisitions remain consistent with the Regulation.
@@ -124,9 +128,9 @@ What the premium buys is a place in that stack. Whether it buys a unique tonne i
 
 ![Comic finale: one molecule, five ghost lives.](comic-finale.png?v=1)
 
-*Next issue: follow the gram from the lagoon through every ghost.*
+*One molecule, five ghost lives. The gram's full journey is the next instalment.*
 
-Next: follow one gram of CO2e from an Alberta lagoon through every ghost life the paper assigns it, and ask where stacking ends.
+Next: where stacking ends.
 
 ---
 

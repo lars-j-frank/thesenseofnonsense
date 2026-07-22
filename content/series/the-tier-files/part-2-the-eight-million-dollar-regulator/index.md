@@ -75,7 +75,7 @@ Meanwhile the workload keeps arriving. On December 3, 2025 the regulation was am
 
 And consider what the branch is actually refereeing now, because the market has not stood still while its budget did. When TIER launched in January 2020 the fund price was $30 a tonne and compliance meant credits, offsets, or cash. Six years later the price has tripled, the credit bank has ballooned into structural oversupply, and the instrument list has grown to five classes: emission performance credits, emission offsets, sequestration credits, and now investment credits and reactivated credits, the last two invented in December 2025 and still waiting on their governing standard. Every new instrument is a new integrity surface, a new thing that can be gamed, double-counted, or misquantified, and every one of them lands on the same desk with the same $10,541,000. All of that lands on program 9.1, which will have, per the current estimates, exactly $10,541,000 to do it with. Again.
 
-### The concession paragraph
+### Concession
 
 To be fair about it, a small regulatory budget is not automatically a scandal, and I'd rather have a lean competent branch than a bloated incoherent one. Government departments underspend lines for boring reasons all the time, vacancies mostly, and a vacancy is sometimes just a vacancy. It is also true that some functions, like the registry, are contracted out and show up in other places.
 

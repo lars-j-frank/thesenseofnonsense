@@ -32,7 +32,7 @@ Once you have seen one of those walks, you start looking for the next.
 
 The method is dull on purpose. Every person named below appears on ERA's board page, in an ERA media release, or in a remuneration note. Every funded-company link comes from ERA's WordPress project database (469 records as scraped), matched to those bios and to portfolio pages the venture firms publish themselves. Every commercial link to another organization comes from ERA's audited statements. Each edge gets a date range where the source allows one, and a confidence note where it does not. Connection is the finding. Causation is a different claim, and this piece does not make it.
 
-![Horizontal bars of 44 sourced network edges grouped by relationship type, led by ERA and CCEMC funding-recipient links, then board and chair roles, employment tenure, and venture financing roles.](p6-edge-types.png?v=1)
+![Horizontal bars of 44 sourced network edges grouped by relationship type, led by ERA and CCEMC funding-recipient links, then board and chair roles, employment tenure, and venture financing roles.](p6-edge-types.png?v=2)
 
 *How the forty-four edges sort when you stop reading them one at a time.*
 
@@ -40,7 +40,7 @@ Challenge-announcement dates for the three original retrospective edges are now 
 
 ### The pipeline to the boardroom
 
-![Schematic of the pipeline from builders and funders through named people in the edge list to the ERA board, with summary counts of 44 edges, 16 people, and 27 organizations.](p6-pipeline.png?v=1)
+![Schematic of the pipeline from builders and funders through named people in the edge list to the ERA board, with summary counts of 44 edges, 16 people, and 27 organizations.](p6-pipeline.png?v=2)
 
 *Builders and funders first; directors later. Forty-four sourced edges on the map.*
 

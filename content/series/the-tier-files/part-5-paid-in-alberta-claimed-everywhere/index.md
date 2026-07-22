@@ -61,7 +61,7 @@ Lacombe is messier, and honesty requires saying so. FEI's table has a Lacombe BP
 
 Central Farms RNG, a $10 million Contribution Agreement on ERA's current list, does not appear in the BCUC table yet. It belongs in the same *class* of project: pipeline-grade renewable gas is an attribute product by design. Watch the dockets.
 
-### Two track attribute policy, one public silence
+### Two-track attribute policy, one public silence
 
 Here is the part that made me re-read the contribution language twice.
 
@@ -93,7 +93,7 @@ Read that slowly. The provincial plan admits the shipment. The industry associat
 
 There are at least three paper objects people conflate when they talk about "double counting."
 
-![Stacked schematic of three claim layers on the same reduction: ERA or provincial program KPI language, Alberta Emission Offset Registry serials, and British Columbia biomethane environmental attributes under FortisBC BPAs.](p5-claim-layers.png?v=1)
+![Stacked schematic of three claim layers on the same reduction: ERA or provincial program KPI language, Alberta Emission Offset Registry serials, and British Columbia biomethane environmental attributes under FortisBC BPAs.](p5-claim-layers.png?v=2)
 
 *Three paper objects. One atmosphere.*
 
@@ -172,7 +172,7 @@ Because it was the one place in the audited package where a reader could see, wi
 
 (I do not yet have the FY2025 statements in hand for this check. When they land, I will look for the sentence.)
 
-### The concession paragraph
+### Concession
 
 Displacement contracts and multi-jurisdiction RNG are ordinary market design. Molecules travel by contract rather than passport, AECO/NIT is a real trading hub, and BC's regulator has repeatedly accepted out-of-province biomethane under its reading of the GGRR. A digester in Lethbridge that keeps manure methane out of the air is doing real atmospheric work wherever the attribute certificate ends up. Innovation funders everywhere fund technology that later sells into someone else's compliance market. Small provinces share infrastructure. Expertise concentrates. None of that is invented for this series.
 
@@ -203,8 +203,8 @@ Next: the small world of who sits on the board, who gets funded, and what the pu
 11. ERA project database scrape used for this series (working extract held with the investigation notes), including Central Farms RNG ($10M, Contribution Agreement). Live browse: [eralberta.ca/projects/](https://www.eralberta.ca/projects/).
 12. ERA audited / summary financial statements and annual reports, years ended May 31, 2018 through 2022: out-of-province project expense and commitment notes as tabulated above. PDFs: [eralberta.ca annual reports](https://www.eralberta.ca/). FY2022 note text as quoted from FY2022 FS / 2021-22 AR.
 13. ERA Financial Statements FY2023 and FY2024 (standalone PDFs on eralberta.ca): geographic "outside of Alberta" project-expense disclosure absent from extracted text.
-14. ERA Energy Savings for Business Expanded Technologies Pilot Guidelines Â§8 (Environmental Attributes) and Contribution Agreement template Â§15.1. [eralberta.ca](https://www.eralberta.ca/wp-content/uploads/2022/02/Guidelines.pdf); [template PDF](https://www.eralberta.ca/wp-content/uploads/2022/02/Contribution-Agreement-Template.pdf)
-15. ERA Methane Reduction Deployment Program Guide Â§3.4 (Environmental Attributes). [eralberta.ca](https://www.eralberta.ca/wp-content/uploads/2026/01/MRDP-Program-Guide-v3.2-Apr-2026.pdf)
+14. ERA Energy Savings for Business Expanded Technologies Pilot Guidelines §8 (Environmental Attributes) and Contribution Agreement template §15.1. [eralberta.ca](https://www.eralberta.ca/wp-content/uploads/2022/02/Guidelines.pdf); [template PDF](https://www.eralberta.ca/wp-content/uploads/2022/02/Contribution-Agreement-Template.pdf)
+15. ERA Methane Reduction Deployment Program Guide §3.4 (Environmental Attributes). [eralberta.ca](https://www.eralberta.ca/wp-content/uploads/2026/01/MRDP-Program-Guide-v3.2-Apr-2026.pdf)
 16. ERA SEMI FAQ ("Does ERA keep the environmental attributes?"). [eralberta.ca/semi/frequently-asked-questions](https://www.eralberta.ca/semi/frequently-asked-questions/)
 17. ERA Oil Sands Innovation Challenge guidelines (2017): ERA will not match offset credits or EPCs associated with the project. [eralberta.ca PDF](https://www.eralberta.ca/wp-content/uploads/2017/07/ERA-Oil-Sands-Innovation-Challenge-2017-07-28.pdf)
 18. AEOR public listing header (416 projects as of research pull). [alberta.csaregistries.ca](https://alberta.csaregistries.ca/GHGR_Listing/AEOR_Listing.aspx)
@@ -214,6 +214,6 @@ Next: the small world of who sits on the board, who gets funded, and what the pu
 22. BioAlberta, *Bioenergy Position Paper* (2023): attributes used in other jurisdictions "does not benefit Alberta's decarbonization ambitions when they are used elsewhere." [bioalberta.com PDF](https://bioalberta.com/wp-content/uploads/2023/08/BioAlberta-Bioenergy-Position-Paper.pdf)
 23. ERA Call 15 / Industrial Transformation Challenge EOI Guidelines and FAQs (2025-2026): Non-GHG / Economic & Environmental Benefits scoring weights; outcomes reporting clause; third-party verification report one year after commissioning "to verify the emissions reductions"; jobs "collected and publicly reported." [eralberta.ca](https://www.eralberta.ca/)
 24. ERA annual and stewardship reports (2021-22 through Mar 2026 stewardship): Alberta Innovates Economic Impact Analysis person-year job and GDP aggregates. [eralberta.ca](https://www.eralberta.ca/)
-25. Environment and Climate Change Canada, Low Carbon Economy Challenge Applicant Guide 2023 Â§Â§3.3.5-3.3.6: own-use fuel rules; sold low-carbon fuel treated as Scope 3 and out of scope for the Challenge GHG workbook. [canada.ca](https://www.canada.ca/en/environment-climate-change/services/climate-change/low-carbon-economy-fund/challenge/applicant-guide-2023.html)
-26. Natural Resources Canada, Clean Fuels Fund / Building new domestic production capacity applicant guide Â§3.2.1: government credit values (offsets and regulations) included in project profit and repayability. [natural-resources.canada.ca](https://natural-resources.canada.ca/energy-sources/clean-fuels/building-new-domestic-production-capacity-general-stream-applicant-guide)
+25. Environment and Climate Change Canada, Low Carbon Economy Challenge Applicant Guide 2023 §§3.3.5-3.3.6: own-use fuel rules; sold low-carbon fuel treated as Scope 3 and out of scope for the Challenge GHG workbook. [canada.ca](https://www.canada.ca/en/environment-climate-change/services/climate-change/low-carbon-economy-fund/challenge/applicant-guide-2023.html)
+26. Natural Resources Canada, Clean Fuels Fund / Building new domestic production capacity applicant guide §3.2.1: government credit values (offsets and regulations) included in project profit and repayability. [natural-resources.canada.ca](https://natural-resources.canada.ca/energy-sources/clean-fuels/building-new-domestic-production-capacity-general-stream-applicant-guide)
 27. Clean Fuel Regulations (SOR/2022-140) ss.118-119 and ECCC compliance guidance: compliance-fund credits created by contribution to a registered funding program cannot be traded and expire if unused for that compliance period. [canada.ca](https://www.canada.ca/en/environment-climate-change/services/managing-pollution/energy-production/fuel-regulations/clean-fuel-regulations/compliance.html)

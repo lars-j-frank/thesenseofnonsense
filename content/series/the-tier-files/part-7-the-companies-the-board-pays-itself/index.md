@@ -31,7 +31,7 @@ The fees, as disclosed: $2.65 million in fiscal 2010, then $3.35 million, then $
 
 You can defend this design, and people did. A new fund wants to move fast, hiring public-sector staff is slow, and buying an experienced management team off the shelf gets money flowing in year one instead of year three. Fine. But hold the structure in your head for a second: a board, and reporting directly to that board, private companies being paid millions a year to be the organization. There is no layer in that arrangement where an employee with a duty to the institution sits between the governors and the vendors, because the vendors are the institution.
 
-![Bar chart of fees disclosed in the remuneration note, fiscal 2010 through 2025: millions per year to board-reporting contract management through 2017, then a sudden drop to roughly 300 thousand per year to companies owned by senior management, with the fiscal 2013 as-first-reported figure and the unexplained 93 per cent restatement of the 2017 comparative annotated.](p7-two-eras.png?v=1)
+![Bar chart of fees disclosed in the remuneration note, fiscal 2010 through 2025: millions per year to board-reporting contract management through 2017, then a sudden drop to roughly 300 thousand per year to companies owned by senior management, with the fiscal 2013 as-first-reported figure and the unexplained 93 per cent restatement of the 2017 comparative annotated.](p7-two-eras.png?v=2)
 
 *One recurring note, two eras, and a restatement in the middle that nobody explained.*
 

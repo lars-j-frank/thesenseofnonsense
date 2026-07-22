@@ -73,7 +73,7 @@ One more thing the statements disclose, almost in passing: 96 per cent of ERA's 
 
 That date has now passed. ERA is plainly still operating, still announcing challenges, still receiving allocations, so something was signed or extended. But as of this writing, nothing about the renewal terms has been published anywhere I can find, which means the single document governing the largest pool of climate money in the province, the one that was amended in 2024 to add the interest clawback, was renegotiated sometime this spring entirely out of view. The new terms will surface eventually in the fiscal 2026 statements, due this fall, and when they do I'll read them, because the interesting question is whether the province tightened the leash or lengthened it.
 
-### The concession paragraph
+### Concession
 
 The fair reading, and it deserves saying properly: an agency funding multi-year capital projects genuinely needs reserves, because a demonstration plant announced today draws its money over five years and you'd rather the money exist. Milestone-based payments are prudent. Earning interest on committed-but-undisbursed funds beats earning nothing, and every dollar of that $84 million is disclosed, audited, and now partially recaptured by the province.
 

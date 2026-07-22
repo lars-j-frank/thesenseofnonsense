@@ -76,6 +76,8 @@ At the same time, provincial and ERA materials continue to cite portfolio emissi
 
 That is quasi-stacking. Alberta is not necessarily issuing a second tradable offset on the same serial that FortisBC retires. It is keeping a *program and policy claim* on a reduction whose marketable environmental attribute has been sold into another jurisdiction's machinery. Part 5 called this the double-claim problem that does not require matching a serial to a gigajoule. It requires only what the province already wrote: attributes leave, and funded reductions stay on Alberta's accounts.
 
+> **The funded tonne stays on Alberta's scoreboard. The transferable attribute leaves. Both stories count the same gram.**
+
 From the gram's point of view: Life 2 is a sentence in a plan, a line in a grant KPI, sometimes a registry serial that may or may not still be live for overlapping vintages. The gram has already done its atmospheric work. Alberta is still counting it toward Alberta's story.
 
 ### Life 3: British Columbia's attribute purchase
@@ -130,7 +132,7 @@ Life 5 is another tradable credit, this time inside BC's transportation fuel mar
 
 *Where stacking ends is a policy choice, not a law of physics.*
 
-It ends where the paper runs out of markets, not where the atmosphere runs out of room.
+> **Stacking ends where the paper runs out of markets, not where the atmosphere runs out of room.**
 
 A single avoided methane gram (expressed as CO2e) can, under the architectures described in public filings and regulations, support:
 
@@ -182,6 +184,8 @@ Methane is captured once. Alberta can still claim the funded project. British Co
 Where stacking ends is not a law of physics. It is a choice about whether uniqueness is required before a tonne may be sold, booked, refunded, and credited again. The public file, from Edmonton through the BCUC docket to the CFR credit market, still does not publish a single ledger that would let a reader watch one gram retire from every life at once.
 
 Until that ledger exists, the molecule will keep doing one job while the paper assigns it several.
+
+G-137-25 is still open. When the Commission answers its own double-counting question, I will read the answer here.
 
 ---
 
