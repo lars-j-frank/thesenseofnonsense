@@ -12,43 +12,101 @@
   {{ $ghost := where $allSeries "Params.series" "eq" "Ghost Lives" }}
   {{ $tier := where $allSeries "Params.series" "eq" "The TIER Files" }}
 
-  <section class="featured-articles">
-    <h2 class="section-heading">Ghost Lives</h2>
-    {{ range where $ghost "Params.part" 1 }}
-    <div class="card-grid card-grid--featured">
-      {{ partial "article-card.html" (dict "page" . "class" "article-card--featured") }}
-    </div>
-    {{ end }}
-    <div class="card-grid card-grid--tier">
-      {{ range where $ghost "Params.part" 2 }}
-        {{ partial "article-card.html" . }}
-      {{ end }}
-    </div>
-    {{ $ghostLanding := .Site.GetPage "/series/ghost-lives" }}
-    {{ with $ghostLanding }}
-    <p class="archive-link"><a href="{{ .RelPermalink }}">Series overview →</a></p>
-    {{ end }}
-  </section>
-
-  <section class="featured-articles">
-    <h2 class="section-heading">The TIER Files</h2>
-    {{ range where $tier "Params.part" 1 }}
-    <div class="card-grid card-grid--featured">
-      {{ partial "article-card.html" (dict "page" . "class" "article-card--featured") }}
-    </div>
-    {{ end }}
-    <div class="card-grid card-grid--tier">
-      {{ range seq 2 4 }}
-        {{ range where $tier "Params.part" . }}
-          {{ partial "article-card.html" . }}
+  <div class="home-layout">
+    <div class="home-main">
+      <section class="featured-articles">
+        <h2 class="section-heading">Ghost Lives</h2>
+        {{ range where $ghost "Params.part" 1 }}
+        <div class="card-grid card-grid--featured">
+          {{ partial "article-card.html" (dict "page" . "class" "article-card--featured") }}
+        </div>
         {{ end }}
-      {{ end }}
+        <div class="card-grid card-grid--tier">
+          {{ range where $ghost "Params.part" 2 }}
+            {{ partial "article-card.html" . }}
+          {{ end }}
+        </div>
+        {{ with .Site.GetPage "/series/ghost-lives" }}
+        <p class="archive-link"><a href="{{ .RelPermalink }}">Series overview →</a></p>
+        {{ end }}
+      </section>
+
+      <section class="featured-articles">
+        <h2 class="section-heading">The TIER Files</h2>
+        {{ range where $tier "Params.part" 1 }}
+        <div class="card-grid card-grid--featured">
+          {{ partial "article-card.html" (dict "page" . "class" "article-card--featured") }}
+        </div>
+        {{ end }}
+        <div class="card-grid card-grid--tier">
+          {{ range seq 2 4 }}
+            {{ range where $tier "Params.part" . }}
+              {{ partial "article-card.html" . }}
+            {{ end }}
+          {{ end }}
+        </div>
+        {{ with .Site.GetPage "/series/the-tier-files" }}
+        <p class="archive-link"><a href="{{ .RelPermalink }}">All seven parts →</a></p>
+        {{ end }}
+      </section>
     </div>
-    {{ $tierLanding := .Site.GetPage "/series/the-tier-files" }}
-    {{ with $tierLanding }}
-    <p class="archive-link"><a href="{{ .RelPermalink }}">Series overview →</a></p>
-    {{ end }}
-  </section>
+
+    <aside class="home-sidebar">
+      <div class="sidebar-block sidebar-start">
+        <h2 class="sidebar-heading">Start here</h2>
+        <p class="sidebar-start__text">Two investigations, both built from audited statements and regulatory filings.</p>
+        <ul class="sidebar-start__links">
+          <li><a href="/series/part-1-the-billion-dollar-detour/">A Billion-Dollar Detour</a><span>Where Alberta's carbon money goes</span></li>
+          <li><a href="/series/ghost-lives/part-1-what-the-premium-buys/">What the Premium Buys</a><span>FortisBC's renewable gas stack</span></li>
+        </ul>
+      </div>
+
+      {{ with .Site.Params.homeQuotes }}
+      <div class="sidebar-block">
+        <h2 class="sidebar-heading">From the ledger</h2>
+        {{ range . }}
+        <a class="sidebar-quote" href="{{ .href }}">
+          <blockquote>{{ .text }}</blockquote>
+          <span class="sidebar-quote__cite">{{ .cite }} →</span>
+        </a>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      {{ with .Site.Params.homeCharts }}
+      <div class="sidebar-block">
+        <h2 class="sidebar-heading">In charts</h2>
+        {{ range . }}
+        {{ $p := $.Site.GetPage .page }}
+        {{ if $p }}
+        {{ $img := $p.Resources.GetMatch .image }}
+        {{ if $img }}
+        <a class="sidebar-chart" href="{{ $p.RelPermalink }}">
+          <img src="{{ $img.RelPermalink }}" alt="{{ .caption }}" loading="lazy" />
+          <span class="sidebar-chart__caption">{{ .caption }} →</span>
+        </a>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+      </div>
+      {{ end }}
+
+      {{ $essays := where .Site.RegularPages "Section" "eq" "essays" }}
+      {{ with $essays }}
+      <div class="sidebar-block">
+        <h2 class="sidebar-heading"><a href="/essays/">Essays</a></h2>
+        <ul class="sidebar-list">
+          {{ range first 5 (.ByDate.Reverse) }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </aside>
+  </div>
 
   {{ with .Site.Taxonomies.topics }}
   <section class="home-topics">

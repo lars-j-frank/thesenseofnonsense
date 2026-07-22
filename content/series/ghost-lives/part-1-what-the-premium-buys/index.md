@@ -10,7 +10,7 @@ part: 1
 featured: true
 topics: ["British Columbia", "FortisBC", "BCUC", "carbon pricing", "RNG", "public accounts"]
 url: "/series/ghost-lives/part-1-what-the-premium-buys/"
-images: ["cover.png", "p1-five-claims.png", "p1-displacement.png", "comic-splash.png", "comic-displacement.png", "comic-ratepayer.png", "comic-finale.png"]
+images: ["cover.png", "p1-five-claims.png", "p1-displacement.png", "p1-blend-premium.png", "p1-ratepayer-dollar.png"]
 summary: "Part 1 of Ghost Lives. FortisBC's renewable gas program charges a premium, spreads cost across every ratepayer, and, on the utility's own Commission filings, can monetize related credits under federal and provincial fuel rules."
 ---
 
@@ -19,10 +19,6 @@ summary: "Part 1 of Ghost Lives. FortisBC's renewable gas program charges a prem
 *Everything here comes from BCUC orders, FortisBC Energy Inc. filings in the renewable gas proceedings, the Greenhouse Gas Reduction (Clean Energy) Regulation, and related public records. Sources, with page and exhibit references, are at the bottom.*
 
 ---
-
-![Comic splash: Ghost Lives, the molecule that lived five times.](comic-splash.png?v=1)
-
-*Ghost Lives, issue zero. The molecule does one job. The paper assigns it several.*
 
 If you pay FortisBC for renewable natural gas, the company tells you a simple story. You designate a blend. You pay a premium. You get a lower-carbon claim for the gas you burn.
 
@@ -42,6 +38,10 @@ Voluntary customers can designate five, ten, twenty-five, fifty, or one hundred 
 
 The mandatory floor has been climbing. FortisBC put the designated blend at **one per cent** on 1 July 2024, **three per cent** on 1 July 2025, and **3.5 per cent** on 1 July 2026 for all gas customers, whether they volunteered or not. The voluntary program continues on top of that floor. A customer who designates five per cent today is buying 1.5 per cent of voluntary renewable gas and 3.5 per cent of the automatic designation.
 
+![Bar chart of FortisBC's designated renewable blend rising from one per cent in July 2024 to 3.5 per cent in July 2026, with the voluntary premium noted above.](p1-blend-premium.png?v=1)
+
+*The floor under every bill, from the company's own cost page. The premium rides on top.*
+
 So the premium is no longer a niche product for green households. Every ratepayer funds renewable gas acquisition. Voluntary customers pay more. The Commission has repeatedly accepted that structure under the Greenhouse Gas Reduction (Clean Energy) Regulation, which makes qualifying renewable gas acquisition a "prescribed undertaking." Under section 18 of the Clean Energy Act, the Commission must set rates that let the utility recover prescribed-undertaking costs and must not exercise its powers in a way that prevents the undertaking.
 
 That legal frame matters. Once a contract qualifies as a prescribed undertaking, the Commission's public-interest review is constrained. The Shell biomethane purchase agreement for Iowa supply, accepted under Order E-14-21 and related reasons, is the textbook case: out-of-province biomethane, notional delivery, accepted as a prescribed undertaking.
@@ -53,10 +53,6 @@ Most of the contracted volume is from outside British Columbia. In Stage 2 IR re
 ![Displacement delivery: molecules stay local while attributes travel to FortisBC.](p1-displacement.png?v=2)
 
 *Book-and-claim in one picture. The paper moves. The methane usually does not.*
-
-![Comic panel: displacement delivery through the pipeline portal.](comic-displacement.png?v=1)
-
-*Issue art for the same idea. The ticket rides west.*
 
 The BCUC's Phase 1 and Phase 2 RNG Inquiry reports (2022 and 2023) accepted that structure for GGRR purposes: biomethane with its attributes, or conventional gas plus transferable attributes from biomethane produced elsewhere, both count as acquiring RNG. Phase 2 also confirmed notional delivery as appropriate if attribute tracking is robust.
 
@@ -90,9 +86,9 @@ Five paper objects. One methane reduction at the digester. Not every object land
 
 *The architecture, not a claim that every gigajoule hits every market.*
 
-![Comic panel: ratepayer pays the premium while a tax-refund ghost peels off.](comic-ratepayer.png?v=1)
+![Flow diagram of one RNG acquisition feeding three revenue doors: the carbon-tax refund, the CFR credit share, and the RNG Account.](p1-ratepayer-dollar.png?v=1)
 
-*What the bill thinks it bought, and what else the same attribute can fund.*
+*What the bill thinks it bought, and what else the same acquisition can fund. Every arrow is in the filings.*
 
 ### How "retirement" works without a certificate
 
@@ -125,10 +121,6 @@ The finding does not require proving fraud. It requires reading FortisBC's own C
 A customer who pays the renewable gas premium is buying a claim that FortisBC says is retired on consumption. The same acquisition architecture, on those same filings, can also trigger a provincial carbon-tax refund, generate a federal CFR credit sold to a primary supplier of gasoline or diesel, and, for transportation use of eligible RNG, generate a BC LCFS credit. FortisBC has confirmed that a majority of its expected contracted RNG volume is out-of-province paper attached to conventional gas. Retirement is tracked by internal volume accounting without a public certificate. Two supplier attestations already carve out CFR credits while the GGRR retirement story continues.
 
 What the premium buys is a place in that stack. Whether it buys a unique tonne is a question the public file still cannot answer from the outside.
-
-![Comic finale: one molecule, five ghost lives.](comic-finale.png?v=1)
-
-*One molecule, five ghost lives. The gram's full journey is the next instalment.*
 
 Next: where stacking ends.
 

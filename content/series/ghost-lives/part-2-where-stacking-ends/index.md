@@ -10,7 +10,7 @@ part: 2
 featured: true
 topics: ["Alberta", "British Columbia", "FortisBC", "carbon pricing", "RNG", "Clean Fuel Regulations", "TIER"]
 url: "/series/ghost-lives/part-2-where-stacking-ends/"
-images: ["cover.png", "p2-ghost-stack.png", "comic-00-splash.png", "comic-01-lagoon.png", "comic-02-digester.png", "comic-03-alberta.png", "comic-04-displacement.png", "comic-05-ratepayer.png", "comic-06-cfr.png", "comic-07-finale.png"]
+images: ["cover.png", "p2-journey.png", "p2-ghost-stack.png", "p2-three-grams.png", "p2-quasi-stack.png", "p2-cfr-flow.png"]
 summary: "Part 2 of Ghost Lives. Alberta quasi-stacks into BC; BC stacks into the Clean Fuel Regulations; the molecule works once while the paper assigns it multiple lives."
 ---
 
@@ -20,9 +20,9 @@ summary: "Part 2 of Ghost Lives. Alberta quasi-stacks into BC; BC stacks into th
 
 ---
 
-![Comic splash page: Ghost Lives, the molecule that lived five times.](comic-00-splash.png?v=1)
+![Flow diagram of one gram of CO2e moving from a manure lagoon through the digester, Alberta's scoreboard, hub displacement, a BC bill and tax refund, a federal CFR credit, and a BC LCFS credit.](p2-journey.png?v=1)
 
-*Issue art for the journey below. Read it as argument, not evidence.*
+*The route, before the detail. Top row is the physical event and Alberta's claim. Bottom row is what the same attribute can still fund.*
 
 Start with a cow.
 
@@ -48,25 +48,21 @@ Ghost lives begin when Gram A's physics, Gram B's program claim, and Gram C's fu
 
 They are not.
 
+![Three-layer schematic of the paper objects people call a tonne: inventory carbon, Alberta program carbon, and Clean Fuel Regulations lifecycle carbon.](p2-three-grams.png?v=1)
+
+*Three systems, three definitions, one atmosphere.*
+
 ### Life 1: the lagoon and the digester
 
-![Comic panel: origin at the Alberta manure lagoon.](comic-01-lagoon.png?v=1)
-
-*Origin #1. The gram that almost escaped as methane.*
-
 Take a facility that already appears in both Alberta and BC records: Lethbridge Biogas, GrowTEC in Coaldale, Rimrock at High River. The pattern is documented in *Paid in Alberta, Claimed Everywhere* (TIER Files Part 5). Alberta's industrial carbon funder, through ERA or its predecessor, put capital into the build. The Alberta Emission Offset Registry has carried, for some of these plants, Active or historically Active offset projects with serialized tonnes. ERA project pages and close-out reports speak in tonnes reduced and jobs supported.
-
-![Comic panel: digester capture and upgrade.](comic-02-digester.png?v=1)
-
-*Origin #2. Captured. Upgraded.*
 
 At the molecular level, Life 1 is simple. Organic carbon that would have become fugitive methane is captured. Some of it becomes biomethane. Some of the climate benefit is methane avoidance; some is displacement of fossil gas when the biomethane is burned instead of geological methane. Verifiers argue about boundaries, baselines, and leakage. The atmosphere registers one set of fluxes.
 
 ### Life 2: Alberta's program claim (quasi-stacking)
 
-![Comic panel: Alberta scoreboard keeps a ghost copy.](comic-03-alberta.png?v=1)
+![Schematic of a funded digester splitting into two claims: the program and portfolio claim that stays in Alberta and the marketable attribute that leaves for British Columbia.](p2-quasi-stack.png?v=1)
 
-*The scoreboard keeps a copy.*
+*The scoreboard keeps a copy. The attribute leaves. The province wrote both halves down.*
 
 Alberta does something that is not always a formal stacked *credit*, and that is why "quasi" belongs in the sentence.
 
@@ -82,17 +78,9 @@ From the gram's point of view: Life 2 is a sentence in a plan, a line in a grant
 
 ### Life 3: British Columbia's attribute purchase
 
-![Comic panel: attribute ticket rides west by displacement.](comic-04-displacement.png?v=1)
-
-*The paper moves. The molecules stay.*
-
 FortisBC signs a Biomethane Purchase Agreement. For Alberta suppliers, the BCUC has accepted contracts under orders such as E-18-20 (Lethbridge), E-22-21 and E-20-23 (GrowTEC), E-22-22 (Rimrock), E-12-22 (Lacombe). Delivery is by displacement at a hub. The molecules burned in Lethbridge-area pipes are not the molecules burned in Kelowna. The *attribute* is what moved.
 
 Under the GGRR, as amended in 2024, FortisBC must acquire and sell or transfer those attributes to customers and retire them at sale or transfer. Part 1 covered how that retirement is tracked: internal volume accounting in the RNG Account, not a public certificate.
-
-![Comic panel: ratepayer premium and carbon-tax refund ghost.](comic-05-ratepayer.png?v=1)
-
-*Paid. Retired. Refunded.*
 
 The customer who pays the voluntary premium, and every customer who funds the mandatory blend, receives Life 3: a BC utility claim that this gigajoule was renewable. The Province may also grant a carbon-tax credit on that volume, which is Life 3b, a fiscal ghost riding the same attribute.
 
@@ -100,9 +88,9 @@ From the gram's point of view: Life 3 is a book entry in Surrey and a line on a 
 
 ### Life 4: federal Clean Fuel Regulations credit
 
-![Comic panel: CFR credit sold into the liquid-fuel pool.](comic-06-cfr.png?v=1)
+![Flow diagram of the CFR credit path: supplier attestation, side letter with FEI, the tradable credit, and the refiner that buys compliance with it.](p2-cfr-flow.png?v=1)
 
-*Sold to the liquid fuel pool.*
+*Sold to the liquid fuel pool, on FortisBC's own description of the side letters.*
 
 Here the stack stops being quasi.
 
@@ -127,10 +115,6 @@ Life 5 is another tradable credit, this time inside BC's transportation fuel mar
 ![Ghost lives stacked on one physical reduction.](p2-ghost-stack.png?v=2)
 
 *Permission structure from the public filings. Not every tonne carries every life.*
-
-![Comic finale: one job, five ghost lives.](comic-07-finale.png?v=1)
-
-*Where stacking ends is a policy choice, not a law of physics.*
 
 > **Stacking ends where the paper runs out of markets, not where the atmosphere runs out of room.**
 

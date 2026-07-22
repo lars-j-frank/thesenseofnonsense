@@ -52,17 +52,52 @@ buildExpired = false
     url = "/series/"
     weight = 2
   [[menu.main]]
+    identifier = "essays"
+    name = "Essays"
+    url = "/essays/"
+    weight = 3
+  [[menu.main]]
     identifier = "archive"
     name = "Archive"
     url = "/archive/"
-    weight = 3
+    weight = 4
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 4
+    weight = 5
   [[menu.main]]
     identifier = "press"
     name = "Press"
     url = "/press/"
-    weight = 5
+    weight = 6
+
+[[params.homeQuotes]]
+  text = "For every dollar that went to emissions reduction technology, about $1.85 went to the government's general accounts."
+  href = "/series/part-1-the-billion-dollar-detour/"
+  cite = "A Billion-Dollar Detour"
+
+[[params.homeQuotes]]
+  text = "In fiscal 2025, Alberta's flagship clean technology funder un-funded more than it funded."
+  href = "/series/part-4-the-float/"
+  cite = "Float"
+
+[[params.homeQuotes]]
+  text = "The same gigajoule can charge a premium, earn a carbon-tax refund, and back a federal fuel credit, all on FortisBC's own filings."
+  href = "/series/ghost-lives/part-1-what-the-premium-buys/"
+  cite = "What the Premium Buys"
+
+[[params.homeQuotes]]
+  text = "Through fiscal 2022 they were 'contract management.' From fiscal 2023 they are 'companies owned by senior management.' The arrangement stayed. The sentence changed."
+  href = "/series/the-tier-files/part-7-the-companies-the-board-pays-itself/"
+  cite = "Companies the Board Pays Itself"
+
+[[params.homeCharts]]
+  page = "/series/the-tier-files/part-1-the-billion-dollar-detour"
+  image = "tier-fund-flow.png"
+  caption = "Where the compliance money went"
+
+[[params.homeCharts]]
+  page = "/series/ghost-lives/part-2-where-stacking-ends"
+  image = "p2-ghost-stack.png"
+  caption = "Ghost lives on one reduction"
