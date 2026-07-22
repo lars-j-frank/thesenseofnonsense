@@ -19,7 +19,7 @@ summary: "Part 2 of The TIER Files. The provincial branch regulating a multi-bil
 
 ---
 
-Last time we established that Alberta's industrial carbon fund collected $2.64 billion in four years and sent most of it somewhere other than emissions reduction. This time I want to talk about the people who are supposed to make the whole machine trustworthy, because it turns out you can find them in the budget documents too (I mean, it *is* transparent we have to admit).
+Last time we established that Alberta's industrial carbon fund collected $2.64 billion in four years and sent most of it somewhere other than emissions reduction. This time I want to talk about the people who are supposed to make the whole machine trustworthy, because it turns out you can find them in the budget documents too (credit where due, the budget is transparent about it).
 
 Every carbon market lives or dies on its referee (shout-out to Verra and the forest scandal). Somebody has to write the quantification protocols that decide what counts as a real tonne. Somebody has to approve offset projects, oversee the verifiers, run the registry, chase the facilities that misreport, and generally stand between a $95-per-tonne compliance obligation and everyone's natural creativity about it. In Alberta that somebody is a branch of Environment and Protected Areas, and its budget line is "program 9.1, Regulatory and Operations," under Emissions Management.
 

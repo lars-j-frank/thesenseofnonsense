@@ -44,7 +44,7 @@ Listed funding across all 469 rows sums to about $1.185 billion. Strip the dead 
 
 > **The headline is the database after the funerals.**
 
-### The taxonomy is the tell
+### What the taxonomy shows
 
 I want to be fair about how unusual this is, in a helpful direction. ERA puts "Never initiated," "Cancelled," "Terminated," and "On hold" on the public site as filterable statuses. "On hold" exists as a term even when the live count is zero; the FY2025 statements had parked six projects there after year-end, worth $25.7 million, and those appear to have moved on before I scraped. A granting agency that labels its wreckage in plain language is doing something the communications instinct usually forbids. The candour is real.
 

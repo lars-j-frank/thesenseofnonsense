@@ -26,7 +26,7 @@ The story is not false. It is incomplete.
 
 On 5 June 2025 the British Columbia Utilities Commission opened Order G-137-25, an inquiry into how renewable natural gas is defined and how out-of-province environmental attributes are accounted for. The Commission asked, in plain language, whether existing rules stop double counting across jurisdictions. FortisBC Energy Inc. answered at length. Inside that answer sits a section titled, without irony, "Creating Credits Under the CFR is not Double Counting."
 
-That section is the tell. A utility that has to explain why monetizing federal Clean Fuel Regulations credits from the same renewable gas it sells to premium customers is *not* double counting is already living inside the architecture this series is about.
+You can see it from that section title alone. A utility that has to explain why monetizing federal Clean Fuel Regulations credits from the same renewable gas it sells to premium customers is *not* double counting is already living inside the architecture this series is about.
 
 I wanted to check the claim against the public file, the same way Part 5 of The TIER Files checked Alberta's digesters against the BCUC biomethane docket. This instalment stays on the BC side: the Commission, the utility, the premium, the mandatory blend, the carbon-tax refund, and the credit markets FortisBC itself describes. Part 2 follows the same reduction back into Alberta and forward into the federal fuel rules.
 

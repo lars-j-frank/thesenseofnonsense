@@ -628,7 +628,22 @@ a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
   font-weight: 700;
   background: var(--color-wash);
 }
-.prose p > em:only-child {
+/* Notes and captions: only style em-only paragraphs in known positions
+   (header notes, image captions, post-rule closers, table footnotes),
+   so a body sentence with one italic word is never caught. */
+.prose > p:nth-child(-n+2) > em:only-child,
+.prose hr + p > em:only-child,
+.prose table + p > em:only-child,
+.prose h3[id="sources"] + p > em:only-child {
+  display: block;
+  text-align: left;
+  margin: -0.35rem 0 1.75rem;
+  font-style: italic;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+.prose p:has(> img:only-child) + p > em:only-child {
   display: block;
   text-align: left;
   margin: -0.35rem 0 1.75rem;
